@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Medicines.plist
+   AgroChem
+
+   Created by Aizat Ozbekova on 13/5/24.
+   Copyright (c) 2024 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+<array>
+    <dict>
+        <key>image</key>
+        <string>k1</string>
+        <key>name</key>
+        <string>Агроника Гранд</string>
+        <key>subName</key>
+        <string>Мезотрион, 70 г/л + Никосульфурон, 40 г/л</string>
+        <key>description</key>
+        <string>Послевсходовый гербицид для контроля многолетних, однолетних злаковых и двудольных сорняков на кукурузе</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k2</string>
+        <key>name</key>
+        <string>Арбалет®</string>
+        <key>subName</key>
+        <string>2,4-Д (2-этилгексиловый эфир), 300 г/л + Флорасулам, 6,25 г/л</string>
+        <key>description</key>
+        <string>Послевсходовый двухкомпонентный гербицид для защиты от широкого спектра двудольных сорняков, в т. ч. устойчивых к 2,4- Д и некоторых корнеотпрысковых видов</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k3</string>
+        <key>name</key>
+        <string>Бастер®</string>
+        <key>subName</key>
+        <string>Бентазон, 460 г/л + Имазамокс, 25 г/л</string>
+        <key>description</key>
+        <string>Высокоэффективный двухкомпонентный гербицид для борьбы с однолетними двудольными и злаковыми и некоторыми многолетними двудольными сорняками на посевах сои и гороха</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k4</string>
+        <key>name</key>
+        <string>Берилл®</string>
+        <key>subName</key>
+        <string>Клетодим, 120 г/л</string>
+        <key>description</key>
+        <string>Селективный, системный, противозлаковый гербицид быстрого действия для борьбы с широким спектром злаковых сорняков</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k5</string>
+        <key>name</key>
+        <string>Бетаниум®</string>
+        <key>subName</key>
+        <string>Этофумезат, 112 г/л + Фенмедифам, 91 г/л + Десмедифам, 71 г/л</string>
+        <key>description</key>
+        <string>Послевсходовый гербицид для борьбы с сорными растениями при возделывании сахарной, столовой и кормовой свеклы</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k6</string>
+        <key>name</key>
+        <string>Бетаниум® 22</string>
+        <key>subName</key>
+        <string>Десмедифам, 160 г/л + Фенмедифам, 160 г/л</string>
+        <key>description</key>
+        <string>Гербицид для борьбы с однолетними сорняками на посевах свеклы кормовой и сахарной</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k7</string>
+        <key>name</key>
+        <string>Гарнизон®</string>
+        <key>subName</key>
+        <string>Бентазон, 480 г/л</string>
+        <key>description</key>
+        <string>Контактный послевсходовый гербицид для защиты зерновых с подсевом бобовых трав и однолетних травосмесей, обладающий широким спектром действия на двудольные сорняки</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k8</string>
+        <key>name</key>
+        <string>Гербикс</string>
+        <key>subName</key>
+        <string>МЦПА, 500 г/л</string>
+        <key>description</key>
+        <string>Селективный гербицид системного действия для подавления однолетних двудольных сорняков при послевсходовом применении</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k9</string>
+        <key>name</key>
+        <string>Глифор®</string>
+        <key>subName</key>
+        <string>Глифосат (изопропиламинная соль), 360 г/л</string>
+        <key>description</key>
+        <string>Гербицид общеистребляющего действия для борьбы с вредной растительностью в сельском, лесном и коммунальном хозяйствах</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k10</string>
+        <key>name</key>
+        <string>Глифор® Форте</string>
+        <key>subName</key>
+        <string>Глифосат (калийная соль), 540 г/л</string>
+        <key>description</key>
+        <string>Высокоэффективный системный гербицид сплошного действия для уничтожения однолетних и многолетних сорняков, а также древесно-кустарниковой растительности</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k11</string>
+        <key>name</key>
+        <string>Гран-при</string>
+        <key>subName</key>
+        <string>Трибенурон-метил, 750 г/кг</string>
+        <key>description</key>
+        <string>Высокоэффективный послевсходовый гербицид для борьбы с широколиственными сорняками</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k12</string>
+        <key>name</key>
+        <string>Дентайр®</string>
+        <key>subName</key>
+        <string>Имазамокс, 40 г/л</string>
+        <key>description</key>
+        <string>Гербицид системного действия для послевсходового применения против однолетних злаковых и двудольных сорняков в посевах сои, гороха</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k12,5</string>
+        <key>name</key>
+        <string>Канон</string>
+        <key>subName</key>
+        <string>Галоксифоп-П-метил, 104 г/л</string>
+        <key>description</key>
+        <string>Гербицид для защиты посевов от однолетних и многолетних злаковых сорняков</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k14</string>
+        <key>name</key>
+        <string>Клерк</string>
+        <key>subName</key>
+        <string>Клетодим, 240 г/л</string>
+        <key>description</key>
+        <string>Послевсходовый высокоэффективный гербицид против однолетних и многолетних злаковых сорняков</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k15</string>
+        <key>name</key>
+        <string>Маркос®</string>
+        <key>subName</key>
+        <string>Имазамокс, 33 г/л + Имазетапир, 50 г/л</string>
+        <key>description</key>
+        <string>Гербицид для уничтожения широкого спектра сорняков на подсолнечнике</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k16</string>
+        <key>name</key>
+        <string>Мегалит®</string>
+        <key>subName</key>
+        <string>Клопиралид, 267 г/л + Пиклорам, 67 г/л</string>
+        <key>description</key>
+        <string>Гербицид для борьбы с некоторыми однолетними и многолетними двудольными сорняками, в том числе трудноискоренимыми растениями</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k17</string>
+        <key>name</key>
+        <string>Монолит®</string>
+        <key>subName</key>
+        <string>Клопиралид, 750 г/кг</string>
+        <key>description</key>
+        <string>Системный селективный гербицид для борьбы с однолетними двудольными сорняками, а также со злостными трудноистребимыми корнеотпрысковыми многолетниками</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k18</string>
+        <key>name</key>
+        <string>Октапон Экстра</string>
+        <key>subName</key>
+        <string>2,4-Д (2-этилгексиловый эфир), 500 г/л</string>
+        <key>description</key>
+        <string>Гербицид для борьбы с однолетними и некоторыми многолетними (осоты и др.) двудольными сорняками</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k19</string>
+        <key>name</key>
+        <string>Олимп</string>
+        <key>subName</key>
+        <string>Трифлусульфурон-метил, 500 г/кг</string>
+        <key>description</key>
+        <string>Высокоэффективный послевсходовый гербицид широкого спектра действия для контроля широколиственных сорняков в посевах сахарной и кормовой свеклы</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k20</string>
+        <key>name</key>
+        <string>Рапира®</string>
+        <key>subName</key>
+        <string>2,4-Д (2-этилгексиловый эфир), 564 г/л</string>
+        <key>description</key>
+        <string>Селективный гербицид системного действия для подавления однолетних двудольных и многолетних двудольных сорняков, при послевсходовом применении в посевах зерновых культур и кукурузы</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k21</string>
+        <key>name</key>
+        <string>Рефери</string>
+        <key>subName</key>
+        <string>Дикамба, 351 г/л</string>
+        <key>description</key>
+        <string>Послевсходовый гербицид широкого спектра действия для контроля широколистных сорняков в посевах кукурузы, в том числе зерновых колосовых культур, озимых и яровых пшеницы и ячменя, ржи и проса</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k22</string>
+        <key>name</key>
+        <string>Сапфир®</string>
+        <key>subName</key>
+        <string>Имазетапир, 100 г/л</string>
+        <key>description</key>
+        <string>Высокоэффективный гербицид для уничтожения широкого спектра однолетних и многолетних злаковых и двудольных, в том числе карантинных сорняков в посевах сои и гороха</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k23</string>
+        <key>name</key>
+        <string>Тайгер</string>
+        <key>subName</key>
+        <string>Феноксапроп-П-этил, 69 г/л + Клоквинтосет- мексил, 34,5 г/л</string>
+        <key>description</key>
+        <string>Селективный противозлаковый гербицид полного системного действия для послевсходового применения против однолетних злаковых сорняков на посевах зерновых культур</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k24</string>
+        <key>name</key>
+        <string>Тайгер 100</string>
+        <key>subName</key>
+        <string>Феноксапроп-П-этил, 100 г/л + Клоквинтосет- мексил, 27 г/л</string>
+        <key>description</key>
+        <string>Послевсходовый гербицид широкого спектра действия для борьбы с сорняками в посевах зерновых культур</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k25</string>
+        <key>name</key>
+        <string>Тристар®</string>
+        <key>subName</key>
+        <string>Прометрин, 500 г/л</string>
+        <key>description</key>
+        <string>Почвенный гербицид для для борьбы с однолетними злаковыми и двудольными сорняками, в том числе карантинными</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k26</string>
+        <key>name</key>
+        <string>Фирман</string>
+        <key>subName</key>
+        <string>Фомесафен, 250 г/л</string>
+        <key>description</key>
+        <string>Селективный послевсходовый гербицид для контроля широкого спектра двудольных сорняков в посевах сои, в том числе трудноконтролируемых</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k27</string>
+        <key>name</key>
+        <string>Цицерон®</string>
+        <key>subName</key>
+        <string>Римсульфурон, 250 г/кг</string>
+        <key>description</key>
+        <string>Селективный гербицид системного действия для борьбы с однолетними и многолетними двудольными и злаковыми сорняками при послевсходовом применении</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k28</string>
+        <key>name</key>
+        <string>Челленджер®</string>
+        <key>subName</key>
+        <string>Имазамокс, 33 г/л + Имазапир, 15 г/л</string>
+        <key>description</key>
+        <string>Гербицид для уничтожения широкого спектра сорняков на подсолнечнике</string>
+    </dict>
+</array>
+</plist>
+

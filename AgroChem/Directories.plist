@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Directories.plist
+   AgroChem
+
+   Created by Aizat Ozbekova on 13/5/24.
+   Copyright (c) 2024 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+<dict>
+    <!-- Сорные растения -->
+    <key>Сорные растения</key>
+    <array>
+        <dict>
+            <key>image</key>
+            <string>sras1</string>
+            <key>name</key>
+            <string>Аистик цикутовый</string>
+            <key>nameInEnglish</key>
+            <string>Erodium cicutarium</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>sras2</string>
+            <key>name</key>
+            <string>Акалифа южная</string>
+            <key>nameInEnglish</key>
+            <string>Acalypha autralis L.</string>
+        </dict>
+        <!-- Добавьте другие сорные растения -->
+    </array>
+
+    <!-- Болезни культур -->
+    <key>Болезни культур</key>
+    <array>
+        <dict>
+            <key>image</key>
+            <string>bolez1</string>
+            <key>name</key>
+            <string>Альтернариоз подсолнечника</string>
+            <key>nameInEnglish</key>
+            <string>Alternaria spp.</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>bolez2</string>
+            <key>name</key>
+            <string>Альтернариоз рапса</string>
+            <key>nameInEnglish</key>
+            <string>Alternaria brassicae Sacc, A. brassicicola Wilts.</string>
+        </dict>
+        <!-- Добавьте другие болезни культур -->
+    </array>
+
+    <!-- Добавьте другие категории данных -->
+
+</dict>
+</plist>

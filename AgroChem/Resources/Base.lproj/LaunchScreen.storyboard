@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bilimot_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Tcp-Qe-sBI">
+                                <rect key="frame" x="0.0" y="318.66666666666669" width="393" height="215.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="215" id="POq-FQ-qde"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="tintColor"/>
+                        <constraints>
+                            <constraint firstItem="Tcp-Qe-sBI" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8z5-dJ-fh9"/>
+                            <constraint firstItem="Tcp-Qe-sBI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Bhs-s4-vWJ"/>
+                            <constraint firstItem="Tcp-Qe-sBI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GeA-tC-1sC"/>
+                            <constraint firstItem="Tcp-Qe-sBI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="N7Q-t1-jqc"/>
+                            <constraint firstItem="Tcp-Qe-sBI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="TV2-ES-yI4"/>
+                            <constraint firstItem="Tcp-Qe-sBI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WDo-ld-vqS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bilimot_logo" width="1024" height="1024"/>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
