@@ -26,6 +26,7 @@ final class ClientCatalogCell: BaseTVCell {
 
     private let nameLabel: UILabel = {
         let label = UILabel()
+        label.textColor = .systemRed
         label.font = .systemFont(ofSize: 15, weight: .medium)
         return label
     }()
@@ -83,7 +84,7 @@ final class ClientCatalogCell: BaseTVCell {
 
         descriptionLabel.snp.makeConstraints { make in
             make.top.equalTo(subNameLabel.snp.bottom).offset(6)
-            make.bottom.equalTo(-10)
+            make.bottom.equalTo(-20)
             make.leading.equalTo(subNameLabel)
             make.trailing.equalTo(-20)
         }
@@ -128,29 +129,29 @@ final class ClientCatalogCell: BaseTVCell {
             break
         }
         
-        switch model.name {
-        case "Агроника Гранд":
-            nameLabel.textColor = .systemRed
-        case "Арбалет®":
-            nameLabel.textColor = .systemRed
-        case "Бастер®":
-            nameLabel.textColor = .purple
-        case "Берилл®":
-            nameLabel.textColor = .purple
-        case "Бетаниум®":
-            nameLabel.textColor = .systemBlue
-        case "Бетаниум® 22":
-            nameLabel.textColor = .systemBlue
-//            nameLabel.textColor = .systemPurple
-        case "Десиканты":
-            nameLabel.textColor = .orange
+//        switch model.name {
+//        case "Агроника Гранд":
+//            nameLabel.textColor = .systemRed
+//        case "Арбалет®":
+//            nameLabel.textColor = .systemRed
+//        case "Бастер®":
+//            nameLabel.textColor = .purple
+//        case "Берилл®":
+//            nameLabel.textColor = .purple
+//        case "Бетаниум®":
+//            nameLabel.textColor = .systemBlue
+//        case "Бетаниум® 22":
+//            nameLabel.textColor = .systemBlue
+////            nameLabel.textColor = .systemPurple
+//        case "Десиканты":
 //            nameLabel.textColor = .orange
-        case "ПАВ":
-            nameLabel.textColor = .systemGreen
+////            nameLabel.textColor = .orange
+//        case "ПАВ":
 //            nameLabel.textColor = .systemGreen
-        default:
-            break
-        }
+////            nameLabel.textColor = .systemGreen
+//        default:
+//            break
+//        }
 
     }
 }

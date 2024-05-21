@@ -35,7 +35,7 @@
     </dict>
     <dict>
         <key>catalogName</key>
-        <string>Фунгициды</string>
+        <string></string>
         <key>image</key>
         <string>k3</string>
         <key>name</key>
@@ -59,7 +59,7 @@
     </dict>
     <dict>
         <key>catalogName</key>
-        <string>Инсектициды</string>
+        <string></string>
         <key>image</key>
         <string>k5</string>
         <key>name</key>
@@ -83,7 +83,7 @@
     </dict>
     <dict>
         <key>catalogName</key>
-        <string>Минеральные удобрения</string>
+        <string></string>
         <key>image</key>
         <string>k7</string>
         <key>name</key>
@@ -131,7 +131,7 @@
     </dict>
     <dict>
         <key>catalogName</key>
-        <string>Потравители семян</string>
+        <string></string>
         <key>image</key>
         <string>k11</string>
         <key>name</key>
@@ -179,7 +179,7 @@
     </dict>
     <dict>
         <key>catalogName</key>
-        <string>Десиканты</string>
+        <string></string>
         <key>image</key>
         <string>k15</string>
         <key>name</key>
@@ -239,7 +239,7 @@
     </dict>
     <dict>
         <key>catalogName</key>
-        <string>ПАВ</string>
+        <string></string>
         <key>image</key>
         <string>k20</string>
         <key>name</key>
@@ -344,6 +344,30 @@
         <string>Имазамокс, 33 г/л + Имазапир, 15 г/л</string>
         <key>description</key>
         <string>Гербицид для уничтожения широкого спектра сорняков на подсолнечнике</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string>Фунгициды</string>
+        <key>image</key>
+        <string>k29</string>
+        <key>name</key>
+        <string>Азоксит®</string>
+        <key>subName</key>
+        <string>Азоксистробин, 200 г/л + Тебуконазол, 160 г/л</string>
+        <key>description</key>
+        <string>Двухкомпонентный системный фунгицид широкого спектра действия</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k30</string>
+        <key>name</key>
+        <string>Армадекс®</string>
+        <key>subName</key>
+        <string>Карбендазим, 500 г/л</string>
+        <key>description</key>
+        <string>Системный фунгицид защитного и куративного (лечебного) действия, предназначенный для борьбы с комплексом грибковых заболеваний</string>
     </dict>
 </array>
 </plist>

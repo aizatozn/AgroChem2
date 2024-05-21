@@ -11,9 +11,9 @@ import SnapKit
 final class ClientCatalogDetailsCell: BaseCVCell {
 
     private let imageView: UIImageView = {
-            let imageView = UIImageView()
-            imageView.contentMode = .scaleAspectFit
-            return imageView
+        let imageView = UIImageView()
+        imageView.contentMode = .scaleAspectFit
+        return imageView
         }()
 
     private let descriptionLabel: UILabel = {
@@ -308,8 +308,8 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private func onSetUpConstraints() {
 
         imageView.snp.makeConstraints { make in
-            make.leading.equalTo(30)
-            make.trailing.equalTo(-30)
+            make.leading.equalTo(20)
+            make.trailing.equalTo(-20)
             make.top.equalTo(1)
             make.width.height.equalTo(250)
         }

@@ -20,7 +20,9 @@ final class ClientCatalogPresentable: BaseView, UISearchBarDelegate {
         table.delegate = self
         table.dataSource = self
         table.backgroundColor = .white
-        searchBar.backgroundImage = UIImage()
+        table.rowHeight = UITableView.automaticDimension
+        table.estimatedRowHeight = 150 // Установите примерное значение высоты строки
+        table.register(ClientCatalogCell.self, forCellReuseIdentifier: "CellIdentifier")
         return table
     }()
 
@@ -69,7 +71,6 @@ final class ClientCatalogPresentable: BaseView, UISearchBarDelegate {
     override func onAddSubviews() {
         addSubview(searchBar)
         addSubview(tableView)
-        tableView.register(ClientCatalogCell.self, forCellReuseIdentifier: "CellIdentifier")
     }
 
     override func onSetupConstraints() {
@@ -118,10 +119,6 @@ extension ClientCatalogPresentable: UITableViewDelegate, UITableViewDataSource {
         }
         cell.configure(model: filteredMedicines[indexPath.section])
         return cell
-    }
-
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 150
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
