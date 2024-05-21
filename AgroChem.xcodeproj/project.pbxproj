@@ -38,6 +38,12 @@
 		F105DB652B601AB300851FBE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F105DB642B601AB300851FBE /* SnapKit */; };
 		F105DB672B601AB300851FBE /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F105DB662B601AB300851FBE /* SnapKit-Dynamic */; };
 		F11E67892BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11E67882BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift */; };
+		F125BBD72BF5EE490036568F /* ClientCatalogDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBD62BF5EE490036568F /* ClientCatalogDetailsController.swift */; };
+		F125BBDA2BF5EE700036568F /* ClientCatalogDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBD92BF5EE700036568F /* ClientCatalogDetailsViewModel.swift */; };
+		F125BBDC2BF5EE770036568F /* ClientCatalogDetailsPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBDB2BF5EE770036568F /* ClientCatalogDetailsPresentable.swift */; };
+		F125BBDE2BF5F5A70036568F /* ClientCatalogDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBDD2BF5F5A70036568F /* ClientCatalogDetailsModel.swift */; };
+		F125BBE22BF609D20036568F /* ClientCatalogDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBE12BF609D20036568F /* ClientCatalogDetailsCell.swift */; };
+		F125BBE42BF622810036568F /* Catalogs.plist in Resources */ = {isa = PBXBuildFile; fileRef = F125BBE32BF622810036568F /* Catalogs.plist */; };
 		F128AB0D2B84E8E70012549C /* ClientHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F128AB0C2B84E8E70012549C /* ClientHomeCell.swift */; };
 		F129359F2BDCF2A1002079CB /* ClientThirdDirectoryDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F129359E2BDCF2A1002079CB /* ClientThirdDirectoryDetailsCell.swift */; };
 		F12935A12BDCF2BD002079CB /* ClientThirdDirectoryDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12935A02BDCF2BD002079CB /* ClientThirdDirectoryDetailsController.swift */; };
@@ -101,6 +107,7 @@
 		F1C8B0E02BF228E8003C43E7 /* Medicines.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1C8B0DF2BF228E8003C43E7 /* Medicines.plist */; };
 		F1C8B0E22BF236DB003C43E7 /* Directories.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1C8B0E12BF236DB003C43E7 /* Directories.plist */; };
 		F1CEB5792B7A0F1100E466DE /* ClientDirectoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CEB5782B7A0F1100E466DE /* ClientDirectoryCell.swift */; };
+		F1D7E9252BFB33E900A10BCC /* Catalogs2.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1D7E9242BFB33E900A10BCC /* Catalogs2.plist */; };
 		F1EC76432B6B8E200017FCF5 /* ClientCatalogCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC76422B6B8E200017FCF5 /* ClientCatalogCategoriesCell.swift */; };
 		F1F1C9912BE7E47D009FB166 /* ClientSystemDetailsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1C9902BE7E47D009FB166 /* ClientSystemDetailsData.swift */; };
 		F1F1C9932BE8D799009FB166 /* ClientSystemDetailsData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1C9922BE8D799009FB166 /* ClientSystemDetailsData+Extension.swift */; };
@@ -130,6 +137,12 @@
 		F105DB452B6015A900851FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F105DB472B6015A900851FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F11E67882BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSecondDirectoryCell.swift; sourceTree = "<group>"; };
+		F125BBD62BF5EE490036568F /* ClientCatalogDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsController.swift; sourceTree = "<group>"; };
+		F125BBD92BF5EE700036568F /* ClientCatalogDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsViewModel.swift; sourceTree = "<group>"; };
+		F125BBDB2BF5EE770036568F /* ClientCatalogDetailsPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsPresentable.swift; sourceTree = "<group>"; };
+		F125BBDD2BF5F5A70036568F /* ClientCatalogDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsModel.swift; sourceTree = "<group>"; };
+		F125BBE12BF609D20036568F /* ClientCatalogDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsCell.swift; sourceTree = "<group>"; };
+		F125BBE32BF622810036568F /* Catalogs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Catalogs.plist; sourceTree = "<group>"; };
 		F128AB0C2B84E8E70012549C /* ClientHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientHomeCell.swift; sourceTree = "<group>"; };
 		F129359E2BDCF2A1002079CB /* ClientThirdDirectoryDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientThirdDirectoryDetailsCell.swift; sourceTree = "<group>"; };
 		F12935A02BDCF2BD002079CB /* ClientThirdDirectoryDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientThirdDirectoryDetailsController.swift; sourceTree = "<group>"; };
@@ -193,6 +206,7 @@
 		F1C8B0DF2BF228E8003C43E7 /* Medicines.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Medicines.plist; sourceTree = "<group>"; };
 		F1C8B0E12BF236DB003C43E7 /* Directories.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Directories.plist; sourceTree = "<group>"; };
 		F1CEB5782B7A0F1100E466DE /* ClientDirectoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDirectoryCell.swift; sourceTree = "<group>"; };
+		F1D7E9242BFB33E900A10BCC /* Catalogs2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Catalogs2.plist; sourceTree = "<group>"; };
 		F1EC76422B6B8E200017FCF5 /* ClientCatalogCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogCategoriesCell.swift; sourceTree = "<group>"; };
 		F1F1C9902BE7E47D009FB166 /* ClientSystemDetailsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSystemDetailsData.swift; sourceTree = "<group>"; };
 		F1F1C9922BE8D799009FB166 /* ClientSystemDetailsData+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClientSystemDetailsData+Extension.swift"; sourceTree = "<group>"; };
@@ -295,10 +309,39 @@
 				F1C65B732B655D4600B49A91 /* Services */,
 				F1C65B482B6556B000B49A91 /* Resources */,
 				F105DB472B6015A900851FBE /* Info.plist */,
+				F125BBE32BF622810036568F /* Catalogs.plist */,
 				F1C8B0DF2BF228E8003C43E7 /* Medicines.plist */,
 				F1C8B0E12BF236DB003C43E7 /* Directories.plist */,
+				F1D7E9242BFB33E900A10BCC /* Catalogs2.plist */,
 			);
 			path = AgroChem;
+			sourceTree = "<group>";
+		};
+		F125BBD82BF5EE510036568F /* ClientCatalogDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F125BBDF2BF609B00036568F /* Components */,
+				F125BBD62BF5EE490036568F /* ClientCatalogDetailsController.swift */,
+				F125BBD92BF5EE700036568F /* ClientCatalogDetailsViewModel.swift */,
+				F125BBDB2BF5EE770036568F /* ClientCatalogDetailsPresentable.swift */,
+			);
+			path = ClientCatalogDetails;
+			sourceTree = "<group>";
+		};
+		F125BBDF2BF609B00036568F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F125BBE02BF609B60036568F /* Cells */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F125BBE02BF609B60036568F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F125BBE12BF609D20036568F /* ClientCatalogDetailsCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		F128AB0A2B84E8D00012549C /* Components */ = {
@@ -599,6 +642,7 @@
 		F1C65B642B655AA200B49A91 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				F125BBD82BF5EE510036568F /* ClientCatalogDetails */,
 				F129359B2BDCF272002079CB /* ClientThirdDirectoryDetails */,
 				F15D91812BDBEE1700627552 /* ClientSecondDirectoryDetails */,
 				F14B89782BCD1EB00033794B /* ClientDirectoryDetails */,
@@ -647,6 +691,7 @@
 				F15D917F2BDA913E00627552 /* ClientSecondDirectoryModel.swift */,
 				F1AE8B1A2BE797B100059460 /* ClientSystemCategoryModel.swift */,
 				F1AE8B1C2BE797FC00059460 /* ClientCategoryDetailsModel.swift */,
+				F125BBDD2BF5F5A70036568F /* ClientCatalogDetailsModel.swift */,
 			);
 			path = ClientModels;
 			sourceTree = "<group>";
@@ -802,9 +847,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1C8B0E22BF236DB003C43E7 /* Directories.plist in Resources */,
+				F125BBE42BF622810036568F /* Catalogs.plist in Resources */,
 				F1C8B0E02BF228E8003C43E7 /* Medicines.plist in Resources */,
 				F105DB462B6015A900851FBE /* LaunchScreen.storyboard in Resources */,
 				F105DB432B6015A900851FBE /* Assets.xcassets in Resources */,
+				F1D7E9252BFB33E900A10BCC /* Catalogs2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -816,6 +863,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1C65B762B655D7000B49A91 /* NetworkManager.swift in Sources */,
+				F125BBE22BF609D20036568F /* ClientCatalogDetailsCell.swift in Sources */,
 				F14B897C2BCD22250033794B /* ClientDirectoryDetailsViewModel.swift in Sources */,
 				F1C65B702B655CF100B49A91 /* UIAlertController+Extension.swift in Sources */,
 				F14B89732BCD0C300033794B /* ClientSystemDetailsPresentable.swift in Sources */,
@@ -837,8 +885,10 @@
 				F1C65B5F2B6559C400B49A91 /* ViewModulesAssembly.swift in Sources */,
 				F1C65B6E2B655CC000B49A91 /* UIView+Extensions.swift in Sources */,
 				F133153A2BC44DF3000CFEB2 /* ClientSystemsController.swift in Sources */,
+				F125BBDE2BF5F5A70036568F /* ClientCatalogDetailsModel.swift in Sources */,
 				F13315352BC44925000CFEB2 /* ClientHelpAndSupportPresentable.swift in Sources */,
 				F14B896D2BCD09180033794B /* ClientSystemsCell.swift in Sources */,
+				F125BBDA2BF5EE700036568F /* ClientCatalogDetailsViewModel.swift in Sources */,
 				F13315432BC4520A000CFEB2 /* ClientMedicineViewModel.swift in Sources */,
 				F16083F52BDD03F100DE30BD /* ClientSystemDetailsCell.swift in Sources */,
 				F1CEB5792B7A0F1100E466DE /* ClientDirectoryCell.swift in Sources */,
@@ -851,6 +901,7 @@
 				F1C65B822B655F1000B49A91 /* UserDefaultsServiceKeys.swift in Sources */,
 				F12935A52BDCF2ED002079CB /* ClientThirdDirectoryDetailsPresentable.swift in Sources */,
 				F1AE8B1B2BE797B100059460 /* ClientSystemCategoryModel.swift in Sources */,
+				F125BBDC2BF5EE770036568F /* ClientCatalogDetailsPresentable.swift in Sources */,
 				F17DC8882BA4A1F700DCFC72 /* ClientHomeActualCell.swift in Sources */,
 				F1056E6A2B69302400A98341 /* ClientProfileViewModel.swift in Sources */,
 				F1F1C9932BE8D799009FB166 /* ClientSystemDetailsData+Extension.swift in Sources */,
@@ -888,6 +939,7 @@
 				F14B897E2BCD222F0033794B /* ClientDirectoryDetailsPresentable.swift in Sources */,
 				F13315412BC45200000CFEB2 /* ClientMedicineController.swift in Sources */,
 				F1C65B572B65590500B49A91 /* BaseCVCell.swift in Sources */,
+				F125BBD72BF5EE490036568F /* ClientCatalogDetailsController.swift in Sources */,
 				F15D91802BDA913E00627552 /* ClientSecondDirectoryModel.swift in Sources */,
 				F133153C2BC44DFE000CFEB2 /* ClientSystemsViewModel.swift in Sources */,
 				F1C65B662B655AC100B49A91 /* ClientGreetingController.swift in Sources */,

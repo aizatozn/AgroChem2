@@ -12,6 +12,7 @@ enum ClientCatalogRoute: Route {
     case home
     case next
     case medicineDetails(medicine: ClientCatalogModel)
+    case catalogDetails(title: String, catalogs: [ClientCatalogDetailsModel])
 }
 
 final class ClientCoursesCoordinator: NavigationCoordinator<ClientCatalogRoute> {
@@ -40,6 +41,13 @@ final class ClientCoursesCoordinator: NavigationCoordinator<ClientCatalogRoute> 
         case .medicineDetails(medicine: let medicine):
             let controller = ClientMedicineController()
             controller.title = medicine.name
+            return .push(controller)
+
+        case .catalogDetails(let title, let catalogs):
+            let controller = ClientCatalogDetailsController()
+            controller.title = title
+            controller.viewModel.catalogBulJerde.send(catalogs)
+            controller.viewModel.router = unownedRouter
             return .push(controller)
         }
     }

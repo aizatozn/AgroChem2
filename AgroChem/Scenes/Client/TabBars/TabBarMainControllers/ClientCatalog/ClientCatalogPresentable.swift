@@ -42,12 +42,6 @@ final class ClientCatalogPresentable: BaseView, UISearchBarDelegate {
         filteredMedicines = medicines
         tableView.reloadData()
     }
-    
-    private let urls: [String: URL] = [
-        "Агроника Гранд": URL(string: "https://kccc.ru/katalog/gerbicidy/agronika-grand")!,
-        "Арбалет®": URL(string: "https://kccc.ru/katalog/gerbicidy/arbalet")!,
-        "Бастер®": URL(string: "https://kccc.ru/katalog/gerbicidy/baster")!
-    ]
 
     private func loadMedicinesFromPlist() {
         if let path = Bundle.main.path(forResource: "Medicines", ofType: "plist"),
@@ -129,11 +123,6 @@ extension ClientCatalogPresentable: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        let medicine = filteredMedicines[indexPath.section]
-        guard let url = urls[medicine.name] else {
-            print("URL not found for \(medicine.name)")
-            return
-        }
-        UIApplication.shared.open(url)
+        selectedMedicine.send(filteredMedicines[indexPath.section])
     }
 }
