@@ -8,5 +8,26 @@
    Copyright (c) 2024 ___ORGANIZATIONNAME___. All rights reserved.
 -->
 <plist version="1.0">
-<dict/>
+<array>
+    <dict>
+        <key>image</key>
+        <string>k1</string>
+        <key>name</key>
+        <string>Агроника Гранд</string>
+        <key>subName</key>
+        <string>Мезотрион, 70 г/л + Никосульфурон, 40 г/л</string>
+        <key>description</key>
+        <string>Послевсходовый гербицид для контроля многолетних, однолетних злаковых и двудольных сорняков на кукурузе</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>k2</string>
+        <key>name</key>
+        <string>Арбалет®</string>
+        <key>subName</key>
+        <string>2,4-Д (2-этилгексиловый эфир), 300 г/л + Флорасулам, 6,25 г/л</string>
+        <key>description</key>
+        <string>Послевсходовый двухкомпонентный гербицид для защиты от широкого спектра двудольных сорняков, в т. ч. устойчивых к 2,4- Д и некоторых корнеотпрысковых видов</string>
+    </dict>
+</array>
 </plist>

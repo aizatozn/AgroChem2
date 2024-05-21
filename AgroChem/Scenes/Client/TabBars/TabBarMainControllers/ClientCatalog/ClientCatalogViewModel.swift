@@ -10,6 +10,7 @@ import Foundation
 import XCoordinator
 
 struct ClientCatalogModel: Codable {
+    let catalogName: String
     let image: String
     let name: String
     let subName: String

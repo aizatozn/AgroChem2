@@ -49,13 +49,16 @@ final class ClientCatalogPresentable: BaseView, UISearchBarDelegate {
             do {
                 let array = try PropertyListSerialization.propertyList(from: data, format: nil) as? [[String: Any]]
                 medicines = array?.compactMap { dictionary in
-                    guard let image = dictionary["image"] as? String,
+                    guard let catalogName = dictionary["catalogName"] as? String,
+                          let image = dictionary["image"] as? String,
                           let name = dictionary["name"] as? String,
                           let subName = dictionary["subName"] as? String,
                           let description = dictionary["description"] as? String else {
-                        return nil
+                        return ClientCatalogModel(catalogName: "", image: "", name: "", subName: "", description: "")
                     }
-                    return ClientCatalogModel(image: image, name: name, subName: subName, description: description)
+                    return ClientCatalogModel(catalogName: catalogName,
+                                              image: image,
+                                              name: name, subName: subName, description: description)
                 } ?? []
             } catch {
                 print("Error reading plist: \(error)")
