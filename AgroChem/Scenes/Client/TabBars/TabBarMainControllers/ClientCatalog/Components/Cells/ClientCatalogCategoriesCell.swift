@@ -150,6 +150,12 @@ final class ClientCatalogCell: BaseTVCell {
         let sysPurpleNames: Set = [
             "Виталон", "Грандсил®", "Грандсил® Ультра", "Грифон®", "Пионер", "Сабля", "Стрит®"
         ]
+        let orangeNames: Set = [
+            "Диктатор", "Реголон", "Ректон"
+        ]
+        let sysGreenNames: Set = [
+            "Грефф®", "Лип"
+        ]
 
         if redNames.contains(name) {
             nameLabel.textColor = .systemRed
@@ -161,6 +167,10 @@ final class ClientCatalogCell: BaseTVCell {
             nameLabel.textColor = .systemGreen
         } else if sysPurpleNames.contains(name) {
             nameLabel.textColor = .systemPurple
+        } else if orangeNames.contains(name) {
+            nameLabel.textColor = .orange
+        } else if sysGreenNames.contains(name) {
+            nameLabel.textColor = .systemGreen
         }
     }
 

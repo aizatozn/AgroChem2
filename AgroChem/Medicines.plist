@@ -647,6 +647,66 @@
         <key>description</key>
         <string>Системный инсектицидный протравитель семян от комплекса послевсходовых и почвообитающих вредителей</string>
     </dict>
+    <dict>
+        <key>catalogName</key>
+        <string>Десиканты</string>
+        <key>image</key>
+        <string>k54</string>
+        <key>name</key>
+        <string>Диктатор</string>
+        <key>subName</key>
+        <string>Дикват дибромид, 150 г/л</string>
+        <key>description</key>
+        <string>Десикант для предуборочного подсушивания яровых культур, обеспечивающий равномерное созревание урожая и сохранение качества продукции</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k55</string>
+        <key>name</key>
+        <string>Реголон</string>
+        <key>subName</key>
+        <string>Дикват дибромид, 150 г/л</string>
+        <key>description</key>
+        <string>Десикант для предуборочного подсушивания подсолнечника, обеспечивающий равномерное созревание урожая и сохранение качества продукции</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k56</string>
+        <key>name</key>
+        <string>Ректон</string>
+        <key>subName</key>
+        <string>Дикват дибромид, 280 г/л</string>
+        <key>description</key>
+        <string>Гербицид для предуборочной десикации подсолнечника, рапса ярового и озимого</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string>ПАВ</string>
+        <key>image</key>
+        <string>k57</string>
+        <key>name</key>
+        <string>Грефф®</string>
+        <key>subName</key>
+        <string>Полиалкиленоксид мод. гептаметилтрисилоксан, 900 г/л + Полиалкиленоксид, 100 г/л</string>
+        <key>description</key>
+        <string>ПАВ. Повышает эффективность пестицидов и биостимуляторов при одновременном использовании</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k58</string>
+        <key>name</key>
+        <string>Лип</string>
+        <key>subName</key>
+        <string>Этоксилат изодецилового спирта, 900 г/л</string>
+        <key>description</key>
+        <string>ПАВ. Позволяет снижать дозы гербицидов без потери эффективности</string>
+    </dict>
 </array>
 </plist>
 

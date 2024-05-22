@@ -43,6 +43,7 @@ final class ClientCatalogPresentable: BaseView, UISearchBarDelegate {
 
         filteredMedicines = medicines
         tableView.reloadData()
+        searchBar.backgroundImage = UIImage()
     }
 
     private func loadMedicinesFromPlist() {
