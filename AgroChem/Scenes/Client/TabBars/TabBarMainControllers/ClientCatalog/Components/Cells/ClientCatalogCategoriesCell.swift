@@ -96,6 +96,7 @@ final class ClientCatalogCell: BaseTVCell {
         nameLabel.text = model.name
         subNameLabel.text = model.subName
         descriptionLabel.text = model.description
+
         if model.catalogName != "" {
             nameLabel.snp.updateConstraints { make in
                 make.top.equalTo(50)
@@ -103,55 +104,64 @@ final class ClientCatalogCell: BaseTVCell {
                 make.trailing.equalTo(-20)
             }
         }
-        switch model.catalogName {
+
+        setColorForCatalogName(catalogName: model.catalogName)
+        setColorForName(name: model.name)
+    }
+
+    private func setColorForCatalogName(catalogName: String) {
+        switch catalogName {
         case "Гербициды":
             catalogNameLabel.textColor = .systemRed
-//            nameLabel.textColor = .systemRed
         case "Фунгициды":
             catalogNameLabel.textColor = .purple
-//            nameLabel.textColor = .purple
         case "Инсектициды":
             catalogNameLabel.textColor = .systemBlue
-//            nameLabel.textColor = .systemBlue
         case "Минеральные удобрения":
             catalogNameLabel.textColor = .systemGreen
             nameLabel.textColor = .systemGreen
         case "Протравители семян":
             catalogNameLabel.textColor = .systemPurple
-//            nameLabel.textColor = .systemPurple
         case "Десиканты":
             catalogNameLabel.textColor = .orange
-//            nameLabel.textColor = .orange
         case "ПАВ":
             catalogNameLabel.textColor = .systemGreen
-//            nameLabel.textColor = .systemGreen
         default:
             break
         }
-        
-//        switch model.name {
-//        case "Агроника Гранд":
-//            nameLabel.textColor = .systemRed
-//        case "Арбалет®":
-//            nameLabel.textColor = .systemRed
-//        case "Бастер®":
-//            nameLabel.textColor = .purple
-//        case "Берилл®":
-//            nameLabel.textColor = .purple
-//        case "Бетаниум®":
-//            nameLabel.textColor = .systemBlue
-//        case "Бетаниум® 22":
-//            nameLabel.textColor = .systemBlue
-////            nameLabel.textColor = .systemPurple
-//        case "Десиканты":
-//            nameLabel.textColor = .orange
-////            nameLabel.textColor = .orange
-//        case "ПАВ":
-//            nameLabel.textColor = .systemGreen
-////            nameLabel.textColor = .systemGreen
-//        default:
-//            break
-//        }
-
     }
+
+    private func setColorForName(name: String) {
+        let redNames: Set = [
+            "Агроника Гранд", "Арбалет®", "Бастер®", "Берилл®", "Бетаниум®", "Бетаниум® 22", "Гарнизон®", "Гербикс",
+            "Глифор®", "Глифор® Форте", "Гран-при", "Дентайр®", "Канон", "Клерк", "Маркос®", "Мегалит®", "Монолит®",
+            "Октапон Экстра", "Олимп", "Рапира®", "Рефери", "Сапфир®", "Тайгер", "Тайгер 100", "Тристар®", "Фирман",
+            "Цицерон®", "Челленджер®"
+        ]
+        let purpleNames: Set = [
+            "Азоксит®", "Армадекс®", "Бульдог®", "Гранберг®", "Гранберг® Про", "Курсор", "Кэнсел®", "Ципрос", "Эпоксин®"
+        ]
+        let blueNames: Set = [
+            "Аккорд®", "Восторг", "Дитокс®", "Калаш®", "Лассо®", "Норил"
+        ]
+        let greenNames: Set = [
+            "АгроМинерал® Зерновые", "АгроМинерал® Олеистые", "АгроМинерал® Стручковые и Бобовые"
+        ]
+        let sysPurpleNames: Set = [
+            "Виталон", "Грандсил®", "Грандсил® Ультра", "Грифон®", "Пионер", "Сабля", "Стрит®"
+        ]
+
+        if redNames.contains(name) {
+            nameLabel.textColor = .systemRed
+        } else if purpleNames.contains(name) {
+            nameLabel.textColor = .purple
+        } else if blueNames.contains(name) {
+            nameLabel.textColor = .systemBlue
+        } else if greenNames.contains(name) {
+            nameLabel.textColor = .systemGreen
+        } else if sysPurpleNames.contains(name) {
+            nameLabel.textColor = .systemPurple
+        }
+    }
+
 }

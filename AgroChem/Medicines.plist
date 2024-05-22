@@ -369,6 +369,284 @@
         <key>description</key>
         <string>Системный фунгицид защитного и куративного (лечебного) действия, предназначенный для борьбы с комплексом грибковых заболеваний</string>
     </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k31</string>
+        <key>name</key>
+        <string>Бульдог®</string>
+        <key>subName</key>
+        <string>Пропиконазол, 250 г/л</string>
+        <key>description</key>
+        <string>Системный фунгицид для защиты зерновых колосовых культур и рапса от комплекса заболеваний</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k32</string>
+        <key>name</key>
+        <string>Гранберг®</string>
+        <key>subName</key>
+        <string>Тебуконазол, 250 г/л</string>
+        <key>description</key>
+        <string>Системный фунгицид для полноценной защиты зерновых колосовых культур и рапса от широкого спектра заболеваний</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k33</string>
+        <key>name</key>
+        <string>Гранберг® Про</string>
+        <key>subName</key>
+        <string>Пропиконазол, 300 г/л + Тебуконазол, 200 г/л</string>
+        <key>description</key>
+        <string>Двухкомпонентный системный фунгицид для защиты зерновых и многих других культур от комплекса болезней на длительный период</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k34</string>
+        <key>name</key>
+        <string>Курсор</string>
+        <key>subName</key>
+        <string>Дифеноконазол, 250 г/л</string>
+        <key>description</key>
+        <string>Системный фунгицид для защиты яблони и груши от комплекса болезней</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k35</string>
+        <key>name</key>
+        <string>Кэнсел®</string>
+        <key>subName</key>
+        <string>Флутриафол, 250 г/л</string>
+        <key>description</key>
+        <string>Системный фунгицид длительного действия для защиты зерновых культур и сахарной свеклы против комплекса наиболее распространенных болезней в период вегетации</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k36</string>
+        <key>name</key>
+        <string>Ципрос</string>
+        <key>subName</key>
+        <string>Пропиконазол, 250 г/л + Ципроконазол, 80 г/л</string>
+        <key>description</key>
+        <string>Комбинированный фунгицид системного действия для защиты зерновых культур и сахарной свеклы от комплекса болезней листьев и колоса</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k37</string>
+        <key>name</key>
+        <string>Эпоксин®</string>
+        <key>subName</key>
+        <string>Азоксистробин, 200 г/л + Эпоксиконазол, 100 г/л</string>
+        <key>description</key>
+        <string>Двухкомпонентный системный фунгицид широкого спектра действия</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string>Инсектициды</string>
+        <key>image</key>
+        <string>k38</string>
+        <key>name</key>
+        <string>Аккорд®</string>
+        <key>subName</key>
+        <string>Альфа-циперметрин, 100 г/л</string>
+        <key>description</key>
+        <string>Инсектицид быстрого действия для борьбы с широким спектром насекомых-вредителей</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k39</string>
+        <key>name</key>
+        <string>Восторг</string>
+        <key>subName</key>
+        <string>Клотианидин, 140 г/л + Лямбда-цигалотрин, 100 г/л</string>
+        <key>description</key>
+        <string>Комбинированный инсектицид для борьбы с максимально широким спектром грызущих и сосущих вредителей</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k40</string>
+        <key>name</key>
+        <string>Дитокс®</string>
+        <key>subName</key>
+        <string>Диметоат, 400 г/л</string>
+        <key>description</key>
+        <string>Инсектицид контактно-кишечного действия для борьбы с широким спектром вредителей сельскохозяйственных культур</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k41</string>
+        <key>name</key>
+        <string>Калаш®</string>
+        <key>subName</key>
+        <string>Имидаклоприд, 200 г/л</string>
+        <key>description</key>
+        <string>Высокоэффективный системный инсектицид для борьбы с широким спектром вредителей сельскохозяйственных культур</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k42</string>
+        <key>name</key>
+        <string>Лассо®</string>
+        <key>subName</key>
+        <string>Лямбда-цигалотрин, 50 г/л</string>
+        <key>description</key>
+        <string>Высокоэффективный контактно-кишечный инсектицид группы синтетических пиретроидов для защиты сельскохозяйственных культур против широкого спектра вредителей, включая клещей</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k43</string>
+        <key>name</key>
+        <string>Норил</string>
+        <key>subName</key>
+        <string>Хлорпирифос, 500 г/л + Циперметрин, 50 г/л</string>
+        <key>description</key>
+        <string>Комбинированный инсектицид широкого спектра действия для уничтожения комплекса открыто живущих сосущих и грызущих насекомых и ограничения развития растительноядных клещей</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string>Минеральные удобрения</string>
+        <key>image</key>
+        <string>k44</string>
+        <key>name</key>
+        <string>АгроМинерал® Зерновые</string>
+        <key>subName</key>
+        <string></string>
+        <key>description</key>
+        <string>Удобрение для увеличения урожайности зерновых</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k45</string>
+        <key>name</key>
+        <string>АгроМинерал® Олеистые</string>
+        <key>subName</key>
+        <string></string>
+        <key>description</key>
+        <string>Удобрение для увеличения урожайности масличных культур</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k46</string>
+        <key>name</key>
+        <string>АгроМинерал® Стручковые и Бобовые</string>
+        <key>subName</key>
+        <string></string>
+        <key>description</key>
+        <string>Удобрение для увеличения урожайности стручковых и бобовых культур</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string>Протравители семян</string>
+        <key>image</key>
+        <string>k47</string>
+        <key>name</key>
+        <string>Виталон</string>
+        <key>subName</key>
+        <string>Тирам, 400 г/л + Тебуконазол, 14 г/л</string>
+        <key>description</key>
+        <string>Фунгицид протравитель семян для защиты яровых и озимых зерновых культур (пшеница, рожь, ячмень), кукурузы и сои от комплекса болезней</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k48</string>
+        <key>name</key>
+        <string>Грандсил®</string>
+        <key>subName</key>
+        <string>Тебуконазол, 60 г/л</string>
+        <key>description</key>
+        <string>Системный фунгицид для обработки семян пшеницы, ячменя, ржи, овса и льна против комплекса семенных и почвенных инфекций</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k49</string>
+        <key>name</key>
+        <string>Грандсил® Ультра</string>
+        <key>subName</key>
+        <string>Флутриафол, 75 г/л + Тебуконазол, 45 г/л + Имазалил, 20 г/л</string>
+        <key>description</key>
+        <string>Протравитель семян для борьбы с внутрисемянными и аэрогенными болезнями злаковых культур</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k50</string>
+        <key>name</key>
+        <string>Грифон®</string>
+        <key>subName</key>
+        <string>Ацетамиприд, 100 г/л + Флудиоксонил, 25 г/л + Дифеноконазол, 25 г/л</string>
+        <key>description</key>
+        <string>Комбинированный инсектофунгицидный протравитель семян зерновых колосовых культур и клубней картофеля</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k51</string>
+        <key>name</key>
+        <string>Пионер</string>
+        <key>subName</key>
+        <string>Флутриафол, 25 г/л + Тиабендазол, 25 г/л</string>
+        <key>description</key>
+        <string>Системный фунгицид для предпосевной
+            обработки семян зерновых, кукурузы и
+            технических культур</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k52</string>
+        <key>name</key>
+        <string>Сабля</string>
+        <key>subName</key>
+        <string>Тиаметоксам, 350 г/л</string>
+        <key>description</key>
+        <string>Системный инсектицидный протравитель семян для защиты от комплекса почвенных и наземных вредителей всходов</string>
+    </dict>
+    <dict>
+        <key>catalogName</key>
+        <string></string>
+        <key>image</key>
+        <string>k53</string>
+        <key>name</key>
+        <string>Стрит®</string>
+        <key>subName</key>
+        <string>Имидаклоприд, 600 г/л</string>
+        <key>description</key>
+        <string>Системный инсектицидный протравитель семян от комплекса послевсходовых и почвообитающих вредителей</string>
+    </dict>
 </array>
 </plist>
 
