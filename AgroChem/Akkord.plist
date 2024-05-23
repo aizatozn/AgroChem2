@@ -13,7 +13,7 @@
         <key>image</key>
         <string>k38</string>
         <key>description</key>
-        <string>Послевсходовый гербицид для контроля многолетних, однолетних злаковых и двудольных сорняков на кукурузе</string>
+        <string>Инсектицид быстрого действия для борьбы с широким спектром насекомых-вредителей</string>
         <key>price</key>
         <string>4 700,00 c</string>
         <key>upa</key>
@@ -35,7 +35,8 @@
         <key>deist</key>
         <string>Действующие вещества</string>
         <key>deistText</key>
-        <string>Альфа-циперметрин, 100 г/л</string>
+        <string>Альфа-циперметрин,
+100 г/л</string>
         <key>opi</key>
         <string>Описание</string>
         <key>pre</key>
@@ -43,7 +44,8 @@
         <key>preText</key>
         <string>   • Эффективен на всех стадиях развития насекомых.
    • Применяется в малых дозах.
-   • Активен против широкого спектра насекомых- вредителей.</string>
+   • Активен против широкого спектра насекомых-
+      вредителей.</string>
         <key>meh</key>
         <string>Механизм действия</string>
         <key>mehText</key>

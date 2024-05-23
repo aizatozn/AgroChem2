@@ -43,7 +43,7 @@
 		F125BBDC2BF5EE770036568F /* ClientCatalogDetailsPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBDB2BF5EE770036568F /* ClientCatalogDetailsPresentable.swift */; };
 		F125BBDE2BF5F5A70036568F /* ClientCatalogDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBDD2BF5F5A70036568F /* ClientCatalogDetailsModel.swift */; };
 		F125BBE22BF609D20036568F /* ClientCatalogDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBE12BF609D20036568F /* ClientCatalogDetailsCell.swift */; };
-		F125BBE42BF622810036568F /* Catalogs.plist in Resources */ = {isa = PBXBuildFile; fileRef = F125BBE32BF622810036568F /* Catalogs.plist */; };
+		F125BBE42BF622810036568F /* AgronikaGrand.plist in Resources */ = {isa = PBXBuildFile; fileRef = F125BBE32BF622810036568F /* AgronikaGrand.plist */; };
 		F128AB0D2B84E8E70012549C /* ClientHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F128AB0C2B84E8E70012549C /* ClientHomeCell.swift */; };
 		F129359F2BDCF2A1002079CB /* ClientThirdDirectoryDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F129359E2BDCF2A1002079CB /* ClientThirdDirectoryDetailsCell.swift */; };
 		F12935A12BDCF2BD002079CB /* ClientThirdDirectoryDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12935A02BDCF2BD002079CB /* ClientThirdDirectoryDetailsController.swift */; };
@@ -107,9 +107,9 @@
 		F1C8B0E02BF228E8003C43E7 /* Medicines.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1C8B0DF2BF228E8003C43E7 /* Medicines.plist */; };
 		F1C8B0E22BF236DB003C43E7 /* Directories.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1C8B0E12BF236DB003C43E7 /* Directories.plist */; };
 		F1CEB5792B7A0F1100E466DE /* ClientDirectoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CEB5782B7A0F1100E466DE /* ClientDirectoryCell.swift */; };
-		F1D7E9252BFB33E900A10BCC /* Catalogs2.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1D7E9242BFB33E900A10BCC /* Catalogs2.plist */; };
-		F1D7E9272BFC999900A10BCC /* Fungitsidy.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1D7E9262BFC999900A10BCC /* Fungitsidy.plist */; };
+		F1D7E9252BFB33E900A10BCC /* Arbalet.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1D7E9242BFB33E900A10BCC /* Arbalet.plist */; };
 		F1D7E9512BFF8E0E00A10BCC /* Azoksit.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1D7E9502BFF8E0E00A10BCC /* Azoksit.plist */; };
+		F1D7E9532BFF9FE500A10BCC /* Akkord.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1D7E9522BFF9FE500A10BCC /* Akkord.plist */; };
 		F1EC76432B6B8E200017FCF5 /* ClientCatalogCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC76422B6B8E200017FCF5 /* ClientCatalogCategoriesCell.swift */; };
 		F1F1C9912BE7E47D009FB166 /* ClientSystemDetailsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1C9902BE7E47D009FB166 /* ClientSystemDetailsData.swift */; };
 		F1F1C9932BE8D799009FB166 /* ClientSystemDetailsData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1C9922BE8D799009FB166 /* ClientSystemDetailsData+Extension.swift */; };
@@ -144,7 +144,7 @@
 		F125BBDB2BF5EE770036568F /* ClientCatalogDetailsPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsPresentable.swift; sourceTree = "<group>"; };
 		F125BBDD2BF5F5A70036568F /* ClientCatalogDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsModel.swift; sourceTree = "<group>"; };
 		F125BBE12BF609D20036568F /* ClientCatalogDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsCell.swift; sourceTree = "<group>"; };
-		F125BBE32BF622810036568F /* Catalogs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Catalogs.plist; sourceTree = "<group>"; };
+		F125BBE32BF622810036568F /* AgronikaGrand.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AgronikaGrand.plist; sourceTree = "<group>"; };
 		F128AB0C2B84E8E70012549C /* ClientHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientHomeCell.swift; sourceTree = "<group>"; };
 		F129359E2BDCF2A1002079CB /* ClientThirdDirectoryDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientThirdDirectoryDetailsCell.swift; sourceTree = "<group>"; };
 		F12935A02BDCF2BD002079CB /* ClientThirdDirectoryDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientThirdDirectoryDetailsController.swift; sourceTree = "<group>"; };
@@ -208,9 +208,9 @@
 		F1C8B0DF2BF228E8003C43E7 /* Medicines.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Medicines.plist; sourceTree = "<group>"; };
 		F1C8B0E12BF236DB003C43E7 /* Directories.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Directories.plist; sourceTree = "<group>"; };
 		F1CEB5782B7A0F1100E466DE /* ClientDirectoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDirectoryCell.swift; sourceTree = "<group>"; };
-		F1D7E9242BFB33E900A10BCC /* Catalogs2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Catalogs2.plist; sourceTree = "<group>"; };
-		F1D7E9262BFC999900A10BCC /* Fungitsidy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Fungitsidy.plist; sourceTree = "<group>"; };
+		F1D7E9242BFB33E900A10BCC /* Arbalet.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Arbalet.plist; sourceTree = "<group>"; };
 		F1D7E9502BFF8E0E00A10BCC /* Azoksit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Azoksit.plist; sourceTree = "<group>"; };
+		F1D7E9522BFF9FE500A10BCC /* Akkord.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Akkord.plist; sourceTree = "<group>"; };
 		F1EC76422B6B8E200017FCF5 /* ClientCatalogCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogCategoriesCell.swift; sourceTree = "<group>"; };
 		F1F1C9902BE7E47D009FB166 /* ClientSystemDetailsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSystemDetailsData.swift; sourceTree = "<group>"; };
 		F1F1C9922BE8D799009FB166 /* ClientSystemDetailsData+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClientSystemDetailsData+Extension.swift"; sourceTree = "<group>"; };
@@ -313,12 +313,12 @@
 				F1C65B732B655D4600B49A91 /* Services */,
 				F1C65B482B6556B000B49A91 /* Resources */,
 				F105DB472B6015A900851FBE /* Info.plist */,
-				F125BBE32BF622810036568F /* Catalogs.plist */,
+				F125BBE32BF622810036568F /* AgronikaGrand.plist */,
 				F1C8B0DF2BF228E8003C43E7 /* Medicines.plist */,
 				F1C8B0E12BF236DB003C43E7 /* Directories.plist */,
-				F1D7E9242BFB33E900A10BCC /* Catalogs2.plist */,
-				F1D7E9262BFC999900A10BCC /* Fungitsidy.plist */,
+				F1D7E9242BFB33E900A10BCC /* Arbalet.plist */,
 				F1D7E9502BFF8E0E00A10BCC /* Azoksit.plist */,
+				F1D7E9522BFF9FE500A10BCC /* Akkord.plist */,
 			);
 			path = AgroChem;
 			sourceTree = "<group>";
@@ -853,13 +853,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1C8B0E22BF236DB003C43E7 /* Directories.plist in Resources */,
-				F1D7E9272BFC999900A10BCC /* Fungitsidy.plist in Resources */,
-				F125BBE42BF622810036568F /* Catalogs.plist in Resources */,
+				F1D7E9532BFF9FE500A10BCC /* Akkord.plist in Resources */,
+				F125BBE42BF622810036568F /* AgronikaGrand.plist in Resources */,
 				F1C8B0E02BF228E8003C43E7 /* Medicines.plist in Resources */,
 				F1D7E9512BFF8E0E00A10BCC /* Azoksit.plist in Resources */,
 				F105DB462B6015A900851FBE /* LaunchScreen.storyboard in Resources */,
 				F105DB432B6015A900851FBE /* Assets.xcassets in Resources */,
-				F1D7E9252BFB33E900A10BCC /* Catalogs2.plist in Resources */,
+				F1D7E9252BFB33E900A10BCC /* Arbalet.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

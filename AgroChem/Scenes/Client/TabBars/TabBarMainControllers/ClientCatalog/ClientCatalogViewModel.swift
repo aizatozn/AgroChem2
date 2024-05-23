@@ -36,6 +36,7 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
     var agronika: [ClientCatalogDetailsModel] = []
     var arbalet: [ClientCatalogDetailsModel] = []
     var azoksit: [ClientCatalogDetailsModel] = []
+    var akkord: [ClientCatalogDetailsModel] = []
     private var networkManager: NetworkManager
 
     init(networkManager: NetworkManager) {
@@ -43,7 +44,7 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
             super.init()
 
             // Загрузка данных из Catalogs.plist
-            if let path = Bundle.main.path(forResource: "Catalogs", ofType: "plist"),
+            if let path = Bundle.main.path(forResource: "AgronikaGrand", ofType: "plist"),
                let data = FileManager.default.contents(atPath: path) {
                 do {
                     self.agronika = try PropertyListDecoder().decode([ClientCatalogDetailsModel].self, from: data)
@@ -55,7 +56,7 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
             }
 
             // Загрузка данных из Catalogs2.plist
-            if let path2 = Bundle.main.path(forResource: "Catalogs2", ofType: "plist"),
+            if let path2 = Bundle.main.path(forResource: "Arbalet", ofType: "plist"),
                let data2 = FileManager.default.contents(atPath: path2) {
                 do {
                     self.arbalet = try PropertyListDecoder().decode([ClientCatalogDetailsModel].self, from: data2)
@@ -66,16 +67,26 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
                 print("Error loading Catalogs2.plist file.")
             }
 
-        if let path2 = Bundle.main.path(forResource: "Azoksit", ofType: "plist"),
-           let data2 = FileManager.default.contents(atPath: path2) {
-            do {
-                self.azoksit = try PropertyListDecoder().decode([ClientCatalogDetailsModel].self, from: data2)
-            } catch {
-                print("Error decoding Catalogs2.plist: \(error)")
+            if let path2 = Bundle.main.path(forResource: "Azoksit", ofType: "plist"),
+               let data2 = FileManager.default.contents(atPath: path2) {
+                do {
+                    self.azoksit = try PropertyListDecoder().decode([ClientCatalogDetailsModel].self, from: data2)
+                } catch {
+                    print("Error decoding Catalogs2.plist: \(error)")
+                }
+            } else {
+                print("Error loading Catalogs2.plist file.")
             }
-        } else {
-            print("Error loading Catalogs2.plist file.")
-        }
+            if let path2 = Bundle.main.path(forResource: "Akkord", ofType: "plist"),
+               let data2 = FileManager.default.contents(atPath: path2) {
+                do {
+                    self.akkord = try PropertyListDecoder().decode([ClientCatalogDetailsModel].self, from: data2)
+                } catch {
+                    print("Error decoding Catalogs2.plist: \(error)")
+                }
+            } else {
+                print("Error loading Catalogs2.plist file.")
+            }
         }
 
     override func onSubscribe() {
@@ -105,6 +116,10 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
                      self.router?.trigger(
                          .catalogDetails(title: object.name,
                                          catalogs: azoksit))
+                case "Аккорд®":
+                     self.router?.trigger(
+                         .catalogDetails(title: object.name,
+                                         catalogs: akkord))
                 default:
                     break
                 }
