@@ -11,7 +11,7 @@ import SnapKit
 final class ClientCatalogDetailsPresentable: BaseView {
 
     // MARK: - Properties
-
+    var name = ""
     var catalogDetails: [ClientCatalogDetailsModel] = [] {
         didSet {
             filteredCatalogDetails = catalogDetails
@@ -65,7 +65,7 @@ extension ClientCatalogDetailsPresentable: UICollectionViewDelegate, UICollectio
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CatalogCellIdentifier", for: indexPath) as? ClientCatalogDetailsCell else {
             fatalError("Unable to dequeue ClientCatalogDetailsCell")
         }
-        cell.configure(model: filteredCatalogDetails[indexPath.item])
+        cell.configure(model: filteredCatalogDetails[indexPath.item], name: name)
         return cell
     }
 

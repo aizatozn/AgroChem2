@@ -35,6 +35,7 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
     var selectedMedicine = CurrentValueSubject<ClientCatalogModel?, Never>(nil)
     var agronika: [ClientCatalogDetailsModel] = []
     var arbalet: [ClientCatalogDetailsModel] = []
+    var azoksit: [ClientCatalogDetailsModel] = []
     private var networkManager: NetworkManager
 
     init(networkManager: NetworkManager) {
@@ -64,6 +65,17 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
             } else {
                 print("Error loading Catalogs2.plist file.")
             }
+
+        if let path2 = Bundle.main.path(forResource: "Azoksit", ofType: "plist"),
+           let data2 = FileManager.default.contents(atPath: path2) {
+            do {
+                self.azoksit = try PropertyListDecoder().decode([ClientCatalogDetailsModel].self, from: data2)
+            } catch {
+                print("Error decoding Catalogs2.plist: \(error)")
+            }
+        } else {
+            print("Error loading Catalogs2.plist file.")
+        }
         }
 
     override func onSubscribe() {
@@ -85,10 +97,14 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
                     self.router?.trigger(
                         .catalogDetails(title: object.name,
                                         catalogs: agronika))
-                 case "Арбалет®":
+                case "Арбалет®":
                      self.router?.trigger(
                          .catalogDetails(title: object.name,
                                          catalogs: arbalet))
+                case "Азоксит®":
+                     self.router?.trigger(
+                         .catalogDetails(title: object.name,
+                                         catalogs: azoksit))
                 default:
                     break
                 }

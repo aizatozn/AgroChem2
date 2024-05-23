@@ -20,7 +20,6 @@ final class ClientCatalogCell: BaseTVCell {
         let image = UIImageView()
         image.layer.cornerRadius = 10
         image.layer.masksToBounds = true
-        image.image = UIImage(named: "newsImage1")
         return image
     }()
 
@@ -34,7 +33,7 @@ final class ClientCatalogCell: BaseTVCell {
     private let subNameLabel: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.numberOfLines = 2
+        label.numberOfLines = 3
         label.font = .systemFont(ofSize: 13, weight: .regular)
         return label
     }()
@@ -173,5 +172,4 @@ final class ClientCatalogCell: BaseTVCell {
             nameLabel.textColor = .systemGreen
         }
     }
-
 }

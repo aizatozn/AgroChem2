@@ -377,7 +377,7 @@ final class ClientCatalogDetailsCell: BaseCVCell {
         }
 
         opiLabel.snp.makeConstraints { make in
-            make.top.equalTo(deistLabel.snp.bottom).offset(40)
+            make.top.equalTo(deistTextLabel.snp.bottom).offset(40)
             make.leading.equalTo(20)
             make.trailing.equalTo(-20)
         }
@@ -491,7 +491,7 @@ final class ClientCatalogDetailsCell: BaseCVCell {
         }
     }
     // swiftlint:enable function_body_length
-    func configure(model: ClientCatalogDetailsModel) {
+    func configure(model: ClientCatalogDetailsModel, name: String) {
         imageView.image = UIImage(named: model.image)
         descriptionLabel.text = model.description
         priceLabel.text = model.price
@@ -519,5 +519,45 @@ final class ClientCatalogDetailsCell: BaseCVCell {
         sovTextLabel.text = model.sovText
         predLabel.text = model.pred
         predTextLabel.text = model.predText
+        setColorForName(name: name)
     }
-} 
+    
+    private func setColorForName(name: String) {
+        let colorMapping: [UIColor: Set<String>] = [
+            .systemRed: [
+                "Агроника Гранд", "Арбалет®", "Бастер®", "Берилл®", "Бетаниум®", "Бетаниум® 22", "Гарнизон®", "Гербикс",
+                "Глифор®", "Глифор® Форте", "Гран-при", "Дентайр®", "Канон", "Клерк", "Маркос®", "Мегалит®", "Монолит®",
+                "Октапон Экстра", "Олимп", "Рапира®", "Рефери", "Сапфир®", "Тайгер", "Тайгер 100", "Тристар®", "Фирман",
+                "Цицерон®", "Челленджер®"
+            ],
+            .purple: [
+                "Азоксит®", "Армадекс®", "Бульдог®", "Гранберг®", "Гранберг® Про", "Курсор", "Кэнсел®", "Ципрос", "Эпоксин®"
+            ],
+            .systemBlue: [
+                "Аккорд®", "Восторг", "Дитокс®", "Калаш®", "Лассо®", "Норил"
+            ],
+            .systemGreen: [
+                "АгроМинерал® Зерновые", "АгроМинерал® Олеистые", "АгроМинерал® Стручковые и Бобовые", "Грефф®", "Лип"
+            ],
+            .orange: [
+                "Диктатор", "Реголон", "Ректон"
+            ],
+            .systemPurple: [
+                "Виталон", "Грандсил®", "Грандсил® Ультра", "Грифон®", "Пионер", "Сабля", "Стрит®"
+            ]
+        ]
+        
+        for (color, names) in colorMapping {
+            if names.contains(name) {
+                let labels = [
+                    upaLabel, normaLabel, obraLabel, formLabel, deistLabel,
+                    preLabel, mehLabel, skoLabel, periLabel, spekLabel,
+                    vozLabel, fitLabel, sovLabel, predLabel
+                ]
+                labels.forEach { $0.textColor = color }
+                break
+            }
+        }
+    }
+
+}

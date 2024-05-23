@@ -17,6 +17,7 @@ final class ClientCatalogDetailsController: VMController<ClientCatalogDetailsPre
             .receive(on: DispatchQueue.main)
             .sink { [weak self] catalogs in
                 guard let self = self else { return }
+                content.name = navigationItem.title ?? ""
                 content.catalogDetails = catalogs
             }
             .store(in: &viewModel.cancellables)

@@ -109,6 +109,7 @@
 		F1CEB5792B7A0F1100E466DE /* ClientDirectoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CEB5782B7A0F1100E466DE /* ClientDirectoryCell.swift */; };
 		F1D7E9252BFB33E900A10BCC /* Catalogs2.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1D7E9242BFB33E900A10BCC /* Catalogs2.plist */; };
 		F1D7E9272BFC999900A10BCC /* Fungitsidy.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1D7E9262BFC999900A10BCC /* Fungitsidy.plist */; };
+		F1D7E9512BFF8E0E00A10BCC /* Azoksit.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1D7E9502BFF8E0E00A10BCC /* Azoksit.plist */; };
 		F1EC76432B6B8E200017FCF5 /* ClientCatalogCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC76422B6B8E200017FCF5 /* ClientCatalogCategoriesCell.swift */; };
 		F1F1C9912BE7E47D009FB166 /* ClientSystemDetailsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1C9902BE7E47D009FB166 /* ClientSystemDetailsData.swift */; };
 		F1F1C9932BE8D799009FB166 /* ClientSystemDetailsData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1C9922BE8D799009FB166 /* ClientSystemDetailsData+Extension.swift */; };
@@ -209,6 +210,7 @@
 		F1CEB5782B7A0F1100E466DE /* ClientDirectoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDirectoryCell.swift; sourceTree = "<group>"; };
 		F1D7E9242BFB33E900A10BCC /* Catalogs2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Catalogs2.plist; sourceTree = "<group>"; };
 		F1D7E9262BFC999900A10BCC /* Fungitsidy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Fungitsidy.plist; sourceTree = "<group>"; };
+		F1D7E9502BFF8E0E00A10BCC /* Azoksit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Azoksit.plist; sourceTree = "<group>"; };
 		F1EC76422B6B8E200017FCF5 /* ClientCatalogCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogCategoriesCell.swift; sourceTree = "<group>"; };
 		F1F1C9902BE7E47D009FB166 /* ClientSystemDetailsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSystemDetailsData.swift; sourceTree = "<group>"; };
 		F1F1C9922BE8D799009FB166 /* ClientSystemDetailsData+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClientSystemDetailsData+Extension.swift"; sourceTree = "<group>"; };
@@ -316,6 +318,7 @@
 				F1C8B0E12BF236DB003C43E7 /* Directories.plist */,
 				F1D7E9242BFB33E900A10BCC /* Catalogs2.plist */,
 				F1D7E9262BFC999900A10BCC /* Fungitsidy.plist */,
+				F1D7E9502BFF8E0E00A10BCC /* Azoksit.plist */,
 			);
 			path = AgroChem;
 			sourceTree = "<group>";
@@ -853,6 +856,7 @@
 				F1D7E9272BFC999900A10BCC /* Fungitsidy.plist in Resources */,
 				F125BBE42BF622810036568F /* Catalogs.plist in Resources */,
 				F1C8B0E02BF228E8003C43E7 /* Medicines.plist in Resources */,
+				F1D7E9512BFF8E0E00A10BCC /* Azoksit.plist in Resources */,
 				F105DB462B6015A900851FBE /* LaunchScreen.storyboard in Resources */,
 				F105DB432B6015A900851FBE /* Assets.xcassets in Resources */,
 				F1D7E9252BFB33E900A10BCC /* Catalogs2.plist in Resources */,
