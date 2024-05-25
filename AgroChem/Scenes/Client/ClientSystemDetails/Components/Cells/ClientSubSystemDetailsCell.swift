@@ -28,7 +28,7 @@ final class ClientSubSystemDetailsCell: BaseTVCell {
     private let subNameLabel: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.numberOfLines = 2
+        label.numberOfLines = 0
         label.font = .systemFont(ofSize: 13, weight: .regular)
         return label
     }()
@@ -45,7 +45,7 @@ final class ClientSubSystemDetailsCell: BaseTVCell {
     private let subFazaLabel: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.numberOfLines = 2
+        label.numberOfLines = 0
         label.font = .systemFont(ofSize: 13, weight: .regular)
         return label
     }()
