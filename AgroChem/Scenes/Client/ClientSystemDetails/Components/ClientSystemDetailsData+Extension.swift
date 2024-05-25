@@ -11,7 +11,7 @@ extension ClientSystemDetailsData {
 
     static let kukData: [SystemCategories] = [
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1pro",
                                                   name: "Протравители семян",
                                                   color: .systemPurple),
         categoryDetails: [
@@ -41,7 +41,7 @@ extension ClientSystemDetailsData {
                                    color: .purple)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ger",
                                                   name: "Гербициды",
                                                   color: .systemRed),
         categoryDetails: [
@@ -82,7 +82,7 @@ extension ClientSystemDetailsData {
 
     static let lenData: [SystemCategories] = [
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1pro",
                                                   name: "Протравители семян",
                                                   color: .systemPurple),
         categoryDetails: [
@@ -96,7 +96,7 @@ extension ClientSystemDetailsData {
                                    color: .purple)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ger",
                                                   name: "Гербициды",
                                                   color: .systemRed),
         categoryDetails: [
@@ -137,7 +137,7 @@ extension ClientSystemDetailsData {
 
     static let podData: [SystemCategories] = [
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1pro",
                                                   name: "Протравители семян",
                                                   color: .systemPurple),
         categoryDetails: [
@@ -159,7 +159,7 @@ extension ClientSystemDetailsData {
                                    color: .systemPurple)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ger",
                                                   name: "Гербициды",
                                                   color: .systemRed),
         categoryDetails: [
@@ -205,7 +205,7 @@ extension ClientSystemDetailsData {
                                    color: .systemRed)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1fun",
                                                   name: "Фунгициды",
                                                   color: .purple),
         categoryDetails: [
@@ -219,7 +219,7 @@ extension ClientSystemDetailsData {
                                    color: .systemBlue)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1des",
                                                   name: "Десиканты",
                                                   color: .orange),
         categoryDetails: [
@@ -241,7 +241,7 @@ extension ClientSystemDetailsData {
                                    color: .orange)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1min",
                                                   name: "Минеральные удобрения",
                                                   color: .systemGreen),
         categoryDetails: [
@@ -258,7 +258,7 @@ extension ClientSystemDetailsData {
 
     static let rapsData: [SystemCategories] = [
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1pro",
                                                   name: "Протравители семян",
                                                   color: .systemPurple),
         categoryDetails: [
@@ -272,7 +272,7 @@ extension ClientSystemDetailsData {
                                    color: .purple)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ger",
                                                   name: "Гербициды",
                                                   color: .systemRed),
         categoryDetails: [
@@ -302,7 +302,7 @@ extension ClientSystemDetailsData {
                                    color: .systemRed)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1fun",
                                                   name: "Фунгициды",
                                                   color: .purple),
         categoryDetails: [
@@ -332,7 +332,7 @@ extension ClientSystemDetailsData {
                                    color: .purple)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ins",
                                                   name: "Инсектициды",
                                                   color: .systemBlue),
         categoryDetails: [
@@ -362,7 +362,7 @@ extension ClientSystemDetailsData {
                                    color: .systemBlue)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1des",
                                                   name: "Десиканты",
                                                   color: .orange),
         categoryDetails: [
@@ -376,7 +376,7 @@ extension ClientSystemDetailsData {
                                    color: .orange)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1min",
                                                   name: "Минеральные удобрения",
                                                   color: .systemGreen),
         categoryDetails: [
@@ -401,7 +401,7 @@ extension ClientSystemDetailsData {
 
     static let svekData: [SystemCategories] = [
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ger",
                                                   name: "Гербициды",
                                                   color: .systemRed),
         categoryDetails: [
@@ -431,7 +431,7 @@ extension ClientSystemDetailsData {
                                    color: .systemRed)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1fun",
                                                   name: "Фунгициды",
                                                   color: .purple),
         categoryDetails: [
@@ -461,11 +461,11 @@ extension ClientSystemDetailsData {
                                    color: .purple)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ins",
                                                   name: "Инсектициды",
                                                   color: .systemBlue),
         categoryDetails: [
-        ClientCategoryDetailsModel(image: "k4",
+        ClientCategoryDetailsModel(image: "c.ins",
                                    name: "Дитокс, КЭ",
                                    subName: "Диметоат, 400 г/л",
                                    faza: "faza",

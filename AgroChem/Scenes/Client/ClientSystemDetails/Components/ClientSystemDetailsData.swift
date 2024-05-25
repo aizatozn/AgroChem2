@@ -11,7 +11,7 @@ final class ClientSystemDetailsData {
 
     static let bobData: [SystemCategories] = [
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ger",
                                                   name: "Гербициды",
                                                   color: .systemRed),
         categoryDetails: [
@@ -49,7 +49,7 @@ final class ClientSystemDetailsData {
                                    color: .systemRed)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ins",
                                                   name: "Инсектициды",
                                                   color: .systemBlue),
         categoryDetails: [
@@ -63,7 +63,7 @@ final class ClientSystemDetailsData {
                                    color: .systemBlue)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1min",
                                                   name: "Минеральные удобрения",
                                                   color: .systemGreen),
         categoryDetails: [
@@ -80,7 +80,7 @@ final class ClientSystemDetailsData {
 
     static let zerData: [SystemCategories] = [
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1pro",
                                                   name: "Протравители семян",
                                                   color: .systemPurple),
         categoryDetails: [
@@ -134,7 +134,7 @@ final class ClientSystemDetailsData {
                                    color: .purple)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ger",
                                                   name: "Гербициды",
                                                   color: .systemRed),
         categoryDetails: [
@@ -188,7 +188,7 @@ final class ClientSystemDetailsData {
                                    color: .systemRed)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1fun",
                                                   name: "Фунгициды",
                                                   color: .purple),
         categoryDetails: [
@@ -226,7 +226,7 @@ final class ClientSystemDetailsData {
                                    color: .systemPurple),
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ins",
                                                   name: "Инсектициды",
                                                   color: .systemBlue),
         categoryDetails: [
@@ -256,7 +256,7 @@ final class ClientSystemDetailsData {
                                    color: .systemBlue),
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1min",
                                                   name: "Минеральные удобрения",
                                                   color: .systemGreen),
         categoryDetails: [
@@ -280,7 +280,7 @@ final class ClientSystemDetailsData {
     ]
     static let karData: [SystemCategories] = [
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1pro",
                                                   name: "Протравители семян",
                                                   color: .systemPurple),
         categoryDetails: [
@@ -294,7 +294,7 @@ final class ClientSystemDetailsData {
                                    color: .purple)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ger",
                                                   name: "Гербициды",
                                                   color: .systemRed),
         categoryDetails: [
@@ -332,7 +332,7 @@ final class ClientSystemDetailsData {
                                    color: .systemRed)
         ]),
         SystemCategories(
-        systemCategory: ClientSystemCategoryModel(image: "10",
+        systemCategory: ClientSystemCategoryModel(image: "1ins",
                                                   name: "Инсектициды",
                                                   color: .systemBlue),
         categoryDetails: [
