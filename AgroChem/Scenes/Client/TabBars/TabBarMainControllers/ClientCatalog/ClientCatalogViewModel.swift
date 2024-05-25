@@ -40,6 +40,7 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
     var agromin: [ClientCatalogDetailsModel] = []
     var vitalon: [ClientCatalogDetailsModel] = []
     var regolon: [ClientCatalogDetailsModel] = []
+    var greff: [ClientCatalogDetailsModel] = []
     private var networkManager: NetworkManager
 
     init(networkManager: NetworkManager) {
@@ -120,6 +121,16 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
         } else {
             print("Error loading Catalogs2.plist file.")
         }
+        if let path2 = Bundle.main.path(forResource: "Greff", ofType: "plist"),
+           let data2 = FileManager.default.contents(atPath: path2) {
+            do {
+                self.greff = try PropertyListDecoder().decode([ClientCatalogDetailsModel].self, from: data2)
+            } catch {
+                print("Error decoding Catalogs2.plist: \(error)")
+            }
+        } else {
+            print("Error loading Catalogs2.plist file.")
+        }
         }
 
     override func onSubscribe() {
@@ -165,6 +176,10 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
                      self.router?.trigger(
                          .catalogDetails(title: object.name,
                                          catalogs: regolon))
+                case "Грефф®":
+                     self.router?.trigger(
+                         .catalogDetails(title: object.name,
+                                         catalogs: greff))
                 default:
                     break
                 }

@@ -40,6 +40,7 @@
 		F11464C22C01D02B001F15F9 /* Agromin.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C12C01D02B001F15F9 /* Agromin.plist */; };
 		F11464C42C01D61B001F15F9 /* Vitalon.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C32C01D61B001F15F9 /* Vitalon.plist */; };
 		F11464C62C01DA7F001F15F9 /* Regolon.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C52C01DA7F001F15F9 /* Regolon.plist */; };
+		F11464C82C01E524001F15F9 /* Greff.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C72C01E524001F15F9 /* Greff.plist */; };
 		F11E67892BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11E67882BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift */; };
 		F125BBD72BF5EE490036568F /* ClientCatalogDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBD62BF5EE490036568F /* ClientCatalogDetailsController.swift */; };
 		F125BBDA2BF5EE700036568F /* ClientCatalogDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBD92BF5EE700036568F /* ClientCatalogDetailsViewModel.swift */; };
@@ -144,6 +145,7 @@
 		F11464C12C01D02B001F15F9 /* Agromin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Agromin.plist; sourceTree = "<group>"; };
 		F11464C32C01D61B001F15F9 /* Vitalon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Vitalon.plist; sourceTree = "<group>"; };
 		F11464C52C01DA7F001F15F9 /* Regolon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Regolon.plist; sourceTree = "<group>"; };
+		F11464C72C01E524001F15F9 /* Greff.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Greff.plist; sourceTree = "<group>"; };
 		F11E67882BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSecondDirectoryCell.swift; sourceTree = "<group>"; };
 		F125BBD62BF5EE490036568F /* ClientCatalogDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsController.swift; sourceTree = "<group>"; };
 		F125BBD92BF5EE700036568F /* ClientCatalogDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsViewModel.swift; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 				F11464C12C01D02B001F15F9 /* Agromin.plist */,
 				F11464C32C01D61B001F15F9 /* Vitalon.plist */,
 				F11464C52C01DA7F001F15F9 /* Regolon.plist */,
+				F11464C72C01E524001F15F9 /* Greff.plist */,
 			);
 			path = AgroChem;
 			sourceTree = "<group>";
@@ -864,6 +867,7 @@
 				F11464C42C01D61B001F15F9 /* Vitalon.plist in Resources */,
 				F1C8B0E22BF236DB003C43E7 /* Directories.plist in Resources */,
 				F1D7E9532BFF9FE500A10BCC /* Akkord.plist in Resources */,
+				F11464C82C01E524001F15F9 /* Greff.plist in Resources */,
 				F125BBE42BF622810036568F /* AgronikaGrand.plist in Resources */,
 				F1C8B0E02BF228E8003C43E7 /* Medicines.plist in Resources */,
 				F11464C62C01DA7F001F15F9 /* Regolon.plist in Resources */,

@@ -150,7 +150,7 @@ final class ClientCatalogCell: BaseTVCell {
             "Виталон", "Грандсил®", "Грандсил® Ультра", "Грифон®", "Пионер", "Сабля", "Стрит®"
         ]
         let orangeNames: Set = [
-            "Диктатор", "Реголон", "Ректон"
+            "Реголон", "Ректон"
         ]
         let sysGreenNames: Set = [
             "Грефф®", "Лип"

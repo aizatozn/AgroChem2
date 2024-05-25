@@ -29,13 +29,14 @@
         <key>obraText</key>
         <string>530-1 060 с/га</string>
         <key>form</key>
-        <string></string>
+        <string>Препаративная форма</string>
         <key>formText</key>
-        <string></string>
+        <string>Суспензионная эмульсия</string>
         <key>deist</key>
-        <string></string>
+        <string>Действующие вещества</string>
         <key>deistText</key>
-        <string></string>
+        <string>2,4-Д (2-этилгексиловый
+            эфир), 300 г/л</string>
         <key>opi</key>
         <string>Описание</string>
         <key>pre</key>
@@ -59,17 +60,17 @@
 • Увеличение содержания железа и витаминов в
    урожае, улучшение вкуса.</string>
         <key>meh</key>
-        <string></string>
-        <key>mehText</key>
-        <string></string>
-        <key>sko</key>
         <string>Особенности</string>
-        <key>skoText</key>
+        <key>mehText</key>
         <string>Отличительная черта AgroMineral - микроэлементы в хелатной форме.
             
 Хелаты - это сложный органические комплексы, охватывающие микроэлемент. Такой комплекс прочно удерживает ионы микроэлементов в растворимом состоянии вплоть до момента поступления в растение, а затем высвобождает его, переводя в биологически доступную форму и сам распадается на химические соединения, легко усваиваемые растениями.
 
 Эти хелаты биологически активны и по своей структуре близки к хлорофиллу или витамину В12, поэтому безвредны и эффективны для растений.</string>
+        <key>sko</key>
+        <string></string>
+        <key>skoText</key>
+        <string></string>
         <key>peri</key>
         <string></string>
         <key>periText</key>
