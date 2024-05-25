@@ -28,7 +28,7 @@ protocol ClientCatalogViewModel: BaseVMProtocol {
 
 final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>>,
                                         ClientCatalogViewModel {
-
+    
     var counter = CurrentValueSubject<Int, Never>(0)
     var nextRoute = PassthroughSubject<Void, Never>()
     var pushToLesson = CurrentValueSubject<Int, Never>(0)
@@ -44,20 +44,20 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
     private var networkManager: NetworkManager
 
     init(networkManager: NetworkManager) {
-            self.networkManager = networkManager
-            super.init()
+        self.networkManager = networkManager
+        super.init()
 
-            // Загрузка данных из Catalogs.plist
-            if let path = Bundle.main.path(forResource: "AgronikaGrand", ofType: "plist"),
-               let data = FileManager.default.contents(atPath: path) {
-                do {
-                    self.agronika = try PropertyListDecoder().decode([ClientCatalogDetailsModel].self, from: data)
-                } catch {
-                    print("Error decoding Catalogs.plist: \(error)")
-                }
-            } else {
-                print("Error loading Catalogs.plist file.")
+        // Загрузка данных из Catalogs.plist
+        if let path = Bundle.main.path(forResource: "AgronikaGrand", ofType: "plist"),
+           let data = FileManager.default.contents(atPath: path) {
+            do {
+                self.agronika = try PropertyListDecoder().decode([ClientCatalogDetailsModel].self, from: data)
+            } catch {
+                print("Error decoding Catalogs.plist: \(error)")
             }
+        } else {
+            print("Error loading Catalogs.plist file.")
+        }
 
         // Загрузка данных из Catalogs2.plist
         if let path2 = Bundle.main.path(forResource: "Arbalet", ofType: "plist"),
@@ -131,7 +131,7 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
         } else {
             print("Error loading Catalogs2.plist file.")
         }
-        }
+    }
 
     override func onSubscribe() {
         nextRoute
@@ -152,37 +152,40 @@ final class ClientCatalogViewModelImpl: BaseVM<UnownedRouter<ClientCatalogRoute>
                     self.router?.trigger(
                         .catalogDetails(title: object.name,
                                         catalogs: agronika))
-                case "Арбалет®":
-                     self.router?.trigger(
-                         .catalogDetails(title: object.name,
-                                         catalogs: arbalet))
-                case "Азоксит®":
-                     self.router?.trigger(
-                         .catalogDetails(title: object.name,
-                                         catalogs: azoksit))
-                case "Аккорд®":
-                     self.router?.trigger(
-                         .catalogDetails(title: object.name,
-                                         catalogs: akkord))
-                case "АгроМинерал® Зерновые":
-                     self.router?.trigger(
-                         .catalogDetails(title: object.name,
-                                         catalogs: agromin))
-                case "Виталон":
-                     self.router?.trigger(
-                         .catalogDetails(title: object.name,
-                                         catalogs: vitalon))
-                case "Реголон":
-                     self.router?.trigger(
-                         .catalogDetails(title: object.name,
-                                         catalogs: regolon))
-                case "Грефф®":
-                     self.router?.trigger(
-                         .catalogDetails(title: object.name,
-                                         catalogs: greff))
+                case "Арбалет®", "Бастер®", "Берилл®", "Бетаниум®", "Бетаниум® 22", "Гарнизон®", "Гербикс",
+                    "Глифор®", "Глифор® Форте", "Гран-при", "Дентайр®", "Канон", "Клерк", "Маркос®", "Мегалит®", "Монолит®",
+                    "Октапон Экстра", "Олимп", "Рапира®", "Рефери", "Сапфир®", "Тайгер", "Тайгер 100", "Тристар®", "Фирман",
+                    "Цицерон®", "Челленджер®" :
+                    self.router?.trigger(
+                        .catalogDetails(title: object.name,
+                                        catalogs: arbalet))
+                case "Азоксит®", "Армадекс®", "Бульдог®", "Гранберг®", "Гранберг® Про", "Курсор", "Кэнсел®", "Ципрос", "Эпоксин®":
+                    self.router?.trigger(
+                        .catalogDetails(title: object.name,
+                                        catalogs: azoksit))
+                case "Аккорд®", "Восторг", "Дитокс®", "Калаш®", "Лассо®", "Норил":
+                    self.router?.trigger(
+                        .catalogDetails(title: object.name,
+                                        catalogs: akkord))
+                case "АгроМинерал® Зерновые", "АгроМинерал® Олеистые", "АгроМинерал® Стручковые и Бобовые":
+                    self.router?.trigger(
+                        .catalogDetails(title: object.name,
+                                        catalogs: agromin))
+                case "Виталон", "Грандсил®", "Грандсил® Ультра", "Грифон®", "Пионер", "Сабля", "Стрит®":
+                    self.router?.trigger(
+                        .catalogDetails(title: object.name,
+                                        catalogs: vitalon))
+                case "Реголон", "Ректон":
+                    self.router?.trigger(
+                        .catalogDetails(title: object.name,
+                                        catalogs: regolon))
+                case "Грефф®", "Лип":
+                    self.router?.trigger(
+                        .catalogDetails(title: object.name,
+                                        catalogs: greff))
                 default:
                     break
                 }
-        }.store(in: &cancellables)
+            }.store(in: &cancellables)
     }
 }
