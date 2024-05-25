@@ -88,7 +88,6 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private let formLabel: UILabel = {
         let label = UILabel()
         label.text = "Препаративная форма"
-        label.textColor = .systemRed
         label.numberOfLines = 2
         label.font = .systemFont(ofSize: 13, weight: .medium)
         return label
@@ -105,7 +104,6 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private let deistLabel: UILabel = {
         let label = UILabel()
         label.text = "Действующие вещества"
-        label.textColor = .systemRed
         label.numberOfLines = 2
         label.font = .systemFont(ofSize: 13, weight: .medium)
         return label
@@ -130,7 +128,6 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private let preLabel: UILabel = {
         let label = UILabel()
         label.text = "Преимущества"
-        label.textColor = .systemRed
         label.numberOfLines = 2
         label.font = .systemFont(ofSize: 16, weight: .medium)
         return label
@@ -148,7 +145,6 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private let mehLabel: UILabel = {
         let label = UILabel()
         label.text = "Механизм действия"
-        label.textColor = .systemRed
         label.numberOfLines = 2
         label.font = .systemFont(ofSize: 16, weight: .medium)
         return label
@@ -166,7 +162,6 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private let skoLabel: UILabel = {
         let label = UILabel()
         label.text = "Скорость воздействия"
-        label.textColor = .systemRed
         label.numberOfLines = 2
         label.font = .systemFont(ofSize: 16, weight: .medium)
         return label
@@ -184,7 +179,6 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private let periLabel: UILabel = {
         let label = UILabel()
         label.text = "Период защщитного действия"
-        label.textColor = .systemRed
         label.numberOfLines = 2
         label.font = .systemFont(ofSize: 16, weight: .medium)
         return label
@@ -202,7 +196,6 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private let spekLabel: UILabel = {
         let label = UILabel()
         label.text = "Спектр действия"
-        label.textColor = .systemRed
         label.numberOfLines = 2
         label.font = .systemFont(ofSize: 16, weight: .medium)
         return label
@@ -220,7 +213,6 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private let vozLabel: UILabel = {
         let label = UILabel()
         label.text = "Возникновение резистентности"
-        label.textColor = .systemRed
         label.numberOfLines = 2
         label.font = .systemFont(ofSize: 16, weight: .medium)
         return label
@@ -238,7 +230,6 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private let fitLabel: UILabel = {
         let label = UILabel()
         label.text = "Фитотоксичность и толерантность"
-        label.textColor = .systemRed
         label.numberOfLines = 2
         label.font = .systemFont(ofSize: 16, weight: .medium)
         return label
@@ -256,7 +247,6 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private let sovLabel: UILabel = {
         let label = UILabel()
         label.text = "Совместимость"
-        label.textColor = .systemRed
         label.numberOfLines = 2
         label.font = .systemFont(ofSize: 16, weight: .medium)
         return label
@@ -274,7 +264,6 @@ final class ClientCatalogDetailsCell: BaseCVCell {
     private let predLabel: UILabel = {
         let label = UILabel()
         label.text = "Предостережения"
-        label.textColor = .systemRed
         label.numberOfLines = 2
         label.font = .systemFont(ofSize: 16, weight: .medium)
         return label

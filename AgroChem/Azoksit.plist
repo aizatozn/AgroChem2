@@ -15,7 +15,7 @@
         <key>description</key>
         <string>Двухкомпонентный системный фунгицид широкого спектра действия</string>
         <key>price</key>
-        <string>3 160,00 c</string>
+        <string>31 600,00 c</string>
         <key>upa</key>
         <string>Упаковано</string>
         <key>upaText</key>
@@ -27,7 +27,7 @@
         <key>obra</key>
         <string>Стоимость обработки</string>
         <key>obraText</key>
-        <string>2 528 - 3 160 с/га</string>
+        <string>2 528-3 160 с/га</string>
         <key>form</key>
         <string>Препаративная форма</string>
         <key>formText</key>

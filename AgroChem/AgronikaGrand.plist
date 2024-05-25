@@ -15,7 +15,7 @@
         <key>description</key>
         <string>Послевсходовый гербицид для контроля многолетних, однолетних злаковых и двудольных сорняков на кукурузе</string>
         <key>price</key>
-        <string>2 600,00 c</string>
+        <string>26 000,00 c</string>
         <key>upa</key>
         <string>Упаковано</string>
         <key>upaText</key>
@@ -27,7 +27,7 @@
         <key>obra</key>
         <string>Стоимость обработки</string>
         <key>obraText</key>
-        <string>2600 - 5200 с/га</string>
+        <string>2600-5200 с/га</string>
         <key>form</key>
         <string>Препаративная форма</string>
         <key>formText</key>

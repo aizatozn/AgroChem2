@@ -646,20 +646,9 @@
         <string>Системный инсектицидный протравитель семян от комплекса послевсходовых и почвообитающих вредителей</string>
     </dict>
     <dict>
-        <key>catalogName</key>
-        <string>Десиканты</string>
-        <key>image</key>
-        <string>k54</string>
-        <key>name</key>
-        <string>Диктатор</string>
-        <key>subName</key>
-        <string>Дикват дибромид, 150 г/л</string>
-        <key>description</key>
-        <string>Десикант для предуборочного подсушивания яровых культур, обеспечивающий равномерное созревание урожая и сохранение качества продукции</string>
-    </dict>
     <dict>
         <key>catalogName</key>
-        <string></string>
+        <string>Десиканты</string>
         <key>image</key>
         <string>k55</string>
         <key>name</key>

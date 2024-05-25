@@ -27,7 +27,7 @@
         <key>obra</key>
         <string>Стоимость обработки</string>
         <key>obraText</key>
-        <string>360 - 540 с/га</string>
+        <string>360-540 с/га</string>
         <key>form</key>
         <string>Препаративная форма</string>
         <key>formText</key>

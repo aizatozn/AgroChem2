@@ -37,6 +37,9 @@
 		F105DB622B601A9800851FBE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F105DB612B601A9800851FBE /* Alamofire */; };
 		F105DB652B601AB300851FBE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F105DB642B601AB300851FBE /* SnapKit */; };
 		F105DB672B601AB300851FBE /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F105DB662B601AB300851FBE /* SnapKit-Dynamic */; };
+		F11464C22C01D02B001F15F9 /* Agromin.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C12C01D02B001F15F9 /* Agromin.plist */; };
+		F11464C42C01D61B001F15F9 /* Vitalon.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C32C01D61B001F15F9 /* Vitalon.plist */; };
+		F11464C62C01DA7F001F15F9 /* Regolon.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C52C01DA7F001F15F9 /* Regolon.plist */; };
 		F11E67892BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11E67882BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift */; };
 		F125BBD72BF5EE490036568F /* ClientCatalogDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBD62BF5EE490036568F /* ClientCatalogDetailsController.swift */; };
 		F125BBDA2BF5EE700036568F /* ClientCatalogDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBD92BF5EE700036568F /* ClientCatalogDetailsViewModel.swift */; };
@@ -138,6 +141,9 @@
 		F105DB422B6015A900851FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F105DB452B6015A900851FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F105DB472B6015A900851FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11464C12C01D02B001F15F9 /* Agromin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Agromin.plist; sourceTree = "<group>"; };
+		F11464C32C01D61B001F15F9 /* Vitalon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Vitalon.plist; sourceTree = "<group>"; };
+		F11464C52C01DA7F001F15F9 /* Regolon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Regolon.plist; sourceTree = "<group>"; };
 		F11E67882BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSecondDirectoryCell.swift; sourceTree = "<group>"; };
 		F125BBD62BF5EE490036568F /* ClientCatalogDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsController.swift; sourceTree = "<group>"; };
 		F125BBD92BF5EE700036568F /* ClientCatalogDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsViewModel.swift; sourceTree = "<group>"; };
@@ -319,6 +325,9 @@
 				F1D7E9242BFB33E900A10BCC /* Arbalet.plist */,
 				F1D7E9502BFF8E0E00A10BCC /* Azoksit.plist */,
 				F1D7E9522BFF9FE500A10BCC /* Akkord.plist */,
+				F11464C12C01D02B001F15F9 /* Agromin.plist */,
+				F11464C32C01D61B001F15F9 /* Vitalon.plist */,
+				F11464C52C01DA7F001F15F9 /* Regolon.plist */,
 			);
 			path = AgroChem;
 			sourceTree = "<group>";
@@ -852,11 +861,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11464C42C01D61B001F15F9 /* Vitalon.plist in Resources */,
 				F1C8B0E22BF236DB003C43E7 /* Directories.plist in Resources */,
 				F1D7E9532BFF9FE500A10BCC /* Akkord.plist in Resources */,
 				F125BBE42BF622810036568F /* AgronikaGrand.plist in Resources */,
 				F1C8B0E02BF228E8003C43E7 /* Medicines.plist in Resources */,
+				F11464C62C01DA7F001F15F9 /* Regolon.plist in Resources */,
 				F1D7E9512BFF8E0E00A10BCC /* Azoksit.plist in Resources */,
+				F11464C22C01D02B001F15F9 /* Agromin.plist in Resources */,
 				F105DB462B6015A900851FBE /* LaunchScreen.storyboard in Resources */,
 				F105DB432B6015A900851FBE /* Assets.xcassets in Resources */,
 				F1D7E9252BFB33E900A10BCC /* Arbalet.plist in Resources */,
