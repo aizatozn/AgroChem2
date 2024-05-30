@@ -7,9 +7,11 @@
 
 import UIKit
 import SnapKit
+import Combine
 
 final class ClientDirectoryDetailsPresentable: BaseView, UISearchBarDelegate {
 
+    var pushToDetails = CurrentValueSubject<ClientDirectoryModel?, Never>(nil)
     var firstDirectories: [ClientDirectoryModel] = [] {
         didSet {
             filteredDirectories0 = firstDirectories
@@ -100,5 +102,9 @@ extension ClientDirectoryDetailsPresentable: UICollectionViewDelegate,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
         CGSize(width: UIScreen.main.bounds.width - 30, height: 150)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        pushToDetails.send(filteredDirectories0[indexPath.item])
     }
 }

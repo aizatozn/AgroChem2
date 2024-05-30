@@ -11,6 +11,15 @@ final class ClientDirectoryDetailsController: VMController<ClientDirectoryDetail
                                               ClientDirectoryDetailsViewModel> {
 
     override func onBindViewModel() {
+        
+        content.pushToDetails
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] model in
+                guard let self = self else { return }
+                viewModel.tappedDetails.send(model)
+            }
+            .store(in: &viewModel.cancellables)
+        
 
         viewModel.directories
             .receive(on: DispatchQueue.main)

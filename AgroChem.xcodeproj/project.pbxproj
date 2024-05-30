@@ -41,6 +41,11 @@
 		F11464C42C01D61B001F15F9 /* Vitalon.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C32C01D61B001F15F9 /* Vitalon.plist */; };
 		F11464C62C01DA7F001F15F9 /* Regolon.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C52C01DA7F001F15F9 /* Regolon.plist */; };
 		F11464C82C01E524001F15F9 /* Greff.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C72C01E524001F15F9 /* Greff.plist */; };
+		F11464CD2C0376C3001F15F9 /* DirectoryDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11464CC2C0376C3001F15F9 /* DirectoryDetailsCell.swift */; };
+		F11464CF2C0376DB001F15F9 /* DirectoryDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11464CE2C0376DB001F15F9 /* DirectoryDetailsController.swift */; };
+		F11464D12C0376E9001F15F9 /* DirectoryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11464D02C0376E9001F15F9 /* DirectoryDetailsViewModel.swift */; };
+		F11464D32C0376F8001F15F9 /* DirectoryDetailsPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11464D22C0376F8001F15F9 /* DirectoryDetailsPresentable.swift */; };
+		F11464D52C0384D8001F15F9 /* Sornyie.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464D42C0384D8001F15F9 /* Sornyie.plist */; };
 		F11E67892BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11E67882BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift */; };
 		F125BBD72BF5EE490036568F /* ClientCatalogDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBD62BF5EE490036568F /* ClientCatalogDetailsController.swift */; };
 		F125BBDA2BF5EE700036568F /* ClientCatalogDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125BBD92BF5EE700036568F /* ClientCatalogDetailsViewModel.swift */; };
@@ -146,6 +151,11 @@
 		F11464C32C01D61B001F15F9 /* Vitalon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Vitalon.plist; sourceTree = "<group>"; };
 		F11464C52C01DA7F001F15F9 /* Regolon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Regolon.plist; sourceTree = "<group>"; };
 		F11464C72C01E524001F15F9 /* Greff.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Greff.plist; sourceTree = "<group>"; };
+		F11464CC2C0376C3001F15F9 /* DirectoryDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryDetailsCell.swift; sourceTree = "<group>"; };
+		F11464CE2C0376DB001F15F9 /* DirectoryDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryDetailsController.swift; sourceTree = "<group>"; };
+		F11464D02C0376E9001F15F9 /* DirectoryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryDetailsViewModel.swift; sourceTree = "<group>"; };
+		F11464D22C0376F8001F15F9 /* DirectoryDetailsPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryDetailsPresentable.swift; sourceTree = "<group>"; };
+		F11464D42C0384D8001F15F9 /* Sornyie.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Sornyie.plist; sourceTree = "<group>"; };
 		F11E67882BDA47D800AC8B81 /* ClientSecondDirectoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSecondDirectoryCell.swift; sourceTree = "<group>"; };
 		F125BBD62BF5EE490036568F /* ClientCatalogDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsController.swift; sourceTree = "<group>"; };
 		F125BBD92BF5EE700036568F /* ClientCatalogDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCatalogDetailsViewModel.swift; sourceTree = "<group>"; };
@@ -331,8 +341,36 @@
 				F11464C32C01D61B001F15F9 /* Vitalon.plist */,
 				F11464C52C01DA7F001F15F9 /* Regolon.plist */,
 				F11464C72C01E524001F15F9 /* Greff.plist */,
+				F11464D42C0384D8001F15F9 /* Sornyie.plist */,
 			);
 			path = AgroChem;
+			sourceTree = "<group>";
+		};
+		F11464C92C037656001F15F9 /* DirectoryDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F11464CA2C03769E001F15F9 /* Components */,
+			);
+			path = DirectoryDetails;
+			sourceTree = "<group>";
+		};
+		F11464CA2C03769E001F15F9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F11464CB2C0376AD001F15F9 /* Cells */,
+				F11464CE2C0376DB001F15F9 /* DirectoryDetailsController.swift */,
+				F11464D02C0376E9001F15F9 /* DirectoryDetailsViewModel.swift */,
+				F11464D22C0376F8001F15F9 /* DirectoryDetailsPresentable.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F11464CB2C0376AD001F15F9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F11464CC2C0376C3001F15F9 /* DirectoryDetailsCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		F125BBD82BF5EE510036568F /* ClientCatalogDetails */ = {
@@ -660,6 +698,7 @@
 		F1C65B642B655AA200B49A91 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				F11464C92C037656001F15F9 /* DirectoryDetails */,
 				F125BBD82BF5EE510036568F /* ClientCatalogDetails */,
 				F129359B2BDCF272002079CB /* ClientThirdDirectoryDetails */,
 				F15D91812BDBEE1700627552 /* ClientSecondDirectoryDetails */,
@@ -874,6 +913,7 @@
 				F1D7E9512BFF8E0E00A10BCC /* Azoksit.plist in Resources */,
 				F11464C22C01D02B001F15F9 /* Agromin.plist in Resources */,
 				F105DB462B6015A900851FBE /* LaunchScreen.storyboard in Resources */,
+				F11464D52C0384D8001F15F9 /* Sornyie.plist in Resources */,
 				F105DB432B6015A900851FBE /* Assets.xcassets in Resources */,
 				F1D7E9252BFB33E900A10BCC /* Arbalet.plist in Resources */,
 			);
@@ -912,7 +952,9 @@
 				F125BBDE2BF5F5A70036568F /* ClientCatalogDetailsModel.swift in Sources */,
 				F13315352BC44925000CFEB2 /* ClientHelpAndSupportPresentable.swift in Sources */,
 				F14B896D2BCD09180033794B /* ClientSystemsCell.swift in Sources */,
+				F11464D12C0376E9001F15F9 /* DirectoryDetailsViewModel.swift in Sources */,
 				F125BBDA2BF5EE700036568F /* ClientCatalogDetailsViewModel.swift in Sources */,
+				F11464D32C0376F8001F15F9 /* DirectoryDetailsPresentable.swift in Sources */,
 				F13315432BC4520A000CFEB2 /* ClientMedicineViewModel.swift in Sources */,
 				F16083F52BDD03F100DE30BD /* ClientSystemDetailsCell.swift in Sources */,
 				F1CEB5792B7A0F1100E466DE /* ClientDirectoryCell.swift in Sources */,
@@ -938,6 +980,7 @@
 				F1C65B802B655EF100B49A91 /* UserDefaultsService.swift in Sources */,
 				F13315372BC44957000CFEB2 /* ClientHelpAndSupportViewModel.swift in Sources */,
 				F1056E642B692FFE00A98341 /* ClientDirectoryPresentable.swift in Sources */,
+				F11464CF2C0376DB001F15F9 /* DirectoryDetailsController.swift in Sources */,
 				F14B89842BCD2A020033794B /* ClientDirectoryModel.swift in Sources */,
 				F1056E682B69301A00A98341 /* ClientProfileController.swift in Sources */,
 				F1056E4A2B69154B00A98341 /* NetworkManager_Client.swift in Sources */,
@@ -960,6 +1003,7 @@
 				F1C65B7D2B655EB600B49A91 /* SwinjectServices.swift in Sources */,
 				F1C65B4D2B65580C00B49A91 /* BaseView.swift in Sources */,
 				F1056E522B692F6200A98341 /* ClientHomeViewModel.swift in Sources */,
+				F11464CD2C0376C3001F15F9 /* DirectoryDetailsCell.swift in Sources */,
 				F14B897E2BCD222F0033794B /* ClientDirectoryDetailsPresentable.swift in Sources */,
 				F13315412BC45200000CFEB2 /* ClientMedicineController.swift in Sources */,
 				F1C65B572B65590500B49A91 /* BaseCVCell.swift in Sources */,

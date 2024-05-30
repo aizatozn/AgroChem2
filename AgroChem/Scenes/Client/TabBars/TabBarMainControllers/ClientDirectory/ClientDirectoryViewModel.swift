@@ -27,7 +27,7 @@ final class ClientExamsViewModelImpl: BaseVM<UnownedRouter<ClientDirectoryRoute>
     var selectedDirectory = CurrentValueSubject<String?, Never>(nil)
     let sorniyeDirectories: [ClientDirectoryModel] = [
         ClientDirectoryModel(image: "sras1",
-                             name: "Аистик цикутовый",
+                             name: "Аистник цикутовый",
                              nameInEnglish: "Erodium cicutarium"),
         ClientDirectoryModel(image: "sras2",
                              name: "Акалифа южная",
