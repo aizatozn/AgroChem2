@@ -120,6 +120,7 @@ final class ClientSubSystemDetailsCell: BaseTVCell {
             make.top.equalTo(normaLabel.snp.bottom).offset(6)
             make.leading.equalTo(nameLabel)
             make.trailing.equalTo(-20)
+            make.bottom.equalTo(-10)
         }
     }
 
