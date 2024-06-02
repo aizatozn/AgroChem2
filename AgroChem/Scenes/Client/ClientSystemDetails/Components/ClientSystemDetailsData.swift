@@ -91,7 +91,7 @@ final class ClientSystemDetailsData {
                                    subFaza: "обработка семян",
                                    norma: "norma",
                                    subNorma: "0.4 - 0.5 л/т",
-                                   color: .purple),
+                                   color: .systemPurple),
         ClientCategoryDetailsModel(image: "k4",
                                    name: "Пионер, КС",
                                    subName: "Флутриафол, 25 г/л + Тиабендазол, 25 г/л",
@@ -99,7 +99,7 @@ final class ClientSystemDetailsData {
                                    subFaza: "обработка семян",
                                    norma: "norma",
                                    subNorma: "1.5 - 2 л/т",
-                                   color: .purple),
+                                   color: .systemPurple),
         ClientCategoryDetailsModel(image: "k4",
                                    name: "Стрит, КС",
                                    subName: "Имидаклоприд, 600 г/л",
@@ -107,7 +107,7 @@ final class ClientSystemDetailsData {
                                    subFaza: "обработка семян",
                                    norma: "norma",
                                    subNorma: "0.3 - 0.75 л/т",
-                                   color: .purple),
+                                   color: .systemPurple),
         ClientCategoryDetailsModel(image: "k4",
                                    name: "Виталон, КС",
                                    subName: "Тирам, 400 г/л + Тебуконазол, 14 г/л",
@@ -115,7 +115,7 @@ final class ClientSystemDetailsData {
                                    subFaza: "обработка семян",
                                    norma: "norma",
                                    subNorma: "1.5 - 2 л/т",
-                                   color: .purple),
+                                   color: .systemPurple),
         ClientCategoryDetailsModel(image: "k4",
                                    name: "Грифон, КС",
                                    subName: "Ацетамиприд, 100 г/л + Флудиоксонил, 25 г/л + Дифеноконазол, 25 г/л",
@@ -123,7 +123,7 @@ final class ClientSystemDetailsData {
                                    subFaza: "обработка семян",
                                    norma: "norma",
                                    subNorma: "1.5 - 2 л/т",
-                                   color: .purple),
+                                   color: .systemPurple),
         ClientCategoryDetailsModel(image: "k4",
                                    name: "Грандсил, КС",
                                    subName: "Тебуконазол, 60 г/л",
@@ -131,7 +131,7 @@ final class ClientSystemDetailsData {
                                    subFaza: "обработка семян",
                                    norma: "norma",
                                    subNorma: "0.4 - 0.5 л/т",
-                                   color: .purple)
+                                   color: .systemPurple)
         ]),
         SystemCategories(
         systemCategory: ClientSystemCategoryModel(image: "1ger",
@@ -199,7 +199,7 @@ final class ClientSystemDetailsData {
                                    subFaza: "с начало кущения \nпо налив, молочная спелость",
                                    norma: "norma",
                                    subNorma: "0.5 л/га",
-                                   color: .systemPurple),
+                                   color: .purple),
         ClientCategoryDetailsModel(image: "k4",
                                    name: "Ципрос, КЭ",
                                    subName: "Пропиконазол, 250 г/л + Ципроконазол, 80 г/л",
@@ -207,7 +207,7 @@ final class ClientSystemDetailsData {
                                    subFaza: "с начало кущения \nпо налив, молочная спелость",
                                    norma: "norma",
                                    subNorma: "0.4 - 0.5 л/га",
-                                   color: .systemPurple),
+                                   color: .purple),
         ClientCategoryDetailsModel(image: "k4",
                                    name: "Армадекс, КС",
                                    subName: "Карбендазим, 500 г/л",
@@ -215,7 +215,7 @@ final class ClientSystemDetailsData {
                                    subFaza: "с начало кущения \nпо налив, молочная спелость",
                                    norma: "norma",
                                    subNorma: "0.3 - 0.6 л/га",
-                                   color: .systemPurple),
+                                   color: .purple),
         ClientCategoryDetailsModel(image: "k4",
                                    name: "Эпоксин, КС",
                                    subName: "Азоксистробин, 200 г/л + Эпоксиконазол, 100 г/л",
@@ -223,7 +223,7 @@ final class ClientSystemDetailsData {
                                    subFaza: "с флаговый лист \nпо колошение",
                                    norma: "norma",
                                    subNorma: "0.7 - 1 л/га",
-                                   color: .systemPurple),
+                                   color: .purple)
         ]),
         SystemCategories(
         systemCategory: ClientSystemCategoryModel(image: "1ins",
@@ -291,7 +291,7 @@ final class ClientSystemDetailsData {
                                    subFaza: "до посева",
                                    norma: "norma",
                                    subNorma: "0.4 л/т",
-                                   color: .purple)
+                                   color: .systemPurple)
         ]),
         SystemCategories(
         systemCategory: ClientSystemCategoryModel(image: "1ger",

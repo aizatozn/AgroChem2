@@ -9,6 +9,22 @@ import UIKit
 import SnapKit
 
 final class DirectoryDetailsPresentable: BaseView {
+    
+    private let scrollView: UIScrollView = {
+        let scrollView = UIScrollView()
+        scrollView.isScrollEnabled = true
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        scrollView.alwaysBounceVertical = true
+        scrollView.showsVerticalScrollIndicator = false
+        return scrollView
+    }()
+
+    private let contentView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .clear
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
 
     let nameLabel: UILabel = {
         let label = UILabel()
@@ -157,7 +173,10 @@ final class DirectoryDetailsPresentable: BaseView {
     }
 
     override func onAddSubviews() {
-        addSubviews(nameLabel, subNameLabel, photoImageView, name1Label, 
+        addSubview(scrollView)
+        scrollView.addSubview(contentView)
+        
+        contentView.addSubviews(nameLabel, subNameLabel, photoImageView, name1Label,
                     subName1Label, name2Label, subName2Label, name3Label,
                     subName3Label, name4Label, subName4Label, name5Label,
                     subName5Label, name6Label, subName6Label, name7Label,
@@ -166,9 +185,19 @@ final class DirectoryDetailsPresentable: BaseView {
 
     // swiftlint:disable function_body_length
     override func onSetupConstraints() {
+        
+        scrollView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
+
+        contentView.snp.makeConstraints { make in
+            make.edges.equalTo(scrollView)
+            make.width.equalTo(scrollView)
+            make.height.equalTo(scrollView).priority(.low)
+        }
 
         nameLabel.snp.makeConstraints { make in
-            make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(10)
+            make.top.equalTo(10)
             make.leading.equalTo(10)
         }
 
@@ -290,6 +319,7 @@ final class DirectoryDetailsPresentable: BaseView {
             make.leading.equalTo(10)
             make.trailing.equalTo(-10)
             make.top.equalTo(name9Label.snp.bottom).offset(10)
+            make.bottom.equalTo(-30)
         }
     } // swiftlint:enable function_body_length
 }

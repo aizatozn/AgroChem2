@@ -22,7 +22,7 @@ extension ClientSystemDetailsData {
                                    subFaza: "до посева",
                                    norma: "norma",
                                    subNorma: "5 - 9 л/т",
-                                   color: .purple),
+                                   color: .systemPurple),
         ClientCategoryDetailsModel(image: "k4",
                                    name: "Виталон, КС",
                                    subName: "Тирам, 400 г/л + Тебуконазол, 14 г/л",
@@ -30,7 +30,7 @@ extension ClientSystemDetailsData {
                                    subFaza: "до посева",
                                    norma: "norma",
                                    subNorma: "2 л/т",
-                                   color: .purple),
+                                   color: .systemPurple),
         ClientCategoryDetailsModel(image: "k4",
                                    name: "Пионер, КС",
                                    subName: "Флутриафол, 25 г/л + Тиабендазол, 25 г/л",
@@ -38,7 +38,7 @@ extension ClientSystemDetailsData {
                                    subFaza: "до посева",
                                    norma: "norma",
                                    subNorma: "2 л/т",
-                                   color: .purple)
+                                   color: .systemPurple)
         ]),
         SystemCategories(
         systemCategory: ClientSystemCategoryModel(image: "1ger",
@@ -93,7 +93,7 @@ extension ClientSystemDetailsData {
                                    subFaza: "до посева",
                                    norma: "norma",
                                    subNorma: "0.4 - 0.5 л/т",
-                                   color: .purple)
+                                   color: .systemPurple)
         ]),
         SystemCategories(
         systemCategory: ClientSystemCategoryModel(image: "1ger",
@@ -216,7 +216,7 @@ extension ClientSystemDetailsData {
                                    subFaza: "с 3-4 пары настоящих листьев \nпо начало цветения",
                                    norma: "norma",
                                    subNorma: "0.8 - 1 л/га",
-                                   color: .systemBlue)
+                                   color: .purple)
         ]),
         SystemCategories(
         systemCategory: ClientSystemCategoryModel(image: "1des",
@@ -269,7 +269,7 @@ extension ClientSystemDetailsData {
                                    subFaza: "обработка семян ",
                                    norma: "norma",
                                    subNorma: "3 - 6 л/т",
-                                   color: .purple)
+                                   color: .systemPurple)
         ]),
         SystemCategories(
         systemCategory: ClientSystemCategoryModel(image: "1ger",
