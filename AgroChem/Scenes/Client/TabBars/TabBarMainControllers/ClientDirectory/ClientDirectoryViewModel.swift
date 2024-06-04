@@ -520,7 +520,7 @@ final class ClientExamsViewModelImpl: BaseVM<UnownedRouter<ClientDirectoryRoute>
         ClientSecondDirectoryModel(
                              name: "2,4-Д (2-этилгексиловый эфир)",
                              nameInEnglish: "2,4-D (2-ethylhexyl)",
-                             content: "2-этилгексиловый эфир",
+                             content: "content",
                              description: "Пестицид, гербицид. Применяется в составе различных"
                              + " препаратов против двудольных сорняков."),
         ClientSecondDirectoryModel(

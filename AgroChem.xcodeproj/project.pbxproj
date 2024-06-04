@@ -37,6 +37,7 @@
 		F105DB622B601A9800851FBE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F105DB612B601A9800851FBE /* Alamofire */; };
 		F105DB652B601AB300851FBE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F105DB642B601AB300851FBE /* SnapKit */; };
 		F105DB672B601AB300851FBE /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F105DB662B601AB300851FBE /* SnapKit-Dynamic */; };
+		F10FB8F52C0F38CC00A9675D /* DirectoriesData.plist in Resources */ = {isa = PBXBuildFile; fileRef = F10FB8F42C0F38CC00A9675D /* DirectoriesData.plist */; };
 		F11464C22C01D02B001F15F9 /* Agromin.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C12C01D02B001F15F9 /* Agromin.plist */; };
 		F11464C42C01D61B001F15F9 /* Vitalon.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C32C01D61B001F15F9 /* Vitalon.plist */; };
 		F11464C62C01DA7F001F15F9 /* Regolon.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11464C52C01DA7F001F15F9 /* Regolon.plist */; };
@@ -147,6 +148,7 @@
 		F105DB422B6015A900851FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F105DB452B6015A900851FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F105DB472B6015A900851FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10FB8F42C0F38CC00A9675D /* DirectoriesData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DirectoriesData.plist; sourceTree = "<group>"; };
 		F11464C12C01D02B001F15F9 /* Agromin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Agromin.plist; sourceTree = "<group>"; };
 		F11464C32C01D61B001F15F9 /* Vitalon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Vitalon.plist; sourceTree = "<group>"; };
 		F11464C52C01DA7F001F15F9 /* Regolon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Regolon.plist; sourceTree = "<group>"; };
@@ -342,6 +344,7 @@
 				F11464C52C01DA7F001F15F9 /* Regolon.plist */,
 				F11464C72C01E524001F15F9 /* Greff.plist */,
 				F11464D42C0384D8001F15F9 /* Sornyie.plist */,
+				F10FB8F42C0F38CC00A9675D /* DirectoriesData.plist */,
 			);
 			path = AgroChem;
 			sourceTree = "<group>";
@@ -913,6 +916,7 @@
 				F1D7E9512BFF8E0E00A10BCC /* Azoksit.plist in Resources */,
 				F11464C22C01D02B001F15F9 /* Agromin.plist in Resources */,
 				F105DB462B6015A900851FBE /* LaunchScreen.storyboard in Resources */,
+				F10FB8F52C0F38CC00A9675D /* DirectoriesData.plist in Resources */,
 				F11464D52C0384D8001F15F9 /* Sornyie.plist in Resources */,
 				F105DB432B6015A900851FBE /* Assets.xcassets in Resources */,
 				F1D7E9252BFB33E900A10BCC /* Arbalet.plist in Resources */,

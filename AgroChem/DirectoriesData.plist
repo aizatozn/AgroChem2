@@ -7,6 +7,337 @@
    Created by Aizat Ozbekova on 4/6/24.
    Copyright (c) 2024 ___ORGANIZATIONNAME___. All rights reserved.
 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+    <key>sorniyeDirectories</key>
+    <array>
+        <dict>
+            <key>image</key>
+            <string>sras1</string>
+            <key>name</key>
+            <string>Аистник цикутовый</string>
+            <key>nameInEnglish</key>
+            <string>Erodium cicutarium</string>
+            <key>name1</key>
+            <string>sras1</string>
+            <key>subName1</key>
+            <string>sras1</string>
+            <key>name2</key>
+            <string>sras1</string>
+            <key>subName2</key>
+            <string>sras1</string>
+            <key>name3</key>
+            <string>sras1</string>
+            <key>subName3</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>subName4</string>
+            <key>name5</key>
+            <string>subName5</string>
+            <key>name6</key>
+            <string>subName6</string>
+            <key>name7</key>
+            <string>subName7</string>
+            <key>name8</key>
+            <string>subName8</string>
+            <key>name9</key>
+            <string>subName9</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>sras2</string>
+            <key>name</key>
+            <string>Акалифа южная</string>
+            <key>nameInEnglish</key>
+            <string>Acalypha autralis L.</string>
+            <key>name1</key>
+            <string>sras1</string>
+            <key>subName1</key>
+            <string>sras1</string>
+            <key>name2</key>
+            <string>sras1</string>
+            <key>subName2</key>
+            <string>sras1</string>
+            <key>name3</key>
+            <string>sras1</string>
+            <key>subName3</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>subName4</string>
+            <key>name5</key>
+            <string>subName5</string>
+            <key>name6</key>
+            <string>subName6</string>
+            <key>name7</key>
+            <string>subName7</string>
+            <key>name8</key>
+            <string>subName8</string>
+            <key>name9</key>
+            <string>subName9</string>
+        </dict>
+
+    </array>
+    <key>bolezniDirectories</key>
+    <array>
+        <dict>
+            <key>image</key>
+            <string>bolez1</string>
+            <key>name</key>
+            <string>Альтернариоз подсолнечника</string>
+            <key>nameInEnglish</key>
+            <string>Alternaria spp.</string>
+            <key>name1</key>
+            <string>sras1</string>
+            <key>subName1</key>
+            <string>sras1</string>
+            <key>name2</key>
+            <string>sras1</string>
+            <key>subName2</key>
+            <string>sras1</string>
+            <key>name3</key>
+            <string>sras1</string>
+            <key>subName3</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>subName4</string>
+            <key>name5</key>
+            <string>subName5</string>
+            <key>name6</key>
+            <string>subName6</string>
+            <key>name7</key>
+            <string>subName7</string>
+            <key>name8</key>
+            <string>subName8</string>
+            <key>name9</key>
+            <string>subName9</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>bolez2</string>
+            <key>name</key>
+            <string>Альтернариоз рапса</string>
+            <key>nameInEnglish</key>
+            <string>Alternaria spp.</string>
+            <key>name1</key>
+            <string>sras1</string>
+            <key>subName1</key>
+            <string>sras1</string>
+            <key>name2</key>
+            <string>sras1</string>
+            <key>subName2</key>
+            <string>sras1</string>
+            <key>name3</key>
+            <string>sras1</string>
+            <key>subName3</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>subName4</string>
+            <key>name5</key>
+            <string>subName5</string>
+            <key>name6</key>
+            <string>subName6</string>
+            <key>name7</key>
+            <string>subName7</string>
+            <key>name8</key>
+            <string>subName8</string>
+            <key>name9</key>
+            <string>subName9</string>
+        </dict>
+    </array>
+    <key>vrediteliDirectories</key>
+    <array>
+        <dict>
+            <key>image</key>
+            <string>vred1</string>
+            <key>name</key>
+            <string>Акациевая ложнощитовка</string>
+            <key>nameInEnglish</key>
+            <string>Parthenolecanium corni</string>
+            <key>name1</key>
+            <string>sras1</string>
+            <key>subName1</key>
+            <string>sras1</string>
+            <key>name2</key>
+            <string>sras1</string>
+            <key>subName2</key>
+            <string>sras1</string>
+            <key>name3</key>
+            <string>sras1</string>
+            <key>subName3</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>subName4</string>
+            <key>name5</key>
+            <string>subName5</string>
+            <key>name6</key>
+            <string>subName6</string>
+            <key>name7</key>
+            <string>subName7</string>
+            <key>name8</key>
+            <string>subName8</string>
+            <key>name9</key>
+            <string>subName9</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>vred2</string>
+            <key>name</key>
+            <string>Акациевая огневка</string>
+            <key>nameInEnglish</key>
+            <string>Etiella zenckeneila</string>
+            <key>name1</key>
+            <string>sras1</string>
+            <key>subName1</key>
+            <string>sras1</string>
+            <key>name2</key>
+            <string>sras1</string>
+            <key>subName2</key>
+            <string>sras1</string>
+            <key>name3</key>
+            <string>sras1</string>
+            <key>subName3</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>subName4</string>
+            <key>name5</key>
+            <string>subName5</string>
+            <key>name6</key>
+            <string>subName6</string>
+            <key>name7</key>
+            <string>subName7</string>
+            <key>name8</key>
+            <string>subName8</string>
+            <key>name9</key>
+            <string>subName9</string>
+        </dict>
+    </array>
+    <key>cultureDirectories</key>
+    <array>
+        <dict>
+            <key>image</key>
+            <string>culture1</string>
+            <key>name</key>
+            <string>Абрикос обыкновенный</string>
+            <key>nameInEnglish</key>
+            <string>Prunus armeniaca L.</string>
+            <key>name1</key>
+            <string>sras1</string>
+            <key>subName1</key>
+            <string>sras1</string>
+            <key>name2</key>
+            <string>sras1</string>
+            <key>subName2</key>
+            <string>sras1</string>
+            <key>name3</key>
+            <string>sras1</string>
+            <key>subName3</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>subName4</string>
+            <key>name5</key>
+            <string>subName5</string>
+            <key>name6</key>
+            <string>subName6</string>
+            <key>name7</key>
+            <string>subName7</string>
+            <key>name8</key>
+            <string>subName8</string>
+            <key>name9</key>
+            <string>subName9</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>culture2</string>
+            <key>name</key>
+            <string>Айва</string>
+            <key>nameInEnglish</key>
+            <string>Cydonia</string>
+            <key>name1</key>
+            <string>sras1</string>
+            <key>subName1</key>
+            <string>sras1</string>
+            <key>name2</key>
+            <string>sras1</string>
+            <key>subName2</key>
+            <string>sras1</string>
+            <key>name3</key>
+            <string>sras1</string>
+            <key>subName3</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>subName4</string>
+            <key>name5</key>
+            <string>subName5</string>
+            <key>name6</key>
+            <string>subName6</string>
+            <key>name7</key>
+            <string>subName7</string>
+            <key>name8</key>
+            <string>subName8</string>
+            <key>name9</key>
+            <string>subName9</string>
+        </dict>
+    </array>
+    <key>deistDirectories</key>
+    <array>
+        <dict>
+            <key>name</key>
+            <string>2,4-Д (2-этилгексиловый эфир)</string>
+            <key>nameInEnglish</key>
+            <string>2,4-D (2-ethylhexyl)</string>
+            <key>content</key>
+            <string>content</string>
+            <key>description</key>
+            <string>Пестицид, гербицид. Применяется в составе различных препаратов против двудольных сорняков.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Азимсульфурон</string>
+            <key>nameInEnglish</key>
+            <string>Azimsulfuron</string>
+            <key>content</key>
+            <string>1-(4,6-диметоксипиримидин-2-ил)-3-[1- метил-4-(2-метил-2Н-тетразол-5-ил)-пиразол-5-илсульфонил] мочевина</string>
+            <key>description</key>
+            <string>Пестицид, избирательный системный гербицид. Используется для борьбы с осоковыми, широколистными и злаковыми сорняками на посевах риса.</string>
+        </dict>
+    </array>
+    <key>terminDirectories</key>
+    <array>
+        <dict>
+            <key>name</key>
+            <string>Абиотические факторы</string>
+            <key>nameInEnglish</key>
+            <string>Abiotic factores</string>
+            <key>description</key>
+            <string>Факторы неживой природы, воздействующие на живые организмы и оказывающие на них позитивное или негативное влияние.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Автоцидный пояс</string>
+            <key>nameInEnglish</key>
+            <string>Autocidal belt</string>
+            <key>description</key>
+            <string>Материал в виде полосы, обработанный инсектицидом и наложенный на ствол или скелетные ветви дерева для уничтожения вредителей.</string>
+        </dict>
+    </array>
+</dict>
 </plist>
+
