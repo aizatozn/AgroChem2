@@ -350,7 +350,7 @@ final class ClientExamsViewModelImpl: BaseVM<UnownedRouter<ClientDirectoryRoute>
                              nameInEnglish: "Etiella zenckeneila",
                              name1: "htrgf",
                              subName1: "uvhj",
-                             name2: "vujh", 
+                              name2: "vujh", 
                              subName2: "guyvj",
                              name3: "hio",
                              subName3: "fyuhv",

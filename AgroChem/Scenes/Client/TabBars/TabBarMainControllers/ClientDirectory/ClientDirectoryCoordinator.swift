@@ -60,7 +60,7 @@ final class ClientDirectoryCoordinator: NavigationCoordinator<ClientDirectoryRou
             controller.viewModel.directories.send(directories)
             controller.viewModel.router = unownedRouter
             return .push(controller)
-        
+
         case .details(let model):
             let controller = DirectoryDetailsController()
             controller.viewModel.router = unownedRouter

@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 
 final class DirectoryDetailsPresentable: BaseView {
-    
+
     private let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.isScrollEnabled = true
@@ -48,7 +48,7 @@ final class DirectoryDetailsPresentable: BaseView {
     let name1Label: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.font = .systemFont(ofSize: 28, weight: .semibold)
+        label.font = .systemFont(ofSize: 18, weight: .semibold)
         return label
     }()
     let subName1Label: UILabel = {
@@ -61,7 +61,7 @@ final class DirectoryDetailsPresentable: BaseView {
     let name2Label: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.font = .systemFont(ofSize: 28, weight: .semibold)
+        label.font = .systemFont(ofSize: 18, weight: .semibold)
         return label
     }()
     let subName2Label: UILabel = {
@@ -74,7 +74,7 @@ final class DirectoryDetailsPresentable: BaseView {
     let name3Label: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.font = .systemFont(ofSize: 28, weight: .semibold)
+        label.font = .systemFont(ofSize: 18, weight: .semibold)
         return label
     }()
     let subName3Label: UILabel = {
@@ -87,7 +87,7 @@ final class DirectoryDetailsPresentable: BaseView {
     let name4Label: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.font = .systemFont(ofSize: 28, weight: .semibold)
+        label.font = .systemFont(ofSize: 18, weight: .semibold)
         return label
     }()
 
@@ -101,7 +101,7 @@ final class DirectoryDetailsPresentable: BaseView {
     let name5Label: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.font = .systemFont(ofSize: 28, weight: .semibold)
+        label.font = .systemFont(ofSize: 18, weight: .semibold)
         return label
     }()
 
@@ -115,7 +115,7 @@ final class DirectoryDetailsPresentable: BaseView {
     let name6Label: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.font = .systemFont(ofSize: 28, weight: .semibold)
+        label.font = .systemFont(ofSize: 18, weight: .semibold)
         return label
     }()
 
@@ -129,7 +129,7 @@ final class DirectoryDetailsPresentable: BaseView {
     let name7Label: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.font = .systemFont(ofSize: 28, weight: .semibold)
+        label.font = .systemFont(ofSize: 18, weight: .semibold)
         return label
     }()
 
@@ -143,7 +143,7 @@ final class DirectoryDetailsPresentable: BaseView {
     let name8Label: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.font = .systemFont(ofSize: 28, weight: .semibold)
+        label.font = .systemFont(ofSize: 18, weight: .semibold)
         return label
     }()
 
@@ -157,7 +157,7 @@ final class DirectoryDetailsPresentable: BaseView {
     let name9Label: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.font = .systemFont(ofSize: 28, weight: .semibold)
+        label.font = .systemFont(ofSize: 18, weight: .semibold)
         return label
     }()
 
@@ -175,7 +175,6 @@ final class DirectoryDetailsPresentable: BaseView {
     override func onAddSubviews() {
         addSubview(scrollView)
         scrollView.addSubview(contentView)
-        
         contentView.addSubviews(nameLabel, subNameLabel, photoImageView, name1Label,
                     subName1Label, name2Label, subName2Label, name3Label,
                     subName3Label, name4Label, subName4Label, name5Label,
@@ -185,7 +184,7 @@ final class DirectoryDetailsPresentable: BaseView {
 
     // swiftlint:disable function_body_length
     override func onSetupConstraints() {
-        
+
         scrollView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
