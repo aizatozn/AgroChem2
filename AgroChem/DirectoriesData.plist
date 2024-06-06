@@ -81,7 +81,40 @@
             <key>name9</key>
             <string>subName9</string>
         </dict>
-
+        <dict>
+            <key>image</key>
+            <string>sras2</string>
+            <key>name</key>
+            <string>Учунчууу</string>
+            <key>nameInEnglish</key>
+            <string>Acalypha autralis L.</string>
+            <key>name1</key>
+            <string>sras1</string>
+            <key>subName1</key>
+            <string>sras1</string>
+            <key>name2</key>
+            <string>sras1</string>
+            <key>subName2</key>
+            <string>sras1</string>
+            <key>name3</key>
+            <string>sras1</string>
+            <key>subName3</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>sras1</string>
+            <key>name4</key>
+            <string>subName4</string>
+            <key>name5</key>
+            <string>subName5</string>
+            <key>name6</key>
+            <string>subName6</string>
+            <key>name7</key>
+            <string>subName7</string>
+            <key>name8</key>
+            <string>subName8</string>
+            <key>name9</key>
+            <string>subName9</string>
+        </dict>
     </array>
     <key>bolezniDirectories</key>
     <array>
@@ -304,7 +337,7 @@
             <key>nameInEnglish</key>
             <string>2,4-D (2-ethylhexyl)</string>
             <key>content</key>
-            <string>content</string>
+            <string>2-этилгексиловый эфир</string>
             <key>description</key>
             <string>Пестицид, гербицид. Применяется в составе различных препаратов против двудольных сорняков.</string>
         </dict>
@@ -317,6 +350,348 @@
             <string>1-(4,6-диметоксипиримидин-2-ил)-3-[1- метил-4-(2-метил-2Н-тетразол-5-ил)-пиразол-5-илсульфонил] мочевина</string>
             <key>description</key>
             <string>Пестицид, избирательный системный гербицид. Используется для борьбы с осоковыми, широколистными и злаковыми сорняками на посевах риса.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Азоксистробин</string>
+            <key>nameInEnglish</key>
+            <string>Azoxystrobin</string>
+            <key>content</key>
+            <string>Метил (Е)-2-(2-[6-(2- цианофенокси) пиримидин-4- илоксифенил)-3-метоксиакрилат]</string>
+            <key>description</key>
+            <string>Фунгицид из класса стробилуринов, применяется в сельском хозяйстве (в том числе в смеси с иными действующими веществами) для борьбы с различными заболеваниями растений.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Альфа-циперметрин</string>
+            <key>nameInEnglish</key>
+            <string>Alpha-cypermethrin</string>
+            <key>content</key>
+            <string>(S)-а-циано-3-феноксибензилового эфира (1R)- цис-3-(2,2-дихлоровинил)-2, 2-диметилцикло- пропанкарбоновой кислоты</string>
+            <key>description</key>
+            <string>Химическое действующее вещество пестицидов (пиретроид), используется для борьбы с вредными насекомыми и вредителями запасов.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Бенсульфурон-метил</string>
+            <key>nameInEnglish</key>
+            <string>Bensulfuron-methyl</string>
+            <key>content</key>
+            <string>метил а-(4,6-диметоксипиримидин-2- илкарбамоилсульфамоил)-о-толуат</string>
+            <key>description</key>
+            <string>Пестицид, гербицид. Применяется для контроля сорняков в посевах риса.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Бентазон</string>
+            <key>nameInEnglish</key>
+            <string>Bentazone</string>
+            <key>content</key>
+            <string>3-изопропил-1Н-2,1,3-бензотиадиазин-4(3Н)- он, 2,2-диоксид</string>
+            <key>description</key>
+            <string>Пестицид, послевсходовый контактный гербицид. Имеет широкий спектр действия, проявляет активность по отношению ко многим сорнякам, в том числе и к клубнекамышу. Применяется как отдельный препарат, также выпускается в виде смесевых гербицидов с МЦПА (базагран М и базагран Р).</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Биспирибак кислота</string>
+            <key>nameInEnglish</key>
+            <string>Bispyribac acid</string>
+            <key>content</key>
+            <string>2,6-Бис[(4,6-диметоксипиримидин-2- ил) окси] бензойная кислота</string>
+            <key>description</key>
+            <string>Послевсходовый системный гербицид. Применяется в борьбе с различными сорняками на посевах риса.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Галоксифоп-Р-метил</string>
+            <key>nameInEnglish</key>
+            <string>Haloxyfop-P-methyl</string>
+            <key>content</key>
+            <string>Метиловый эфир П-2-[4-(3-хлор-5- трифторметилпиридил-2- окси) фенокси] пропионовой кислоты</string>
+            <key>description</key>
+            <string>Пестицид, послевсходовый гербицид. Используется в посевах двудольных культур против злаковых однолетних и многолетних вегетирующих сорняков.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Гимексазол</string>
+            <key>nameInEnglish</key>
+            <string>Hymexazol</string>
+            <key>content</key>
+            <string>5-метилизоксазол-3-ол</string>
+            <key>description</key>
+            <string>Пестицид, системный фунгицид из класса производных изоксазола, подавляет возбудителей заболеваний растений. Используется против болезней сахарной свеклы.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Десмедифам</string>
+            <key>nameInEnglish</key>
+            <string>Desmedipham</string>
+            <key>content</key>
+            <string>Этил-3-фенилкарбамоилоксифенилкарбамат; этил-3-фенилкарбамоилоксикарбанилат; 3- этоксикарбониламинофенил фенилкарбамат</string>
+            <key>description</key>
+            <string>Пестицид, системный послевсходовый гербицид. Отличается узкой избирательностью. Применяется в комбинированных препаратах, которые предназначены для уничтожения сорных растений в посевах свеклы. По характеристикам и технологии применения аналогичен фенмедифам.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Дикамба</string>
+            <key>nameInEnglish</key>
+            <string>Dicamba</string>
+            <key>content</key>
+            <string>3,6 - дихлор-о-анисовая кислота (2- метокси-3,6-дихлорбензойная кислота)</string>
+            <key>description</key>
+            <string>Пестицид, системный гербицид. Входит в состав нескольких комбинированных препаратов, в чистом виде применяется редко. Используется как селективный гербицид для уничтожения многолетних корнеотпрысковых сорняков.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Изоксафлютол</string>
+            <key>nameInEnglish</key>
+            <string>Isoxaflutole</string>
+            <key>content</key>
+            <string>5-циклопропил-1,2-оксазол-4-ил- альфа, альфа, альфа-трифтор-2-мезил-ро- толилкетон</string>
+            <key>description</key>
+            <string>Пестицид, почвенный системный гербицид. Обладает избирательным действием. Применяется при допосевном или довсходовом внесении для подавления злаковых и широколистных сорняков в посевах кукурузы.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Изопротурон</string>
+            <key>nameInEnglish</key>
+            <string>Isoproturon</string>
+            <key>content</key>
+            <string>3-(4-Изопропилфенил)-1,1-диметилмочевина</string>
+            <key>description</key>
+            <string>Пестицид, гербицид широкого спектра действия. Применяется в борьбе с сорной растительностью на посевах зерновых в смеси с дифлюфениканом.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Йодосульфурон-метил-натрий</string>
+            <key>nameInEnglish</key>
+            <string>lodosulfuron-methyl-sodium</string>
+            <key>content</key>
+            <string>Метил 4-иодо-2-[3-(4-метокси-6-метил-1,3,5- триазин-2-ил) уреидосульфонил] бензоат, натриевая соль</string>
+            <key>description</key>
+            <string>Пестицид, послевсходовый гербицид класса сульфонилмочевин. Системное действие препарата обуславливает высокую эффективность в борьбе с 2-дольными сорняками в посевах сельскохозяйственных культур.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Каптан</string>
+            <key>nameInEnglish</key>
+            <string>Captan</string>
+            <key>content</key>
+            <string>1,2,5,6-тетрагидро-N- трихлорметилтиофталимид</string>
+            <key>description</key>
+            <string>Действующее вещество пестицидов, контактный фунгицид из класса фталимиды, используется в сельском хозяйстве для борьбы с болезнями растений.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Ленацил</string>
+            <key>nameInEnglish</key>
+            <string>Lenacil</string>
+            <key>content</key>
+            <string>3-Циклогексил-1,5,6,7- тетрагидроциклопентапиримидин-2,4 (3Н)- дион</string>
+            <key>description</key>
+            <string>Пестицид, гербицид. Используется на посевах сахарной, кормовой и столовой свеклы как системный селективный довсходовый или послевсходовый гербицид.</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Люфенурон</string>
+            <key>nameInEnglish</key>
+            <string>Lufenuron</string>
+            <key>content</key>
+            <string>(RS)-1-/2,5-дихлор-4-(1,1,2,3,3,3- гексафторпропокси)-фенил-3-(2,6- дифторбензоил)-мочевина</string>
+            <key>description</key>
+            <string>Химическое действующее вещество пестицидов (ингибитор синтеза хитина у насекомых), используется (в том числе в смесях с другими активными компонентами) в сельском хозяйстве для борьбы с вредными насекомыми.</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Малатион (Карбофос)</string>
+            <key>nameInEnglish</key>
+            <string>Malathion</string>
+            <key>content</key>
+            <string>О,О-Диметил-Ѕ-(1,2- дикарбэтоксиэтил) дитиофосфат</string>
+            <key>description</key>
+            <string>Химическое действующее вещество пестицидов (фосфорорганический инсектицид), используется в сельском хозяйстве для борьбы с вредными насекомыми, клещами и вредителями запасов (в том числе в смесях с другими активными компонентами); в практике медицинской, санитарной и бытовой дезинсекции (в том числе как противопедикулезное средство).</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Мезосульфурон-метил</string>
+            <key>nameInEnglish</key>
+            <string>Mesosulfuron-methyl</string>
+            <key>content</key>
+            <string>2-[(4,6-Диметоксипиримидин-2- ил) карбамоилсульфамоил)-4-(метил- сульфониламино)-метилбензойная кислота, метиловый эфир</string>
+            <key>description</key>
+            <string>Пестицид, гербицид. Рекомендуется для борьбы с сорняками на посевах зерновых.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Напропамид</string>
+            <key>nameInEnglish</key>
+            <string>Napropamide</string>
+            <key>content</key>
+            <string>2-(Нафтил-1-окси) пропионовой кислоты диэтиламид</string>
+            <key>description</key>
+            <string>Довсходовый или допосевной гербицид из класса алканамиды для уничтожения сорняков при возделывании рапса и томата.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Никосульфурон</string>
+            <key>Naphthalic anhydride</key>
+            <string>Napropamide</string>
+            <key>content</key>
+            <string>Ангидрид нафталин-1,8-дикарбоновой кислоты</string>
+            <key>description</key>
+            <string>Антидот. Способствует ускорению детоксикации гербицидов в злаках, росту устойчивости к ним урожая.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Оксифлуорфен</string>
+            <key>nameInEnglish</key>
+            <string>Oxyfluorfen</string>
+            <key>content</key>
+            <string>а,а,а-Трифтор-2-хлор-п-толил-4'-нитро-3'- этоксифениловый эфир</string>
+            <key>description</key>
+            <string>Пестицид, пред- или послевсходовый гербицид. Применяется в борьбе со злаковыми и двудольными сорняками при выращивании хлопчатника, сои, овощных культур и древесных растений.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Пендиметалин</string>
+            <key>nameInEnglish</key>
+            <string>Pendimethalin</string>
+            <key>content</key>
+            <string>N-(1-этилпропил)-2, 6-динитро-3,4-ксилидин</string>
+            <key>description</key>
+            <string>Пестицид, почвенный гербицид. Вносится в почву не только при посеве, но и до, и после него. Контролирует практически все однолетние сорняки.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Пеноксулам</string>
+            <key>nameInEnglish</key>
+            <string>Penoxsulam</string>
+            <key>content</key>
+            <string>2-(2,2-Дифторэтокси)-N-(5,8- диметокси [1,2,4] триазоло [1,5-с] пиримидин-2- ил)-6-(трифторметил) бензолсульфамид</string>
+            <key>description</key>
+            <string>Пестицид, системный гербицид. Применяется на посевах риса.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Римсульфурон</string>
+            <key>nameInEnglish</key>
+            <string>Rimsulfuron</string>
+            <key>content</key>
+            <string>1-(4,6-диметок-сипиримидин-2-ил)-3-(3- этилсульфонил-2-пиридилсульфонил) мочевина</string>
+            <key>description</key>
+            <string>Пестицид, послевсходовый гербицид. Обладает системным действием. Рекомендуется в борьбе с травами и широколистными сорняками на посевах кукурузы.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>С-Метолахлор</string>
+            <key>nameInEnglish</key>
+            <string>S-metolachlor</string>
+            <key>content</key>
+            <string>Смесь изомеров (ARS, 1S)-2-хлор-6'-этил-N-(2- метокси-метил-этил) ацето-о-толуидид и (aRS, 1R)-2-хлор-6'-этил-N-(2-метокси-метил- этил) ацето-о-толуидид = 80-100%: 20-0%</string>
+            <key>description</key>
+            <string>Пестицид, почвенный предвсходовый гербицид. Препараты на его основе используются против однодольных и некоторых двудольных сорняков.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Тау-флювалинат</string>
+            <key>nameInEnglish</key>
+            <string>Tau-fluvalinate</string>
+            <key>content</key>
+            <string>N-(а,а,а-трифтор-2-хлор-п-толил)-D-валина (RS)-3-Фенокси-а-цианобензиловый эфир</string>
+            <key>description</key>
+            <string>Химическое действующее вещество пестицидов (пиретроид), используется в сельском хозяйстве для борьбы с вредными насекомыми и клещами.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Фенитротион</string>
+            <key>nameInEnglish</key>
+            <string>Fenitrothion</string>
+            <key>content</key>
+            <string>О,О-Диметил-О-(3-метил-4- нитрофенил) тиофосфат</string>
+            <key>description</key>
+            <string>Химическое действующее вещество пестицидов (фосфорорганический инсектицид), используется в сельском хозяйстве и практике медицинской, санитарной и бытовой дезинсекции для борьбы с вредными и синантропными насекомыми.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Фенмедифам</string>
+            <key>nameInEnglish</key>
+            <string>Phenmedipham</string>
+            <key>content</key>
+            <string>Метил-3-(3-метилкарбанилокси)-карбанила</string>
+            <key>description</key>
+            <string>Пестицид, гербицид. Обладает системным избирательным действием. Препараты на его основе используются по всходам свеклы во время образования 2-х настоящих листьев.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Хизалофоп-П-этил</string>
+            <key>nameInEnglish</key>
+            <string>Quizalofop-P-ethyl</string>
+            <key>content</key>
+            <string>(R)-2-[4-(6-[хлоро-2- хиноксалинил) окси] фенокси] пропионовой кислоты этиловый эфир</string>
+            <key>description</key>
+            <string>Пестицид, высокоэффективный гербицид для обработки вегетирующих растений. Применяется против злаковых сорняков в посевах многих широколистных культур.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Хлорантранилипрол</string>
+            <key>nameInEnglish</key>
+            <string>Chlorantraniliprole</string>
+            <key>content</key>
+            <string>3-бром-4'-хлор-1-(3-хлор-2-пиридил)-2'- метил-6'-(метилкарбамоил) пиразол-5- карбоксанилид</string>
+            <key>description</key>
+            <string>Химическое действующее вещество пестицидов, используется в сельском хозяйстве для борьбы с вредными насекомыми.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Циклоксидим</string>
+            <key>nameInEnglish</key>
+            <string>Cycloxydim</string>
+            <key>content</key>
+            <string>3-Гидрокси-5-тиан-3-ил-2-[1- (этоксимино) бутил] циклогекс-2-енон (BASF)</string>
+            <key>description</key>
+            <string>Гербицид для селективной борьбы с одно- и многолетними сорными злаками в послевсходовый период в широколистных культурах, хлопчатник, лен, рапс, картофель, соя, сахарная свекла, подсолнечник, цитрусовые, плодовые, овощные и декоративные культуры.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Циперметрин</string>
+            <key>nameInEnglish</key>
+            <string>Cypermethrin</string>
+            <key>content</key>
+            <string>а-Циано-3-феноксибензиловый эфир 3-(2,2- дихлор-винил)-2,2- диметилциклопропанкарбоновой кислоты</string>
+            <key>description</key>
+            <string>Химическое действующее вещество пестицидов (пиретроид), используется (в том числе в смесях с другими активными компонентами) в сельском и личных приусадебных хозяйствах для борьбы вредными насекомыми и в практике медицинской, санитарной и бытовой дезинсекции для борьбы с вредными и синантропными насекомыми.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Эпоксиконазол</string>
+            <key>nameInEnglish</key>
+            <string>Epoxiconazole</string>
+            <key>content</key>
+            <string>(2RS,3SR)-1-[3-(2-хлорфенил)-2,3-эпокси-2-(4- фторфенил) пропил]-1H-1,2,4-триазол</string>
+            <key>description</key>
+            <string>Фунгицид широкого спектра действия из класса триазолов. Входит в состав многих препаратов. Отличается высокой эффективностью против возбудителей мучнистой росы, ржавчины, пятнистостей колоса и листьев зерновых культур.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Эсфенвалерат</string>
+            <key>nameInEnglish</key>
+            <string>Esfenvalerate</string>
+            <key>content</key>
+            <string>Аа-фенвалерата-(S)-3-метил-2-(4-хлорфенил)- масляной кислоты (S)-а-циано-3- феноксибензиловый эфир</string>
+            <key>description</key>
+            <string>Химическое действующее вещество пестицидов (пиретроид), используется в сельском и личных приусадебных хозяйствах для борьбы с вредными насекомыми.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Этаметсульфурон-метил</string>
+            <key>nameInEnglish</key>
+            <string>Ethametsulfuron-methyl</string>
+            <key>content</key>
+            <string>метил-2-[(4-этокси-6-метиламино-1,3,5- илами триазин 2-ил) карбамоилсульфамоил] бензоат</string>
+            <key>description</key>
+            <string>Пестицид, гербицид системного действия. Эффективен в борьбе с двудольными сорняками в посевах рапса.</string>
         </dict>
     </array>
     <key>terminDirectories</key>
@@ -336,6 +711,478 @@
             <string>Autocidal belt</string>
             <key>description</key>
             <string>Материал в виде полосы, обработанный инсектицидом и наложенный на ствол или скелетные ветви дерева для уничтожения вредителей.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Акарифаг</string>
+            <key>nameInEnglish</key>
+            <string>Acariphage</string>
+            <key>description</key>
+            <string>Организм, питающийся клещами.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Акарицид</string>
+            <key>nameInEnglish</key>
+            <string>Acaricide</string>
+            <key>description</key>
+            <string>Химическое вещество для борьбы с клещами.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Акклиматизация энтомофагов</string>
+            <key>nameInEnglish</key>
+            <string>Acclimatization of a entomophages</string>
+            <key>description</key>
+            <string>Приспособление интродуцированных энтомофагов к новым условиям существования.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Альгицид</string>
+            <key>nameInEnglish</key>
+            <string>Algicide</string>
+            <key>description</key>
+            <string>Химическое вещество для уничтожения водорослей.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Бактериоз растений</string>
+            <key>nameInEnglish</key>
+            <string>Plant bacteriosis</string>
+            <key>description</key>
+            <string>Болезнь растений, вызываемая бактериями.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Бактериофаг</string>
+            <key>nameInEnglish</key>
+            <string>Bacteriophage</string>
+            <key>description</key>
+            <string>Вирус, поражающий бактерии.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Бактерицид</string>
+            <key>nameInEnglish</key>
+            <string>Bactericide</string>
+            <key>description</key>
+            <string>Химическое вещество для борьбы с бактериями.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Безвредная доза пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Harmless dose of a pesticide</string>
+            <key>description</key>
+            <string>Доза пестицида, которая при однократном введении не вызывает отрицательных изменений во вредном организме. Примечание. Выражается в единицах массы пестицида по отношению к единице массы вредного организма (мг/кг).</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Вермицид</string>
+            <key>nameInEnglish</key>
+            <string>Vermicide</string>
+            <key>description</key>
+            <string>Химическое вещество для борьбы с червями.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Вироз растений</string>
+            <key>nameInEnglish</key>
+            <string>Plant virosis</string>
+            <key>description</key>
+            <string>Болезнь растений, вызываемая вирусами.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Вирусоцид</string>
+            <key>nameInEnglish</key>
+            <string>Virusocide</string>
+            <key>description</key>
+            <string>Химическое вещество для борьбы с вирусами.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Влажное протравливание семенного (посадочного) материала пестицидом</string>
+            <key>nameInEnglish</key>
+            <string>Moist disinfection of seeds (planting material)</string>
+            <key>description</key>
+            <string>Протравливание семенного (посадочного) материала в вакууме с применением жидких протравителей.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Гербицид</string>
+            <key>nameInEnglish</key>
+            <string>Herbicide</string>
+            <key>description</key>
+            <string>Химическое вещество для уничтожения нежелательной травянистой растительности.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Гербицид избирательного действия</string>
+            <key>nameInEnglish</key>
+            <string>Selective herbicide</string>
+            <key>description</key>
+            <string>Гербицид, уничтожающий одни виды травянистой растительности и практически не влияющий отрицательно на другие, в том числе культурные растения.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Гербицид листового действия</string>
+            <key>nameInEnglish</key>
+            <string>Foliar herbicide</string>
+            <key>description</key>
+            <string>Гербицид, проникающий в растение через листья и другие наземные органы и позволяют уничтожить вегетирующие сорные растения.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Гербицид сплошного действия</string>
+            <key>nameInEnglish</key>
+            <string>Nonselective herbicide</string>
+            <key>description</key>
+            <string>Гербицид, уничтожающий всю травянистую растительность на обрабатываемой площади.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Гербицид сплошного действия</string>
+            <key>nameInEnglish</key>
+            <string>Nonselective herbicide</string>
+            <key>description</key>
+            <string>Гербицид, уничтожающий всю травянистую растительность на обрабатываемой площади.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Действующее вещество пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Active ingredient of a pesticide</string>
+            <key>description</key>
+            <string>Химическое вещество, входящее в состав пестицида и оказывающее на вредный организм токсическое действие.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Десикант</string>
+            <key>nameInEnglish</key>
+            <string>Desiccant</string>
+            <key>description</key>
+            <string>Химическое вещество для предуборочного высушивания растений с целью механизации уборочных работ и уменьшения потерь при уборке урожая.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Детоксикация пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Pesticide detoxication</string>
+            <key>description</key>
+            <string>Превращение пестицида в другие химические соединения, нетоксичные для вредного организма или теплокровного животного.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Естественный враг вредного организма растений</string>
+            <key>nameInEnglish</key>
+            <string>Natural enemy of a plant pest</string>
+            <key>description</key>
+            <string>Организм, размножающийся в естественных условиях и уничтожающий или подавляющий жизнедеятельность вредного организма растений.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Защита растений</string>
+            <key>nameInEnglish</key>
+            <string>Plant protection</string>
+            <key>description</key>
+            <string>Раздел прикладной биологии, разрабатывающий теоретические основы и методы предотвращения и снижения потерь от вредных организмов, а также раздел сельскохозяйственного производства, осуществляющий применение этих методов.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Избирательная способность энтомофага</string>
+            <key>nameInEnglish</key>
+            <string>Selective capacity of an entomophage</string>
+            <key>description</key>
+            <string>Предпочтение энтомофагом в качестве питательного субстрата одних видов насекомых или стадии их развития другим.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Инкрустация семян</string>
+            <key>nameInEnglish</key>
+            <string>Incrustation of seeds</string>
+            <key>description</key>
+            <string>Покрытие семян водорастворимой пленкой, включающей защитные ростовые активные вещества и краситель.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Кишечный инсектицид</string>
+            <key>nameInEnglish</key>
+            <string>Intestinal insecticide</string>
+            <key>description</key>
+            <string>Инсектицид, уничтожающий насекомое, попадая в его организм вместе с пищей.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Комбинированный пестицид</string>
+            <key>nameInEnglish</key>
+            <string>Composite pesticide</string>
+            <key>description</key>
+            <string>Пестицид, состоящий из смеси нескольких действующих веществ разного назначения, действия которых распространяются на большее число вредных организмов, чем действие одного из них.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Контактный гербицид</string>
+            <key>nameInEnglish</key>
+            <string>Contact herbicide</string>
+            <key>description</key>
+            <string>Гербицид, токсически действующий на ткани растений непосредственно в месте контакта рабочего раствора с растением. Примечание. Поврежденная контактным гербицидом ткань имеет обычно вид неспецифического ожога.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Ларвицид</string>
+            <key>nameInEnglish</key>
+            <string>Larvicide</string>
+            <key>description</key>
+            <string>Химическое вещество для борьбы с личинками насекомых и клещей.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Летальная доза пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Lethal dose of a pesticide</string>
+            <key>description</key>
+            <string>Доза пестицида, вызывающая при однократном введении 100%-ную гибель вредных организмов.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Локальное применение пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Local application of a pesticide</string>
+            <key>description</key>
+            <string>Выборочное применение пестицида в местах концентрации вредных организмов или в местах наибольшего контакта с ним.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Мелкогранулированный препарат пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Small-pelleted pesticide</string>
+            <key>description</key>
+            <string>Непылящий препарат пестицида с размером гранул от 0,1 до 0,5 мм.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Мелкозернистый препарат пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Small-grained pesticide</string>
+            <key>description</key>
+            <string>Непылящий препарат пестицида с размером зерен около 0,1 мм.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Мелкокапельное опрыскивание пестицидом</string>
+            <key>nameInEnglish</key>
+            <string>Small-drop spraying with a pesticide</string>
+            <key>description</key>
+            <string>Опрыскивание растений пестицидом, при котором не менее 80% жидкости разбрызгивается в виде капель размером от 0,05 до 0,15 мм.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Метаболизм пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Pesticide metabolism</string>
+            <key>description</key>
+            <string>Превращение пестицида внутри живого организма.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Нематодоз растений</string>
+            <key>nameInEnglish</key>
+            <string>Plant nematodosis</string>
+            <key>description</key>
+            <string>Болезнь растений, вызываемая нематодами.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Нематоцид</string>
+            <key>nameInEnglish</key>
+            <string>Nematicide</string>
+            <key>description</key>
+            <string>Химическое вещество для борьбы с нематодами.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Норма расхода пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Pesticide consumption rate</string>
+            <key>description</key>
+            <string>Количество действующего вещества или препарата пестицида, расходуемое на единицу площади обрабатываемой поверхности, единицу массы, объема или на отдельный объект.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Овицид</string>
+            <key>nameInEnglish</key>
+            <string>Ovicide</string>
+            <key>description</key>
+            <string>Химическое вещество для уничтожения яиц насекомых и клещей.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Остаточное количество пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Pesticide residue</string>
+            <key>description</key>
+            <string>Pesticide residue.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Остаточное последействие гербицида</string>
+            <key>nameInEnglish</key>
+            <string>Residual effect of a herbicide</string>
+            <key>description</key>
+            <string>Влияние применения гербицида в предыдущие годы на состояние культурных растений, почвы и степень засоренности посева данного года, вызванное сохранившимися остатками гербицида.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Паразитическая активность энтомофага</string>
+            <key>nameInEnglish</key>
+            <string>Parasitic activity of an entomophage</string>
+            <key>description</key>
+            <string>Способность энтомофага обнаруживать и заражать насекомое.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Первичное испытание пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Primary test of a pesticide</string>
+            <key>description</key>
+            <string>Испытание токсичности пестицида для лабораторных подопытных тест-объектов в целях отбора пестицидов для их производственного применения.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Пестицид</string>
+            <key>nameInEnglish</key>
+            <string>Pesticide</string>
+            <key>description</key>
+            <string>Химическое вещество, используемое для борьбы с вредными организмами, повреждающими растения, вызывающими порчу сельскохозяйственной продукции, материалов, изделий, а также для борьбы с паразитами и переносчиками заболеваний человека и животных.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Родентицид</string>
+            <key>nameInEnglish</key>
+            <string>Rodenticide</string>
+            <key>description</key>
+            <string>Химическое вещество для борьбы с грызунами.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Рядковое опрыскивание пестицидом</string>
+            <key>nameInEnglish</key>
+            <string>Band spraying with a pesticide</string>
+            <key>description</key>
+            <string>Опрыскивание пестицидом пропашных культур, при котором рабочий раствор распределяется по рядкам обрабатываемого посева.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Септицемия</string>
+            <key>nameInEnglish</key>
+            <string>Septicemia</string>
+            <key>description</key>
+            <string>Заболевание, вызываемое массовым размножением микроорганизмов в тканях и органах животных.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Серийный метод оценки токсичности пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Serial method of pesticide toxicity evaluation</string>
+            <key>description</key>
+            <string>Метод определения токсичности пестицида путем групповой обработки подопытных тест-объектов определенным количеством пестицида.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Токсин фитопатогена</string>
+            <key>nameInEnglish</key>
+            <string>Phytopathogene toxin</string>
+            <key>description</key>
+            <string>Вещество, образующееся в результате нормальной жизнедеятельности фитопатогена и ядовитое для растений.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Токсичность пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Pesticide toxicity</string>
+            <key>description</key>
+            <string>Свойство пестицида в определенных количествах нарушать нормальную жизнедеятельность вредного организма и вызывать его гибель.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Удерживаемость пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Retention of a pesticide</string>
+            <key>description</key>
+            <string>Интервал времени после применения пестицида, в течение которого он сохраняет свою активность по отношению к вредному организму.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Фитопатоген</string>
+            <key>nameInEnglish</key>
+            <string>Phytopathogene</string>
+            <key>description</key>
+            <string>Возбудитель болезни растений.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Фитосанитария</string>
+            <key>nameInEnglish</key>
+            <string>Phytosanitary</string>
+            <key>description</key>
+            <string>Мероприятия по уменьшению количества или уничтожению вредных организмов.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Фитофаг</string>
+            <key>nameInEnglish</key>
+            <string>Phytophage</string>
+            <key>description</key>
+            <string>Организм, питающийся растениями.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Фунгицид</string>
+            <key>nameInEnglish</key>
+            <string>Fungicide</string>
+            <key>description</key>
+            <string>Химическое вещество для борьбы с грибными заболеваниями.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Хемостерилянт</string>
+            <key>nameInEnglish</key>
+            <string>Chemosterilant</string>
+            <key>description</key>
+            <string>Химическое вещество для половой стерилизации вредителей.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Химиотерапия растений</string>
+            <key>nameInEnglish</key>
+            <string>Chemotherapy of plants</string>
+            <key>description</key>
+            <string>Химическая защита растений, основанная на использовании пестицидов, поступающих в ткани растений и вызывающих гибель вредных организмов.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Химическая защита растений</string>
+            <key>nameInEnglish</key>
+            <string>Chemical plant protection</string>
+            <key>description</key>
+            <string>Защита растений от вредных организмов с помощью химических средств.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Циркуляция пестицида в среде</string>
+            <key>nameInEnglish</key>
+            <string>Circulation of a pesticide in the environment</string>
+            <key>description</key>
+            <string>Перемещение пестицида в среде под влиянием физических и биологических факторов.</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Экономическая эффективность применения пестицида</string>
+            <key>nameInEnglish</key>
+            <string>Economic effectiveness of pesticide application</string>
+            <key>description</key>
+            <string>Стоимость защищенной от вредителей, болезней или сорняков сельскохозяйственной продукции за вычетом всех затрат на пестицид и его применение.</string>
         </dict>
     </array>
 </dict>

@@ -12,6 +12,8 @@ enum ClientDirectoryRoute: Route {
     case home
     case next
     case directoryDetails(title: String, directories: [ClientDirectoryModel])
+    case activeSubstances([ClientSecondDirectoryModel]) // Add this case
+    case terms([ClientThirdDirectoryModel]) // Add this case
     case secondDirectoryDetails(title: String, directories: [ClientSecondDirectoryModel])
     case thirdDirectoryDetails(title: String, directories: [ClientThirdDirectoryModel])
     case details(model: ClientDirectoryModel)
@@ -65,6 +67,18 @@ final class ClientDirectoryCoordinator: NavigationCoordinator<ClientDirectoryRou
             let controller = DirectoryDetailsController()
             controller.viewModel.router = unownedRouter
             controller.viewModel.model.send(model)
+            return .push(controller)
+
+        case .activeSubstances(let dir):
+            let controller = ClientSecondDirectoryDetailsController()
+            controller.viewModel.router = unownedRouter
+            controller.viewModel.directories.send(dir)
+            return .push(controller)
+
+        case .terms(let dir):
+            let controller = ClientThirdDirectoryDetailsController()
+            controller.viewModel.router = unownedRouter
+            controller.viewModel.directories.send(dir)
             return .push(controller)
         }
     }

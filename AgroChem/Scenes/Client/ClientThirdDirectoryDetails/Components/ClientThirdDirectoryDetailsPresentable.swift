@@ -31,6 +31,7 @@ final class ClientThirdDirectoryDetailsPresentable: BaseView, UISearchBarDelegat
     private lazy var searchBar: UISearchBar = {
         let searchBar = UISearchBar()
         searchBar.delegate = self
+        searchBar.placeholder = "Search"
         return searchBar
     }()
 

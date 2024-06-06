@@ -18,587 +18,16 @@ protocol ClientDirectoryViewModel: BaseVMProtocol {
     var selectedDirectory: CurrentValueSubject<String?, Never> { get set }
 }
 
-// swiftlint:disable type_body_length
-final class ClientExamsViewModelImpl: BaseVM<UnownedRouter<ClientDirectoryRoute>>,
-                                     ClientDirectoryViewModel {
+final class ClientExamsViewModelImpl: BaseVM<UnownedRouter<ClientDirectoryRoute>>, ClientDirectoryViewModel {
     var counter = CurrentValueSubject<Int, Never>(0)
     var nextRoute = PassthroughSubject<Void, Never>()
     var pushToLesson = CurrentValueSubject<Int, Never>(0)
     var selectedDirectory = CurrentValueSubject<String?, Never>(nil)
-    let sorniyeDirectories: [ClientDirectoryModel] = [
-        ClientDirectoryModel(image: "sras1",
-                             name: "Аистник цикутовый",
-                             nameInEnglish: "Erodium cicutarium",
-                             name1: "hrdf",
-                             subName1: "hedf",
-                             name2: "gerfrd",
-                             subName2: "gred",
-                             name3: "gfd",
-                             subName3: "edfx",
-                             name4: "ghs",
-                             subName4: "fegsde",
-                             name5: "gdsf",
-                             subName5: "dsfsml",
-                             name6: "gersgewes",
-                             subName6: "ytguh",
-                             name7: "dfgh",
-                             subName7: "hoih",
-                             name8: "mdlmfle",
-                             subName8: "flmdlf",
-                             name9: "lkdlw",
-                             subName9: "dmfl"),
-        ClientDirectoryModel(image: "sras2",
-                             name: "Акалифа южная",
-                             nameInEnglish: "Acalypha autralis L.",
-                             name1: "hrdf",
-                             subName1: "hedf",
-                             name2: "gerfrd",
-                             subName2: "gred",
-                             name3: "gfd",
-                             subName3: "edfx",
-                             name4: "ghs",
-                             subName4: "fegsde",
-                             name5: "gdsf",
-                             subName5: "dsfsml",
-                             name6: "gersgewes",
-                             subName6: "ytguh",
-                             name7: "dfgh",
-                             subName7: "hoih",
-                             name8: "mdlmfle",
-                             subName8: "flmdlf",
-                             name9: "lkdlw",
-                             subName9: "dmfl"),
-        ClientDirectoryModel(image: "sras3",
-                             name: "Аксирис щирицевый",
-                             nameInEnglish: "Axyris amaranthoides",
-                             name1: "hrdf",
-                             subName1: "hedf",
-                             name2: "gerfrd",
-                             subName2: "gred",
-                             name3: "gfd",
-                             subName3: "edfx",
-                             name4: "ghs",
-                             subName4: "fegsde",
-                             name5: "gdsf",
-                             subName5: "dsfsml",
-                             name6: "gersgewes",
-                             subName6: "ytguh",
-                             name7: "dfgh",
-                             subName7: "hoih",
-                             name8: "mdlmfle",
-                             subName8: "flmdlf",
-                             name9: "lkdlw",
-                             subName9: "dmfl"),
-        ClientDirectoryModel(image: "sras4",
-                             name: "Амброзия голометельчатая",
-                             nameInEnglish: "Ambrosia psilostachya",
-                             name1: "hrdf",
-                             subName1: "hedf",
-                             name2: "gerfrd",
-                             subName2: "gred",
-                             name3: "gfd",
-                             subName3: "edfx",
-                             name4: "ghs",
-                             subName4: "fegsde",
-                             name5: "gdsf",
-                             subName5: "dsfsml",
-                             name6: "gersgewes",
-                             subName6: "ytguh",
-                             name7: "dfgh",
-                             subName7: "hoih",
-                             name8: "mdlmfle",
-                             subName8: "flmdlf",
-                             name9: "lkdlw",
-                             subName9: "dmfl"),
-        ClientDirectoryModel(image: "sras5",
-                             name: "Амброзия полыннолистная",
-                             nameInEnglish: "Ambrosia artemisiifolia",
-                             name1: "hrdf",
-                             subName1: "hedf",
-                             name2: "gerfrd",
-                             subName2: "gred",
-                             name3: "gfd",
-                             subName3: "edfx",
-                             name4: "ghs",
-                             subName4: "fegsde",
-                             name5: "gdsf",
-                             subName5: "dsfsml",
-                             name6: "gersgewes",
-                             subName6: "ytguh",
-                             name7: "dfgh",
-                             subName7: "hoih",
-                             name8: "mdlmfle",
-                             subName8: "flmdlf",
-                             name9: "lkdlw",
-                             subName9: "dmfl"),
-        ClientDirectoryModel(image: "sras6",
-                             name: "Амброзия трехраздельная",
-                             nameInEnglish: "Ambrosia trifida",
-                             name1: "hrdf",
-                             subName1: "hedf",
-                             name2: "gerfrd",
-                             subName2: "gred",
-                             name3: "gfd",
-                             subName3: "edfx",
-                             name4: "ghs",
-                             subName4: "fegsde",
-                             name5: "gdsf",
-                             subName5: "dsfsml",
-                             name6: "gersgewes",
-                             subName6: "ytguh",
-                             name7: "dfgh",
-                             subName7: "hoih",
-                             name8: "mdlmfle",
-                             subName8: "flmdlf",
-                             name9: "lkdlw",
-                             subName9: "dmfl"),
-        ClientDirectoryModel(image: "sras7",
-                             name: "Аметистка голубая",
-                             nameInEnglish: "Amethystea caerulea L.",
-                             name1: "hrdf",
-                             subName1: "hedf",
-                             name2: "gerfrd",
-                             subName2: "gred",
-                             name3: "gfd",
-                             subName3: "edfx",
-                             name4: "ghs",
-                             subName4: "fegsde",
-                             name5: "gdsf",
-                             subName5: "dsfsml",
-                             name6: "gersgewes",
-                             subName6: "ytguh",
-                             name7: "dfgh",
-                             subName7: "hoih",
-                             name8: "mdlmfle",
-                             subName8: "flmdlf",
-                             name9: "lkdlw",
-                             subName9: "dmfl")
-    ]
-    let bolezniDirectories: [ClientDirectoryModel] = [
-        ClientDirectoryModel(image: "bolez1",
-                             name: "Альтернариоз подсолнечника",
-                             nameInEnglish: "Alternaria spp.",
-                             name1: "gdgdf",
-                             subName1: "gdgdf",
-                             name2: "gdgdf",
-                             subName2: "gdgdf",
-                             name3: "gdgdf",
-                             subName3: "gdgdf",
-                             name4: "gdgdf",
-                             subName4: "gdgdf",
-                             name5: "gdgdf",
-                             subName5: "gdgdf",
-                             name6: "gdgdf",
-                             subName6: "gdgdf",
-                             name7: "gdgdf",
-                             subName7: "gdgdf",
-                             name8: "gdgdf",
-                             subName8: "gdgdf",
-                             name9: "gdgdf",
-                             subName9: "gdgdf"),
-        ClientDirectoryModel(image: "bolez2",
-                             name: "Альтернариоз рапса",
-                             nameInEnglish: "Alternaria spp.",
-                             name1: "gdgdf",
-                             subName1: "gdgdf",
-                             name2: "gdgdf",
-                             subName2: "Alternaria brassicae Sacc, A. brassicicola Wilts.",
-                             name3: "gdgdf",
-                             subName3: "gdgdf",
-                             name4: "gdgdf",
-                             subName4: "gdgdf",
-                             name5: "gdgdf",
-                             subName5: "gdgdf",
-                             name6: "gdgdf",
-                             subName6: "gdgdf",
-                             name7: "gdgdf",
-                             subName7: "gdgdf",
-                             name8: "gdgdf",
-                             subName8: "gdgdf",
-                             name9: "gdgdf",
-                             subName9: "gdgdf"),
-        ClientDirectoryModel(image: "bolez3",
-                             name: "Альтернариоз сои",
-                             nameInEnglish: "Alternaria tenuis Nees",
-                             name1: "gdgdf",
-                             subName1: "gdgdf",
-                             name2: "gdgdf",
-                             subName2: "Alternaria brassicae Sacc, A. brassicicola Wilts.", 
-                             name3: "gdgdf",
-                             subName3: "gdgdf", 
-                             name4: "gdgdf",
-                             subName4: "gdgdf",
-                             name5: "gdgdf",
-                             subName5: "gdgdf",
-                             name6: "gdgdf",
-                             subName6: "gdgdf",
-                             name7: "gdgdf",
-                             subName7: "gdgdf",
-                             name8: "gdgdf",
-                             subName8: "gdgdf",
-                             name9: "gdgdf",
-                             subName9: "gdgdf"),
-        ClientDirectoryModel(image: "sras4", 
-                             name: "Альтернариоз томата",
-                             nameInEnglish: "Alternaria solani Sorauer. (=Macrosporium solani Ell.et Mart.)",
-                             name1: "gdgdf",
-                             subName1: "gdgdf",
-                             name2: "gdgdf",
-                             subName2: "Alternaria brassicae Sacc, A. brassicicola Wilts.",
-                             name3: "gdgdf",
-                             subName3: "gdgdf",
-                             name4: "gdgdf",
-                             subName4: "gdgdf",
-                             name5: "gdgdf",
-                             subName5: "gdgdf",
-                             name6: "gdgdf",
-                             subName6: "gdgdf",
-                             name7: "gdgdf",
-                             subName7: "gdgdf",
-                             name8: "gdgdf",
-                             subName8: "gdgdf",
-                             name9: "gdgdf",
-                             subName9: "gdgdf"),
-        ClientDirectoryModel(image: "sras5",
-                             name: "Антракноз гороха",
-                             nameInEnglish: "Colletotrichum pisi Pat.",
-                             name1: "gdgdf",
-                             subName1: "gdgdf",
-                             name2: "gdgdf",
-                             subName2: "Alternaria brassicae Sacc, A. brassicicola Wilts.",
-                             name3: "gdgdf",
-                             subName3: "gdgdf",
-                             name4: "gdgdf",
-                             subName4: "gdgdf",
-                             name5: "gdgdf",
-                             subName5: "gdgdf",
-                             name6: "gdgdf",
-                             subName6: "gdgdf",
-                             name7: "gdgdf",
-                             subName7: "gdgdf", 
-                             name8: "gdgdf",
-                             subName8: "gdgdf",
-                             name9: "gdgdf",
-                             subName9: "gdgdf"),
-        ClientDirectoryModel(image: "sras6",
-                             name: "Амброзия трехраздельная",
-                             nameInEnglish: "Ambrosia trifida",
-                             name1: "gdgdf",
-                             subName1: "gdgdf",
-                             name2: "gdgdf", 
-                             subName2: "Alternaria brassicae Sacc, A. brassicicola Wilts.",
-                             name3: "gdgdf",
-                             subName3: "gdgdf",
-                             name4: "gdgdf", 
-                             subName4: "gdgdf",
-                             name5: "gdgdf",
-                             subName5: "gdgdf",
-                             name6: "gdgdf",
-                             subName6: "gdgdf",
-                             name7: "gdgdf",
-                             subName7: "gdgdf",
-                             name8: "gdgdf",
-                             subName8: "gdgdf",
-                             name9: "gdgdf",
-                             subName9: "gdgdf"),
-        ClientDirectoryModel(image: "sras7", 
-                             name: "Аметистка голубая",
-                             nameInEnglish: "Amethystea caerulea L.",
-                             name1: "gdgdf",
-                             subName1: "gdgdf",
-                             name2: "gdgdf",
-                             subName2: "Alternaria brassicae Sacc, A. brassicicola Wilts.",
-                             name3: "gdgdf",
-                             subName3: "gdgdf",
-                             name4: "gdgdf",
-                             subName4: "gdgdf",
-                             name5: "gdgdf",
-                             subName5: "gdgdf",
-                             name6: "gdgdf",
-                             subName6: "gdgdf",
-                             name7: "gdgdf",
-                             subName7: "gdgdf",
-                             name8: "gdgdf",
-                             subName8: "gdgdf",
-                             name9: "gdgdf",
-                             subName9: "gdgdf")
-    ]
-    let vrediteliDirectories: [ClientDirectoryModel] = [
-        ClientDirectoryModel(image: "vred1",
-                             name: "Акациевая ложнощитовка",
-                             nameInEnglish: "Parthenolecanium corni",
-                             name1: "htrgf",
-                             subName1: "uvhj",
-                             name2: "vujh",
-                             subName2: "guyvj",
-                             name3: "hio",
-                             subName3: "fyuhv",
-                             name4: "bj",
-                             subName4: "ijbk",
-                             name5: "vuyhj",
-                             subName5: "hk",
-                             name6: "uhgoi",
-                             subName6: "gugh",
-                             name7: "iug",
-                             subName7: "objk",
-                             name8: "bjlk",
-                             subName8: "knbkj",
-                             name9: "jb",
-                             subName9: "d7tu"),
-        ClientDirectoryModel(image: "vred2",
-                             name: "Акациевая огневка",
-                             nameInEnglish: "Etiella zenckeneila",
-                             name1: "htrgf",
-                             subName1: "uvhj",
-                              name2: "vujh", 
-                             subName2: "guyvj",
-                             name3: "hio",
-                             subName3: "fyuhv",
-                             name4: "bj",
-                             subName4: "ijbk",
-                             name5: "vuyhj",
-                             subName5: "hk",
-                             name6: "uhgoi",
-                             subName6: "gugh",
-                             name7: "iug",
-                             subName7: "objk",
-                             name8: "bjlk",
-                             subName8: "knbkj",
-                             name9: "jb",
-                             subName9: "d7tu"),
-        ClientDirectoryModel(image: "vred3", 
-                             name: "Амбарная моль",
-                             nameInEnglish: "Nemapogon granella",
-                             name1: "htrgf",
-                             subName1: "uvhj",
-                             name2: "vujh",
-                             subName2: "guyvj",
-                             name3: "hio",
-                             subName3: "fyuhv",
-                             name4: "bj",
-                             subName4: "ijbk",
-                             name5: "vuyhj",
-                             subName5: "hk",
-                             name6: "uhgoi",
-                             subName6: "gugh",
-                             name7: "iug",
-                             subName7: "objk",
-                             name8: "bjlk",
-                             subName8: "knbkj",
-                             name9: "jb",
-                             subName9: "d7tu"),
-        ClientDirectoryModel(image: "sras4",
-                             name: "Амброзия голометельчатая",
-                             nameInEnglish: "Ambrosia psilostachya",
-                             name1: "htrgf", 
-                             subName1: "uvhj",
-                             name2: "vujh",
-                             subName2: "guyvj",
-                             name3: "hio",
-                             subName3: "fyuhv",
-                             name4: "bj",
-                             subName4: "ijbk",
-                             name5: "vuyhj",
-                             subName5: "hk",
-                             name6: "uhgoi",
-                             subName6: "gugh",
-                             name7: "iug",
-                             subName7: "objk",
-                             name8: "bjlk",
-                             subName8: "knbkj",
-                             name9: "jb",
-                             subName9: "d7tu"),
-        ClientDirectoryModel(image: "sras4", 
-                             name: "Амброзия полыннолистная",
-                             nameInEnglish: "Ambrosia artemisiifolia",
-                             name1: "htrgf",
-                             subName1: "uvhj",
-                             name2: "vujh",
-                             subName2: "guyvj",
-                             name3: "hio",
-                             subName3: "fyuhv",
-                             name4: "bj",
-                             subName4: "ijbk",
-                             name5: "vuyhj",
-                             subName5: "hk",
-                             name6: "uhgoi",
-                             subName6: "gugh",
-                             name7: "iug",
-                             subName7: "objk",
-                             name8: "bjlk",
-                             subName8: "knbkj",
-                             name9: "jb",
-                             subName9: "d7tu")
-    ]
-    let cultureDirectories: [ClientDirectoryModel] = [
-        ClientDirectoryModel(image: "culture1", 
-                             name: "Абрикос обыкновенный",
-                             nameInEnglish: "Prunus armeniaca L.",
-                             name1: "yvhbj", 
-                             subName1: "jnml",
-                             name2: "jnml", 
-                             subName2: "jnml",
-                             name3: "jnml",
-                             subName3: "jnml",
-                             name4: "jnml",
-                             subName4: "jnml",
-                             name5: "jnml",
-                             subName5: "jnml",
-                             name6: "jnml",
-                             subName6: "jnml",
-                             name7: "jnml",
-                             subName7: "jnml",
-                             name8: "jnml",
-                             subName8: "jnml",
-                             name9: "jnml",
-                             subName9: "jnml"),
-        ClientDirectoryModel(image: "culture2",
-                             name: "Айва",
-                             nameInEnglish: "Cydonia",
-                             name1: "yvhbj",
-                             subName1: "jnml",
-                             name2: "jnml",
-                             subName2: "jnml",
-                             name3: "jnml",
-                             subName3: "jnml",
-                             name4: "jnml",
-                             subName4: "jnml",
-                             name5: "jnml",
-                             subName5: "jnml",
-                             name6: "jnml",
-                             subName6: "jnml",
-                             name7: "jnml",
-                             subName7: "jnml",
-                             name8: "jnml",
-                             subName8: "jnml",
-                             name9: "jnml",
-                             subName9: "jnml"),
-        ClientDirectoryModel(image: "culture3", 
-                             name: "Алыча", 
-                             nameInEnglish: "Prunus cerasifera Ehrh.",
-                             name1: "yvhbj",
-                             subName1: "jnml",
-                             name2: "jnml",
-                             subName2: "jnml",
-                             name3: "jnml",
-                             subName3: "jnml",
-                             name4: "jnml",
-                             subName4: "jnml",
-                             name5: "jnml",
-                             subName5: "jnml",
-                             name6: "jnml",
-                             subName6: "jnml",
-                             name7: "jnml",
-                             subName7: "jnml",
-                             name8: "jnml",
-                             subName8: "jnml",
-                             name9: "jnml",
-                             subName9: "jnml"),
-        ClientDirectoryModel(image: "culture3",
-                             name: "Алыча",
-                             nameInEnglish: "Prunus cerasifera Ehrh.",
-                             name1: "yvhbj",
-                             subName1: "jnml",
-                             name2: "jnml",
-                             subName2: "jnml",
-                             name3: "jnml",
-                             subName3: "jnml",
-                             name4: "jnml",
-                             subName4: "jnml",
-                             name5: "jnml",
-                             subName5: "jnml",
-                             name6: "jnml",
-                             subName6: "jnml",
-                             name7: "jnml",
-                             subName7: "jnml",
-                             name8: "jnml",
-                             subName8: "jnml",
-                             name9: "jnml",
-                             subName9: "jnml")
-    ]
-    let deistDirectories: [ClientSecondDirectoryModel] = [
-        ClientSecondDirectoryModel(
-                             name: "2,4-Д (2-этилгексиловый эфир)",
-                             nameInEnglish: "2,4-D (2-ethylhexyl)",
-                             content: "content",
-                             description: "Пестицид, гербицид. Применяется в составе различных"
-                             + " препаратов против двудольных сорняков."),
-        ClientSecondDirectoryModel(
-                             name: "Азимсульфурон",
-                             nameInEnglish: "Azimsulfuron",
-                             content: "1-(4,6-диметоксипиримидин-2-ил)-3-[1- метил-4-(2-метил-2Н-тетразол-5-ил)- "
-                             + "пиразол-5-илсульфонил] мочевина",
-                             description: "Пестицид, избирательный системный гербицид. Используется для борьбы с"
-                             + " осоковыми, широколистными и злаковыми сорняками на посевах риса."),
-        ClientSecondDirectoryModel(
-                             name: "Азоксистробин",
-                             nameInEnglish: "Azoxystrobin",
-                             content: "Метил (Е)-2-(2-[6-(2-цианофенокси) пиримидин-4- илоксифенил)-3-метоксиакрилат]",
-                             description: "Фунгицид из класса стробилуринов, применяется в сельском хозяйстве"
-                             + " (в том числе в смеси с иными действующими веществами) для борьбы с различными"
-                             + " заболеваниями растений."),
-        ClientSecondDirectoryModel(
-                             name: "Альфа-циперметрин",
-                             nameInEnglish: "Alpha-cypermethrin",
-                             content: "(S)-а-циано-3-феноксибензилового эфира (1R)- цис-3-"
-                             + "(2,2-дихлоровинил)-2,2-диметилцикло- пропанкарбоновой кислоты",
-                             description: "Химическое действующее вещество пестицидов (пиретроид),"
-                             + " используется для борьбы с вредными насекомыми и вредителями запасов."),
-        ClientSecondDirectoryModel(
-                             name: "Абрикос обыкновенный",
-                             nameInEnglish: "Prunus armeniaca L.",
-                             content: "Prunus armeniaca L.",
-                             description: "Prunus armeniaca L."),
-        ClientSecondDirectoryModel(
-                             name: "Абрикос обыкновенный",
-                             nameInEnglish: "Prunus armeniaca L.",
-                             content: "Prunus armeniaca L.",
-                             description: "Prunus armeniaca L."),
-        ClientSecondDirectoryModel(
-                             name: "Абрикос обыкновенный",
-                             nameInEnglish: "Prunus armeniaca L.",
-                             content: "Prunus armeniaca L.",
-                             description: "Prunus armeniaca L.")
-    ]
-    static let terminDirectories: [ClientThirdDirectoryModel] = [
-        ClientThirdDirectoryModel(
-                             name: "Абиотические факторы",
-                             nameInEnglish: "Abiotic factores",
-                             description: "Факторы неживой природы, воздействующие на живые организмы"
-                             + " и оказывающие на них позитивное или негативное влияние."),
-        ClientThirdDirectoryModel(
-                             name: "Автоцидный пояс",
-                             nameInEnglish: "Autocidal belt",
-                             description: "Материал в виде полосы, обработанный инсектицидом и наложенный"
-                             + " на ствол или скелетные ветви дерева для уничтожения вредителей."),
-        ClientThirdDirectoryModel(
-                             name: "Акарифаг",
-                             nameInEnglish: "Acariphage",
-                             description: "Организм, питающийся клещами."),
-        ClientThirdDirectoryModel(
-                             name: "Акарицид",
-                             nameInEnglish: "Acaricide",
-                             description: "Химическое вещество для борьбы с клещами."),
-        ClientThirdDirectoryModel(
-                             name: "Акклиматизация энтомофагов",
-                             nameInEnglish: "Acclimatization of a entomophages",
-                             description: "Приспособление интродуцированных"
-                             + " энтомофагов к новым условиям существования."),
-        ClientThirdDirectoryModel(
-                             name: "Альгицид",
-                             nameInEnglish: "Algicide",
-                             description: "Химическое вещество для уничтожения водорослей."),
-        ClientThirdDirectoryModel(
-                             name: "Антагонизм пестицидаv",
-                             nameInEnglish: "Pesticide antagonism",
-                             description: "Ослабление токсического действия"
-                             + " пестицида при совместном применении его с другим."),
-        ClientThirdDirectoryModel(
-                             name: "Апикальный",
-                             nameInEnglish: "Apical",
-                             description: "Верхушечный, расположенный в верхней части какой-либо структуры, конечный.")
-    ]
     private var networkManager: NetworkManager
+
+    // Additional properties for ActiveSubstances and Terms
+    var activeSubstances: [ClientSecondDirectoryModel] = []
+    var terms: [ClientThirdDirectoryModel] = []
 
     init(networkManager: NetworkManager) {
         self.networkManager = networkManager
@@ -606,7 +35,6 @@ final class ClientExamsViewModelImpl: BaseVM<UnownedRouter<ClientDirectoryRoute>
     }
 
     override func onSubscribe() {
-
         nextRoute
             .receive(on: DispatchQueue.main)
             .sink { [weak self] in
@@ -619,32 +47,83 @@ final class ClientExamsViewModelImpl: BaseVM<UnownedRouter<ClientDirectoryRoute>
             .sink { [weak self] directory in
                 guard let self = self, let directory = directory else { return }
                 print("--- \(directory)")
-                if directory == "Сорные растения" {
-                    self.router?.trigger(
-                    .directoryDetails(title: directory,
-                     directories: sorniyeDirectories))
-                } else if directory == "Болезни культур" {
-                    self.router?.trigger(
-                    .directoryDetails(title: directory,
-                     directories: bolezniDirectories))
-                } else if directory == "Вредители" {
-                    self.router?.trigger(
-                    .directoryDetails(title: directory,
-                     directories: vrediteliDirectories))
-                } else if directory == "Культурные растения" {
-                    self.router?.trigger(
-                    .directoryDetails(title: directory,
-                     directories: cultureDirectories))
-                } else if directory == "Действующие вещества" {
-                    self.router?.trigger(
-                    .secondDirectoryDetails(title: directory,
-                     directories: deistDirectories))
-                } else if directory == "Термины" {
-                    self.router?.trigger(
-                    .thirdDirectoryDetails(title: directory,
-                                           directories: ClientExamsViewModelImpl.terminDirectories))
-                }
+                self.processDirectory(directory)
             }
             .store(in: &cancellables)
     }
-}// swiftlint:enable type_body_length
+
+    private func processDirectory(_ directory: String) {
+        guard let plistURL = Bundle.main.url(forResource: "DirectoriesData", withExtension: "plist"),
+              let data = try? Data(contentsOf: plistURL),
+              let plistDictionary = try? PropertyListSerialization.propertyList(from: data, options: [], format: nil) as? [String: Any] else {
+            print("Ошибка при загрузке данных из plist файла")
+            return
+        }
+
+        switch directory {
+        case "Сорные растения":
+            processDirectories(plistDictionary, key: "sorniyeDirectories")
+        case "Болезни культур":
+            processDirectories(plistDictionary, key: "bolezniDirectories")
+        case "Вредители":
+            processDirectories(plistDictionary, key: "vrediteliDirectories")
+        case "Культурные растения":
+            processDirectories(plistDictionary, key: "cultureDirectories")
+        case "Действующие вещества":
+            processActiveSubstances(plistDictionary, key: "deistDirectories")
+        case "Термины":
+            processTerms(plistDictionary, key: "terminDirectories")
+        default:
+            break
+        }
+    }
+
+    private func processDirectories(_ plistDictionary: [String: Any], key: String) {
+        guard let directoriesData = plistDictionary[key] as? [[String: Any]] else { return }
+        let directories = directoriesData.compactMap { dictionary -> ClientDirectoryModel? in
+            return ClientDirectoryModel(image: dictionary["image"] as? String ?? "",
+                                        name: dictionary["name"] as? String ?? "",
+                                        nameInEnglish: dictionary["nameInEnglish"] as? String ?? "",
+                                        name1: dictionary["name1"] as? String ?? "",
+                                        subName1: dictionary["subName1"] as? String ?? "",
+                                        name2: dictionary["name2"] as? String ?? "",
+                                        subName2: dictionary["subName2"] as? String ?? "",
+                                        name3: dictionary["name3"] as? String ?? "",
+                                        subName3: dictionary["subName3"] as? String ?? "",
+                                        name4: dictionary["name4"] as? String ?? "",
+                                        subName4: dictionary["subName4"] as? String ?? "",
+                                        name5: dictionary["name5"] as? String ?? "",
+                                        subName5: dictionary["subName5"] as? String ?? "",
+                                        name6: dictionary["name6"] as? String ?? "",
+                                        subName6: dictionary["subName6"] as? String ?? "",
+                                        name7: dictionary["name7"] as? String ?? "",
+                                        subName7: dictionary["subName7"] as? String ?? "",
+                                        name8: dictionary["name8"] as? String ?? "",
+                                        subName8: dictionary["subName8"] as? String ?? "",
+                                        name9: dictionary["name9"] as? String ?? "",
+                                        subName9: dictionary["subName9"] as? String ?? "")
+        }
+        self.router?.trigger(.directoryDetails(title: key, directories: directories))
+    }
+
+    private func processActiveSubstances(_ plistDictionary: [String: Any], key: String) {
+        guard let activeSubstancesData = plistDictionary[key] as? [[String: Any]] else { return }
+        self.activeSubstances = activeSubstancesData.compactMap { dictionary -> ClientSecondDirectoryModel? in
+            return ClientSecondDirectoryModel(name: dictionary["name"] as? String ?? "",
+                                         nameInEnglish: dictionary["nameInEnglish"] as? String ?? "",
+                                         content: dictionary["content"] as? String ?? "",
+                                         description: dictionary["description"] as? String ?? "")
+        }
+        self.router?.trigger(.activeSubstances(activeSubstances))
+    }
+
+    private func processTerms(_ plistDictionary: [String: Any], key: String) {
+        guard let termsData = plistDictionary[key] as? [[String: Any]] else { return }
+        self.terms = termsData.compactMap { dictionary -> ClientThirdDirectoryModel? in
+            return ClientThirdDirectoryModel(name: dictionary["name"] as? String ?? "",
+                               nameInEnglish: dictionary["nameInEnglish"] as? String ?? "",
+                               description: dictionary["description"] as? String ?? "")
+        }
+        self.router?.trigger(.terms(terms))
+    }
+}

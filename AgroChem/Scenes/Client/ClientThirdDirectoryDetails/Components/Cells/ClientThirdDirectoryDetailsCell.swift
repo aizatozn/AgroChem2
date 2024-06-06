@@ -14,6 +14,7 @@ final class ClientThirdDirectoryDetailsCell: BaseCVCell {
         let label = UILabel()
         label.textColor = .black
         label.font = .systemFont(ofSize: 17, weight: .semibold)
+        label.numberOfLines = 6
         return label
     }()
 
@@ -21,6 +22,7 @@ final class ClientThirdDirectoryDetailsCell: BaseCVCell {
         let label = UILabel()
         label.textColor = .gray
         label.font = .systemFont(ofSize: 14, weight: .regular)
+        label.numberOfLines = 6
         return label
     }()
 
@@ -28,7 +30,7 @@ final class ClientThirdDirectoryDetailsCell: BaseCVCell {
         let label = UILabel()
         label.textColor = .black
         label.font = .systemFont(ofSize: 14, weight: .light)
-        label.numberOfLines = 6
+        label.numberOfLines = 10
         return label
     }()
 
