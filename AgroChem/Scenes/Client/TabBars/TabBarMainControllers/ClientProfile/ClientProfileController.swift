@@ -12,24 +12,16 @@ import Firebase
 final class ClientProfileController: VMController<ClientProfilePresentable,
                                   ClientProfileViewModel> {
 
-    override func onBindViewModel() {
-
-        viewModel.counter
-            .receive(on: DispatchQueue.main)
-            .sink { [weak self] value in
-            self?.content.clientProfileLabel.text = "\(value)"
-        }.store(in: &viewModel.cancellables)
-    }
-
     override func onConfigureActions() {
-
-        content.clientProfileButton.addTarget(self,
-                                         action: #selector(clientProfileButtonAction),
-                                         for: .touchDown)
 
         content.nextButton.addTarget(self,
                                      action: #selector(nextButtonAction),
                                      for: .touchDown)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let userDef = UserDefaultsServiceImpl()
+        content.userEmailLabel.text = "Your email: \(userDef.getString(.userEmail) ?? "")"
     }
 }
 

@@ -38,6 +38,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             }
 //            print("Successfully signed in with Google cred.")
             _ = "Successfully signed in with Google cred."
+            let userDef = UserDefaultsServiceImpl()
+            userDef.setString(user.profile.email ?? "", forKey: .userEmail)
             NotificationCenter.default.post(name: .didLogInNotification, object: nil)
 
             NotificationCenter.default.post(
