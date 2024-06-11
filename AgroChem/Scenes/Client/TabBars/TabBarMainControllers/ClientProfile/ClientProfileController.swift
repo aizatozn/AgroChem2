@@ -7,7 +7,8 @@
 
 import UIKit
 import Combine
-
+import GoogleSignIn
+import Firebase
 final class ClientProfileController: VMController<ClientProfilePresentable,
                                   ClientProfileViewModel> {
 
@@ -40,6 +41,16 @@ private extension ClientProfileController {
     }
 
     @objc private func nextButtonAction() {
-        viewModel.nextRoute.send()
+        GIDSignIn.sharedInstance()?.signOut()
+        try? Auth.auth().signOut()
+        validateAuth()
+    }
+    
+    private func validateAuth() {
+        if FirebaseAuth.Auth.auth().currentUser == nil {
+            let vc = UINavigationController(rootViewController: LoginViewController())
+            vc.modalPresentationStyle = .fullScreen
+            present(vc, animated: false)
+        }
     }
 }

@@ -27,7 +27,7 @@ final class ClientProfilePresentable: BaseView {
 
     let nextButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("Next controller", for: .normal)
+        button.setTitle("Log Out", for: .normal)
         button.setTitleColor(UIColor(red: 0/255, green: 153/255, blue: 51/255, alpha: 1.0), for: .normal)
         return button
     }()

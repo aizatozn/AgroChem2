@@ -7,6 +7,7 @@
 
 import UIKit
 import Combine
+import FirebaseAuth
 
 final class ClientHomeController: VMController<ClientHomePresentable,
                                   ClientHomeViewModel> {
@@ -28,6 +29,7 @@ final class ClientHomeController: VMController<ClientHomePresentable,
 
     override func onConfigureController() {
         title = "AgroChem"
+        validateAuth()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -38,5 +40,13 @@ final class ClientHomeController: VMController<ClientHomePresentable,
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
+    private func validateAuth() {
+        if FirebaseAuth.Auth.auth().currentUser == nil {
+            let vc = UINavigationController(rootViewController: LoginViewController())
+            vc.modalPresentationStyle = .fullScreen
+            present(vc, animated: false)
+        }
     }
 }
