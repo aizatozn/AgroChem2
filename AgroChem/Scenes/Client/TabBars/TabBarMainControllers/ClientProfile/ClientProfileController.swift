@@ -21,7 +21,11 @@ final class ClientProfileController: VMController<ClientProfilePresentable,
     
     override func viewWillAppear(_ animated: Bool) {
         let userDef = UserDefaultsServiceImpl()
-        content.userEmailLabel.text = "Your email: \(userDef.getString(.userEmail) ?? "")"
+        content.userEmailLabel.text = "\(userDef.getString(.userEmail) ?? "")"
+    }
+    
+    override func onConfigureController() {
+        title = "Мой аккаунт"
     }
 }
 

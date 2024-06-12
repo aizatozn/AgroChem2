@@ -29,7 +29,7 @@ final class ClientTabBarCoordinator: TabBarCoordinator<ClientTabBarRoute> {
         let homeCoordinator = ClientHomeCoordinator(appRouter: appRouter)
 
         let homeButton = UITabBarItem(
-        title: "Башкы бет",
+        title: "Главная",
         image: UIImage(systemName: "house"),
         selectedImage: UIImage(systemName: "house.fill"))
 
@@ -58,7 +58,7 @@ final class ClientTabBarCoordinator: TabBarCoordinator<ClientTabBarRoute> {
         let profileButton = UITabBarItem(
         title: "Аккаунт",
         image: UIImage(systemName: "gearshape"),
-        selectedImage: UIImage(systemName: "gearshape.fill"))
+        selectedImage: UIImage(systemName: "person"))
 
         profileCoordinator.rootViewController.tabBarItem = profileButton
 

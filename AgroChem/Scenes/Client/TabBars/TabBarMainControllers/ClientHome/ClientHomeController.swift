@@ -28,7 +28,7 @@ final class ClientHomeController: VMController<ClientHomePresentable,
     }
 
     override func onConfigureController() {
-        title = "AgroChem"
+        title = "Главная"
         validateAuth()
     }
 

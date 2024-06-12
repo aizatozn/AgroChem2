@@ -11,57 +11,66 @@ import SnapKit
 final class ClientProfilePresentable: BaseView {
     
     let userDef = UserDefaultsServiceImpl()
-
+    
     let userEmailLabel: UILabel = {
         let label = UILabel()
-        label.font = .systemFont(ofSize: 25, weight: .medium)
-        label.textColor = UIColor.red
+        label.font = .systemFont(ofSize: 20, weight: .medium)
+        label.textColor = UIColor.black // Заменил цвет текста на черный для лучшей видимости на белом фоне
+        label.textAlignment = .center
         return label
     }()
-
+    
     let nextButton: UIButton = {
         let button = UIButton(type: .system)
         button.titleLabel?.font = .systemFont(ofSize: 20, weight: .medium)
-        button.setTitle("Log Out", for: .normal)
-        button.setTitleColor(UIColor(red: 0/255, green: 153/255, blue: 51/255, alpha: 1.0), for: .normal)
+        button.setTitle("Выйти", for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        button.backgroundColor = UIColor(red: 0/255, green: 104/255, blue: 56/255, alpha: 1.0) // Используем цвет #006838
+        button.layer.cornerRadius = 10
+        button.layer.shadowColor = UIColor.black.cgColor
+        button.layer.shadowRadius = 3
+        button.layer.shadowOffset = CGSize(width: -1, height: 1)
+        button.layer.shadowOpacity = 0.3
         return button
     }()
 
-    // Создаем градиентный слой
-//    let gradientLayer: CAGradientLayer = {
-//        let gradientLayer = CAGradientLayer()
-//        gradientLayer.colors = [
-//            UIColor(red: 0/255, green: 153/255, blue: 51/255, alpha: 1.0).cgColor,
-//            UIColor.white.cgColor
-//        ]
-//        return gradientLayer
-//    }()
-
+    
+    let avatarImageView: UIImageView = {
+        let imageView = UIImageView()
+        imageView.contentMode = .scaleAspectFill
+        imageView.image = UIImage(named: "profile") // Заменил изображение на фото с именем "profile"
+        return imageView
+    }()
+    
     override func onConfigureView() {
         super.onConfigureView()
-//        layer.insertSublayer(gradientLayer, at: 0)
         backgroundColor = .white
-        userEmailLabel.text = "Your email: \(userDef.getString(.userEmail) ?? "")"
+        userEmailLabel.text = userDef.getString(.userEmail) ?? ""
     }
-
+    
     override func onAddSubviews() {
-        addSubviews(userEmailLabel, nextButton)
+        addSubviews(avatarImageView, userEmailLabel, nextButton)
     }
-
+    
     override func onSetupConstraints() {
+        avatarImageView.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(200)
+            make.centerX.equalToSuperview()
+            make.width.height.equalTo(100)
+        }
+        
         userEmailLabel.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
-            make.top.equalTo(150)
+            make.top.equalTo(avatarImageView.snp.bottom).offset(20)
+            make.leading.trailing.equalToSuperview().inset(20)
         }
-
+        
         nextButton.snp.makeConstraints { make in
             make.top.equalTo(userEmailLabel.snp.bottom).offset(50)
             make.centerX.equalToSuperview()
+            make.width.equalTo(200)
+            make.height.equalTo(50)
         }
     }
-
-    override func layoutSubviews() {
-        super.layoutSubviews()
-//        gradientLayer.frame = bounds
-    }
 }
+
