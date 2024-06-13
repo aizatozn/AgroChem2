@@ -29,6 +29,7 @@ final class ClientCatalogPresentable: BaseView, UISearchBarDelegate {
     private lazy var searchBar: UISearchBar = {
         let searchBar = UISearchBar()
         searchBar.delegate = self
+        searchBar.placeholder = "Поиск по названию препаратов"
         return searchBar
     }()
 

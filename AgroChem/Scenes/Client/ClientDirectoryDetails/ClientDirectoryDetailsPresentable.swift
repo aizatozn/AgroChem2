@@ -33,6 +33,7 @@ final class ClientDirectoryDetailsPresentable: BaseView, UISearchBarDelegate {
     private lazy var searchBar: UISearchBar = {
         let searchBar = UISearchBar()
         searchBar.delegate = self
+        searchBar.placeholder = "Поиск по справочнику"
         return searchBar
     }()
 

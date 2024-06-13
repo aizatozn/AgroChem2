@@ -57,8 +57,8 @@ final class ClientTabBarCoordinator: TabBarCoordinator<ClientTabBarRoute> {
 
         let profileButton = UITabBarItem(
         title: "Аккаунт",
-        image: UIImage(systemName: "gearshape"),
-        selectedImage: UIImage(systemName: "person"))
+        image: UIImage(systemName: "person"),
+        selectedImage: UIImage(systemName: "person.fill"))
 
         profileCoordinator.rootViewController.tabBarItem = profileButton
 

@@ -32,6 +32,7 @@ final class ClientSecondDirectoryDetailsPresentable: BaseView, UISearchBarDelega
     private lazy var searchBar: UISearchBar = {
         let searchBar = UISearchBar()
         searchBar.delegate = self
+        searchBar.placeholder = "Поиск действующих веществ"
         return searchBar
     }()
 
