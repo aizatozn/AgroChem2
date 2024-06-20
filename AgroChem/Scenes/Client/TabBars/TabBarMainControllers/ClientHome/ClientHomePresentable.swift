@@ -14,8 +14,7 @@ final class ClientHomePresentable: BaseView {
     private let newsData = ["newsImage1", "newsImage2"]
 
     private let catalogData = [("square.split.2x2", "Каталог"), ("checkmark.shield", "Системы защиты"),
-                        ("phone.bubble.left", "Агропомощь"), ("equal.square", "Найти решение"),
-                        ("cross.vial", "Препараты в поле"), ("person.crop.rectangle", "Контакты")]
+                        ("phone.bubble.left", "Агропомощь"), ("equal.square", "Найти решение")]
 
     private let actualData = ["actualImage1", "actualImage2"]
     var catalogCollectionSelected = CurrentValueSubject<Int, Never>(0)
@@ -148,7 +147,7 @@ final class ClientHomePresentable: BaseView {
             make.top.equalTo(newsCollectionView.snp.bottom).offset(20)
             make.leading.equalTo(25)
             make.trailing.equalTo(-25)
-            make.height.equalTo(285)
+            make.height.equalTo(190)
         }
 
         actualTitle.snp.makeConstraints { make in

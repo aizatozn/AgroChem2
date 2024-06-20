@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF4E95598A712FA361B1860B /* Pods_AgroChem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358BEE053D912B6F5935D6F1 /* Pods_AgroChem.framework */; };
+		5C695FD4E044F01F1888BD11 /* Pods_AgroChem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDFACE410C16C047F06C7F5 /* Pods_AgroChem.framework */; };
+		A594DFCB2C1F405C00D53FBF /* ClientYoutubeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594DFCA2C1F405C00D53FBF /* ClientYoutubeController.swift */; };
+		A594DFCF2C1F438300D53FBF /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594DFCE2C1F438300D53FBF /* CollectionViewTableViewCell.swift */; };
+		A594DFD12C1F43E600D53FBF /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594DFD02C1F43E600D53FBF /* TitleCollectionViewCell.swift */; };
+		A594DFD42C20251F00D53FBF /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594DFD32C20251F00D53FBF /* TitlePreviewViewController.swift */; };
 		F1056E4A2B69154B00A98341 /* NetworkManager_Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1056E492B69154B00A98341 /* NetworkManager_Client.swift */; };
 		F1056E502B692F4F00A98341 /* ClientHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1056E4F2B692F4F00A98341 /* ClientHomeController.swift */; };
 		F1056E522B692F6200A98341 /* ClientHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1056E512B692F6200A98341 /* ClientHomeViewModel.swift */; };
@@ -154,9 +158,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		358BEE053D912B6F5935D6F1 /* Pods_AgroChem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgroChem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9CB835182F69F31DCD4061C /* Pods-AgroChem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroChem.debug.xcconfig"; path = "Target Support Files/Pods-AgroChem/Pods-AgroChem.debug.xcconfig"; sourceTree = "<group>"; };
-		D12529A44B7FD86C35A5504C /* Pods-AgroChem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroChem.release.xcconfig"; path = "Target Support Files/Pods-AgroChem/Pods-AgroChem.release.xcconfig"; sourceTree = "<group>"; };
+		5DDFACE410C16C047F06C7F5 /* Pods_AgroChem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgroChem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A614BFC57B8F69DEDC7784F /* Pods-AgroChem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroChem.debug.xcconfig"; path = "Target Support Files/Pods-AgroChem/Pods-AgroChem.debug.xcconfig"; sourceTree = "<group>"; };
+		A594DFCA2C1F405C00D53FBF /* ClientYoutubeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientYoutubeController.swift; sourceTree = "<group>"; };
+		A594DFCE2C1F438300D53FBF /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		A594DFD02C1F43E600D53FBF /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		A594DFD32C20251F00D53FBF /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		C348D2D4FF923D8E499D77BA /* Pods-AgroChem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroChem.release.xcconfig"; path = "Target Support Files/Pods-AgroChem/Pods-AgroChem.release.xcconfig"; sourceTree = "<group>"; };
 		F1056E492B69154B00A98341 /* NetworkManager_Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager_Client.swift; sourceTree = "<group>"; };
 		F1056E4F2B692F4F00A98341 /* ClientHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientHomeController.swift; sourceTree = "<group>"; };
 		F1056E512B692F6200A98341 /* ClientHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientHomeViewModel.swift; sourceTree = "<group>"; };
@@ -309,28 +317,63 @@
 				F161A3822C18844400625582 /* FirebaseAppCheck in Frameworks */,
 				F105DB5B2B601A7E00851FBE /* XCoordinator in Frameworks */,
 				F161A3C42C188D5600625582 /* SnapKit in Frameworks */,
-				AF4E95598A712FA361B1860B /* Pods_AgroChem.framework in Frameworks */,
+				5C695FD4E044F01F1888BD11 /* Pods_AgroChem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FE35206578D546BA18947B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFACE410C16C047F06C7F5 /* Pods_AgroChem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58B4FA34F9AA1B83944815AB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C9CB835182F69F31DCD4061C /* Pods-AgroChem.debug.xcconfig */,
-				D12529A44B7FD86C35A5504C /* Pods-AgroChem.release.xcconfig */,
+				6A614BFC57B8F69DEDC7784F /* Pods-AgroChem.debug.xcconfig */,
+				C348D2D4FF923D8E499D77BA /* Pods-AgroChem.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		D7AF0F95047383E3D4270991 /* Frameworks */ = {
+		A594DFC92C1F404200D53FBF /* ClientYoutube */ = {
 			isa = PBXGroup;
 			children = (
-				358BEE053D912B6F5935D6F1 /* Pods_AgroChem.framework */,
+				A594DFCC2C1F437B00D53FBF /* Components */,
+				A594DFCA2C1F405C00D53FBF /* ClientYoutubeController.swift */,
 			);
-			name = Frameworks;
+			path = ClientYoutube;
+			sourceTree = "<group>";
+		};
+		A594DFCC2C1F437B00D53FBF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A594DFD22C20251900D53FBF /* Views */,
+				A594DFCD2C1F437F00D53FBF /* Cell */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A594DFCD2C1F437F00D53FBF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A594DFCE2C1F438300D53FBF /* CollectionViewTableViewCell.swift */,
+				A594DFD02C1F43E600D53FBF /* TitleCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A594DFD22C20251900D53FBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A594DFD32C20251F00D53FBF /* TitlePreviewViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		F1056E4B2B6928CD00A98341 /* ClientHome */ = {
@@ -387,7 +430,7 @@
 				F105DB382B6015A800851FBE /* AgroChem */,
 				F105DB372B6015A800851FBE /* Products */,
 				58B4FA34F9AA1B83944815AB /* Pods */,
-				D7AF0F95047383E3D4270991 /* Frameworks */,
+				4FE35206578D546BA18947B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -789,6 +832,7 @@
 		F1C65B642B655AA200B49A91 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				A594DFC92C1F404200D53FBF /* ClientYoutube */,
 				F11464C92C037656001F15F9 /* DirectoryDetails */,
 				F125BBD82BF5EE510036568F /* ClientCatalogDetails */,
 				F129359B2BDCF272002079CB /* ClientThirdDirectoryDetails */,
@@ -922,12 +966,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F105DB4A2B6015A900851FBE /* Build configuration list for PBXNativeTarget "AgroChem" */;
 			buildPhases = (
-				57A7C8C2B2767999CA077CA2 /* [CP] Check Pods Manifest.lock */,
+				5A462EE0C1C7403294254CAC /* [CP] Check Pods Manifest.lock */,
 				F105DB322B6015A800851FBE /* Sources */,
 				F105DB332B6015A800851FBE /* Frameworks */,
 				F105DB342B6015A800851FBE /* Resources */,
-				2406DB971D7EDD16A15A07E8 /* [CP] Embed Pods Frameworks */,
-				B5F4DE7C4664EDEF0E216F79 /* [CP] Copy Pods Resources */,
+				D3212C6C45B41FD61DE7614D /* [CP] Embed Pods Frameworks */,
+				0F3214CCD5C15CBDC2337C8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1044,24 +1088,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2406DB971D7EDD16A15A07E8 /* [CP] Embed Pods Frameworks */ = {
+		0F3214CCD5C15CBDC2337C8C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		57A7C8C2B2767999CA077CA2 /* [CP] Check Pods Manifest.lock */ = {
+		5A462EE0C1C7403294254CAC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1083,21 +1127,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B5F4DE7C4664EDEF0E216F79 /* [CP] Copy Pods Resources */ = {
+		D3212C6C45B41FD61DE7614D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroChem/Pods-AgroChem-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1140,8 +1184,10 @@
 				F16083F52BDD03F100DE30BD /* ClientSystemDetailsCell.swift in Sources */,
 				F1CEB5792B7A0F1100E466DE /* ClientDirectoryCell.swift in Sources */,
 				F1C65B512B65588100B49A91 /* BaseNavigationController.swift in Sources */,
+				A594DFD12C1F43E600D53FBF /* TitleCollectionViewCell.swift in Sources */,
 				F14B897A2BCD221F0033794B /* ClientDirectoryDetailsController.swift in Sources */,
 				F15D91852BDBEECF00627552 /* ClientSecondDirectoryDetailsCell.swift in Sources */,
+				A594DFCF2C1F438300D53FBF /* CollectionViewTableViewCell.swift in Sources */,
 				F14B89822BCD23FF0033794B /* ClientDirectoryDetailsCell.swift in Sources */,
 				F1C65B842B655FA900B49A91 /* ClientGreetingCoordinator.swift in Sources */,
 				F15D918B2BDBEF4C00627552 /* ClientSecondDirectoryDetailsPresentable.swift in Sources */,
@@ -1180,11 +1226,13 @@
 				F14B89752BCD0C440033794B /* ClientSystemDetailsViewModel.swift in Sources */,
 				F1C65B5D2B65598000B49A91 /* Swinjectable.swift in Sources */,
 				F13315452BC45216000CFEB2 /* ClientMedicinePresentable.swift in Sources */,
+				A594DFD42C20251F00D53FBF /* TitlePreviewViewController.swift in Sources */,
 				F1056E6E2B69303F00A98341 /* ClientProfileCoordinator.swift in Sources */,
 				F1C65B7D2B655EB600B49A91 /* SwinjectServices.swift in Sources */,
 				F161A3B52C1884D300625582 /* LoginViewController.swift in Sources */,
 				F1C65B4D2B65580C00B49A91 /* BaseView.swift in Sources */,
 				F1056E522B692F6200A98341 /* ClientHomeViewModel.swift in Sources */,
+				A594DFCB2C1F405C00D53FBF /* ClientYoutubeController.swift in Sources */,
 				F11464CD2C0376C3001F15F9 /* DirectoryDetailsCell.swift in Sources */,
 				F14B897E2BCD222F0033794B /* ClientDirectoryDetailsPresentable.swift in Sources */,
 				F13315412BC45200000CFEB2 /* ClientMedicineController.swift in Sources */,
@@ -1262,7 +1310,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1347,7 +1394,7 @@
 		};
 		F105DB4B2B6015A900851FBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9CB835182F69F31DCD4061C /* Pods-AgroChem.debug.xcconfig */;
+			baseConfigurationReference = 6A614BFC57B8F69DEDC7784F /* Pods-AgroChem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1355,6 +1402,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U53SQJ3W9A;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AgroChem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1377,7 +1425,7 @@
 		};
 		F105DB4C2B6015A900851FBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D12529A44B7FD86C35A5504C /* Pods-AgroChem.release.xcconfig */;
+			baseConfigurationReference = C348D2D4FF923D8E499D77BA /* Pods-AgroChem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1385,6 +1433,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U53SQJ3W9A;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AgroChem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

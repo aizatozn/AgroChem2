@@ -15,6 +15,7 @@ enum ClientHomeRoute: Route {
     case protectionSystems
     case systemDetails(title: String,
                        data: [SystemCategories])
+    case youtube
 }
 
 final class ClientHomeCoordinator: NavigationCoordinator<ClientHomeRoute> {
@@ -54,6 +55,10 @@ final class ClientHomeCoordinator: NavigationCoordinator<ClientHomeRoute> {
             let controller = ClientSystemDetailsController()
             controller.title = title
             controller.viewModel.inputData.send(data)
+            return .push(controller)
+            
+        case .youtube:
+            let controller = ClientYoutubeController()
             return .push(controller)
         }
     }

@@ -43,6 +43,8 @@ final class ClientHomeViewModelImpl: BaseVM<UnownedRouter<ClientHomeRoute>>,
                     self.router?.trigger(.protectionSystems)
                 case 2:
                     self.router?.trigger(.helpAndSupport)
+                case 3:
+                    self.router?.trigger(.youtube)
                 default:
                     break
                 }
